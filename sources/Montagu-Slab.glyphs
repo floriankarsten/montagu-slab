@@ -66802,9 +66802,9 @@ name = familyName;
 value = "Montagu Slab 144pt";
 }
 );
+interpolationWidth = 144;
 instanceInterpolations = {
-"1E61A082-F045-49A7-AB52-DD1B03FD9B54" = 0.65625;
-"CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B" = 0.34375;
+"1E61A082-F045-49A7-AB52-DD1B03FD9B54" = 1;
 };
 name = Thin;
 weightClass = Thin;

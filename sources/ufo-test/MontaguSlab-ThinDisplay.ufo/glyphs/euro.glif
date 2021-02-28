@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="euro" format="2">
+  <advance width="1804"/>
+  <unicode hex="20AC"/>
+  <outline>
+    <contour>
+      <point x="104" y="906" type="line"/>
+      <point x="96" y="868" type="line"/>
+      <point x="1146" y="868" type="line"/>
+      <point x="1154" y="906" type="line"/>
+    </contour>
+    <contour>
+      <point x="54" y="670" type="line"/>
+      <point x="46" y="632" type="line"/>
+      <point x="1096" y="632" type="line"/>
+      <point x="1104" y="670" type="line"/>
+    </contour>
+    <component base="C" xOffset="194"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>C</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/02/10 22:42:01</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

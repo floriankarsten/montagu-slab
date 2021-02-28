@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_tildecomb" format="2">
+  <outline>
+    <component base="circumflexcomb"/>
+    <component base="tildecomb" xOffset="58" yOffset="410"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/06 19:42:27</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>988</integer>
+    </dict>
+  </lib>
+</glyph>

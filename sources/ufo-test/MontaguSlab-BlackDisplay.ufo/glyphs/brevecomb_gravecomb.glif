@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb_gravecomb" format="2">
+  <outline>
+    <component base="brevecomb"/>
+    <component base="gravecomb.alt" xOffset="137" yOffset="360"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/16 21:05:47</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>932</integer>
+    </dict>
+  </lib>
+</glyph>

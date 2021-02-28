@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hbrevebelow" format="2">
+  <advance width="1386"/>
+  <unicode hex="1E2B"/>
+  <outline>
+    <component base="h"/>
+    <component base="brevebelowcomb" xOffset="351"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/07 22:27:01</string>
+    </dict>
+  </lib>
+</glyph>

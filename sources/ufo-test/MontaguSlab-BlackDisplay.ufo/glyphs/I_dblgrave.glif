@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Idblgrave" format="2">
+  <advance width="888"/>
+  <unicode hex="0208"/>
+  <outline>
+    <component base="I"/>
+    <component base="dblgravecomb" xOffset="-259" yOffset="360"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/06 20:16:25</string>
+    </dict>
+  </lib>
+</glyph>

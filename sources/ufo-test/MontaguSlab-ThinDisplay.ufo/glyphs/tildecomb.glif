@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb" format="2">
+  <unicode hex="0303"/>
+  <anchor x="342" y="1080" name="_top"/>
+  <anchor x="342" y="1458" name="top"/>
+  <outline>
+    <contour>
+      <point x="80" y="1250" type="line"/>
+      <point x="118" y="1250" type="line"/>
+      <point x="118" y="1321" type="line" smooth="yes"/>
+      <point x="118" y="1412"/>
+      <point x="147" y="1452"/>
+      <point x="204" y="1452" type="curve" smooth="yes"/>
+      <point x="255" y="1452"/>
+      <point x="287" y="1408"/>
+      <point x="316" y="1366" type="curve" smooth="yes"/>
+      <point x="335" y="1338" type="line"/>
+      <point x="368" y="1364" type="line"/>
+      <point x="349" y="1392" type="line" smooth="yes"/>
+      <point x="317" y="1440"/>
+      <point x="275" y="1492"/>
+      <point x="204" y="1492" type="curve" smooth="yes"/>
+      <point x="119" y="1492"/>
+      <point x="80" y="1430"/>
+      <point x="80" y="1325" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="604" y="1480" type="line"/>
+      <point x="566" y="1480" type="line"/>
+      <point x="566" y="1409" type="line" smooth="yes"/>
+      <point x="566" y="1318"/>
+      <point x="537" y="1278"/>
+      <point x="480" y="1278" type="curve" smooth="yes"/>
+      <point x="429" y="1278"/>
+      <point x="397" y="1322"/>
+      <point x="368" y="1364" type="curve" smooth="yes"/>
+      <point x="349" y="1392" type="line"/>
+      <point x="316" y="1366" type="line"/>
+      <point x="335" y="1338" type="line" smooth="yes"/>
+      <point x="367" y="1290"/>
+      <point x="409" y="1238"/>
+      <point x="480" y="1238" type="curve" smooth="yes"/>
+      <point x="565" y="1238"/>
+      <point x="604" y="1300"/>
+      <point x="604" y="1405" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/07 10:17:35</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>684</integer>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Einvertedbreve" format="2">
+  <advance width="1540"/>
+  <unicode hex="0206"/>
+  <outline>
+    <component base="E"/>
+    <component base="breveinvertedcomb" xOffset="466" yOffset="400"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/06 20:16:12</string>
+    </dict>
+  </lib>
+</glyph>

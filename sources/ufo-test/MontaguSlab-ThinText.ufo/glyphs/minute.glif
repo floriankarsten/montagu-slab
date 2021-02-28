@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="minute" format="2">
+  <advance width="394"/>
+  <unicode hex="2032"/>
+  <outline>
+    <contour>
+      <point x="144" y="990" type="line"/>
+      <point x="184" y="990" type="line"/>
+      <point x="246" y="1500" type="line"/>
+      <point x="199" y="1500" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/07 13:54:43</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="degree" format="2">
+  <advance width="914"/>
+  <unicode hex="00B0"/>
+  <outline>
+    <contour>
+      <point x="457" y="840" type="curve" smooth="yes"/>
+      <point x="705" y="840"/>
+      <point x="882" y="966"/>
+      <point x="882" y="1180" type="curve" smooth="yes"/>
+      <point x="882" y="1394"/>
+      <point x="705" y="1522"/>
+      <point x="457" y="1522" type="curve" smooth="yes"/>
+      <point x="209" y="1522"/>
+      <point x="32" y="1395"/>
+      <point x="32" y="1181" type="curve" smooth="yes"/>
+      <point x="32" y="966"/>
+      <point x="209" y="840"/>
+    </contour>
+    <contour>
+      <point x="457" y="1000" type="curve" smooth="yes"/>
+      <point x="378" y="1000"/>
+      <point x="329" y="1062"/>
+      <point x="329" y="1181" type="curve" smooth="yes"/>
+      <point x="329" y="1297"/>
+      <point x="378" y="1362"/>
+      <point x="457" y="1362" type="curve" smooth="yes"/>
+      <point x="536" y="1362"/>
+      <point x="585" y="1300"/>
+      <point x="585" y="1190" type="curve" smooth="yes"/>
+      <point x="585" y="1066"/>
+      <point x="536" y="1000"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/08 12:17:50</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

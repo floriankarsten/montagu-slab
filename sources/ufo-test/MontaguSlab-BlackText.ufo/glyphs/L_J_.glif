@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="LJ" format="2">
+  <advance width="2879"/>
+  <unicode hex="01C7"/>
+  <outline>
+    <component base="L"/>
+    <component base="J" xOffset="1535"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/06 19:45:51</string>
+    </dict>
+  </lib>
+</glyph>

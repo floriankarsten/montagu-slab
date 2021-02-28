@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jdotless" format="2">
+  <advance width="626"/>
+  <unicode hex="0237"/>
+  <anchor x="313" y="-440" name="bottom"/>
+  <anchor x="352" y="1100" name="top"/>
+  <outline>
+    <contour>
+      <point x="336" y="1100" type="line"/>
+      <point x="336" y="-140" type="line"/>
+      <point x="384" y="-136" type="line"/>
+      <point x="384" y="1100" type="line"/>
+    </contour>
+    <contour>
+      <point x="150" y="-420" type="line"/>
+      <point x="304" y="-420"/>
+      <point x="384" y="-323"/>
+      <point x="384" y="-136" type="curve"/>
+      <point x="336" y="-140" type="line"/>
+      <point x="336" y="-298"/>
+      <point x="269" y="-376"/>
+      <point x="150" y="-376" type="curve"/>
+    </contour>
+    <contour>
+      <point x="150" y="-420" type="curve"/>
+      <point x="150" y="-376" type="line"/>
+      <point x="43" y="-376"/>
+      <point x="-21" y="-319"/>
+      <point x="-19" y="-226" type="curve"/>
+      <point x="-38" y="-241" type="line"/>
+      <point x="17" y="-246"/>
+      <point x="62" y="-228"/>
+      <point x="62" y="-181" type="curve" smooth="yes"/>
+      <point x="62" y="-149"/>
+      <point x="40" y="-129"/>
+      <point x="8" y="-129" type="curve" smooth="yes"/>
+      <point x="-35" y="-129"/>
+      <point x="-68" y="-164"/>
+      <point x="-68" y="-221" type="curve" smooth="yes"/>
+      <point x="-68" y="-354"/>
+      <point x="23" y="-420"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/07 13:44:48</string>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>scale</key>
+          <array>
+            <real>-0.9</real>
+            <integer>1</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

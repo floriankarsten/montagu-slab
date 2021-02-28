@@ -96,6 +96,19 @@ x,
 y,
 z
 );
+},
+{
+name = "Virtual Master";
+value = (
+{
+Axis = Weight;
+Location = 358;
+},
+{
+Axis = "Optical size";
+Location = 16;
+}
+);
 }
 );
 date = "2020-11-17 11:47:13 +0000";
@@ -14337,7 +14350,7 @@ unicode = 006E;
 {
 color = 8;
 glyphname = o;
-lastChange = "2020-12-16 20:25:46 +0000";
+lastChange = "2021-02-28 14:44:22 +0000";
 layers = (
 {
 anchors = (
@@ -72939,7 +72952,7 @@ rightMetricsKey = dotaccentcomb;
 color = 8;
 export = 0;
 glyphname = _corner.Serif;
-lastChange = "2021-02-15 00:03:45 +0000";
+lastChange = "2021-02-28 14:43:58 +0000";
 layers = (
 {
 anchors = (
@@ -73080,7 +73093,7 @@ position = "{0, 74}";
 );
 associatedMasterId = "0C29AA02-E021-4BD1-A2C4-87F681D64C35";
 layerId = "9971398A-48B8-4CAC-88A1-C394CF002CAE";
-name = "bracket test";
+name = "bracketing test";
 paths = (
 {
 closed = 0;
@@ -73100,10 +73113,9 @@ width = 39;
 );
 },
 {
-color = 8;
 export = 0;
 glyphname = _corner.Serif.001;
-lastChange = "2020-12-07 10:18:04 +0000";
+lastChange = "2021-02-28 14:44:13 +0000";
 layers = (
 {
 anchors = (

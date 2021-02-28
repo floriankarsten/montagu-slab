@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iacute.ss01" format="2">
+  <advance width="970"/>
+  <outline>
+    <component base="idotless.ss01"/>
+    <component base="acutecomb" xOffset="163"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/17 11:32:25</string>
+    </dict>
+  </lib>
+</glyph>

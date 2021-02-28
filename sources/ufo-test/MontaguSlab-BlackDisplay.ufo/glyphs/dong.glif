@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dong" format="2">
+  <advance width="1464"/>
+  <unicode hex="20AB"/>
+  <outline>
+    <component base="dcroat"/>
+    <component base="macronbelowcomb" xOffset="322"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/08 13:07:16</string>
+    </dict>
+  </lib>
+</glyph>

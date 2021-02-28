@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb" format="2">
+  <unicode hex="030B"/>
+  <anchor x="252" y="1100" name="_top"/>
+  <outline>
+    <contour>
+      <point x="80" y="1250" type="line"/>
+      <point x="130" y="1250" type="line"/>
+      <point x="376" y="1560" type="line"/>
+      <point x="317" y="1560" type="line"/>
+    </contour>
+    <contour>
+      <point x="359" y="1250" type="line"/>
+      <point x="410" y="1250" type="line"/>
+      <point x="669" y="1560" type="line"/>
+      <point x="609" y="1560" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/07 10:17:35</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>749</integer>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

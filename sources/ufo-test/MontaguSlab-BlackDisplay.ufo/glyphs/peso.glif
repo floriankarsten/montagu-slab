@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="peso" format="2">
+  <advance width="1656"/>
+  <unicode hex="20B1"/>
+  <outline>
+    <contour>
+      <point x="644" y="1560" type="line"/>
+      <point x="644" y="1354" type="line"/>
+      <point x="680" y="1354" type="line" smooth="yes"/>
+      <point x="899" y="1354"/>
+      <point x="1033" y="1248"/>
+      <point x="1033" y="1030" type="curve" smooth="yes"/>
+      <point x="1033" y="812"/>
+      <point x="899" y="706"/>
+      <point x="680" y="706" type="curve" smooth="yes"/>
+      <point x="644" y="706" type="line"/>
+      <point x="644" y="500" type="line"/>
+      <point x="830" y="500" type="line" smooth="yes"/>
+      <point x="1211" y="500"/>
+      <point x="1463" y="678"/>
+      <point x="1463" y="1030" type="curve" smooth="yes"/>
+      <point x="1463" y="1382"/>
+      <point x="1211" y="1560"/>
+      <point x="830" y="1560" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="224" y="1560" type="line"/>
+      <point x="224" y="0" type="line"/>
+      <point x="644" y="0" type="line"/>
+      <point x="644" y="1560" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="1244" type="line"/>
+      <point x="51" y="1076" type="line"/>
+      <point x="1630" y="1076" type="line"/>
+      <point x="1630" y="1244" type="line"/>
+    </contour>
+    <contour>
+      <point x="51" y="984" type="line"/>
+      <point x="51" y="816" type="line"/>
+      <point x="1630" y="816" type="line"/>
+      <point x="1630" y="984" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>P</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>peseta</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/16 22:49:33</string>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>1</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>0</integer>
+          </array>
+          <key>scale</key>
+          <array>
+            <real>1.1</real>
+            <integer>1</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>1</integer>
+          </array>
+          <key>scale</key>
+          <array>
+            <real>-2.2</real>
+            <integer>1</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>1</integer>
+            <integer>3</integer>
+          </array>
+          <key>scale</key>
+          <array>
+            <real>-1.08</real>
+            <integer>1</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

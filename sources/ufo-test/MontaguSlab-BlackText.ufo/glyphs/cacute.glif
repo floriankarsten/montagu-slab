@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cacute" format="2">
+  <advance width="1316"/>
+  <unicode hex="0107"/>
+  <outline>
+    <component base="c"/>
+    <component base="acutecomb" xOffset="451"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/16 21:05:47</string>
+    </dict>
+  </lib>
+</glyph>

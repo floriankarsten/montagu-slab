@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>lib</key>
+    <dict>
+      <key>com.schriftgestaltung.layerId</key>
+      <string>3C3AA33C-18F9-465A-989A-3CD7AC33BBC1</string>
+      <key>com.schriftgestaltung.layerOrderInGlyph._corner.Serif</key>
+      <integer>5</integer>
+      <key>com.schriftgestaltung.layerOrderInGlyph._corner.Serif.001</key>
+      <integer>5</integer>
+    </dict>
+  </dict>
+</plist>

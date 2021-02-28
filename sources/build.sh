@@ -3,21 +3,18 @@
 set -e
 
 font_file="Montagu-Slab"
+VF_file=Montagu-Slab\[wght\].ttf
 
-mkdir -p ../fonts/otf
-mkdir -p ../fonts/ttf
-mkdir -p ../fonts/ttf/static
-mkdir -p ../fonts/woff2
-mkdir -p ../fonts/woff2/static
+mkdir -p ../fonts/otf ../fonts/ttf ../fonts/ttf/static ../fonts/woff2 ../fonts/woff2/static
 
 echo "Generating Static OTFs"
-fontmake -g ready-to-export/$font_file.glyphs -i -o otf --output-dir ../fonts/otf
+fontmake -g glyphs-decomposed/$font_file.glyphs -i -o otf --output-dir ../fonts/otf
 
 echo "Generating Static TTFs"
-fontmake -g ready-to-export/$font_file.glyphs -i -o ttf --output-dir ../fonts/ttf/static
+fontmake -g glyphs-decomposed/$font_file.glyphs -i -o ttf --output-dir ../fonts/ttf/static
 
 echo "Generating VFs"
-fontmake -g ready-to-export/$font_file.glyphs -o variable --output-path ../fonts/ttf/$font_file.ttf
+fontmake -g glyphs-decomposed/$font_file.glyphs -o variable --output-path ../fonts/ttf/$VF_file
 
 rm -rf master_ufo/ instance_ufo/
 

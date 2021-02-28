@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="A" format="2">
+  <advance width="1690"/>
+  <unicode hex="0041"/>
+  <anchor x="845" y="0" name="bottom"/>
+  <anchor x="1590" y="0" name="ogonek"/>
+  <anchor x="845" y="1500" name="top"/>
+  <outline>
+    <contour>
+      <point x="184" y="0" type="line"/>
+      <point x="232" y="0" type="line"/>
+      <point x="851" y="1453" type="line"/>
+      <point x="834" y="1453" type="line"/>
+      <point x="1454" y="0" type="line"/>
+      <point x="1506" y="0" type="line"/>
+      <point x="864" y="1500" type="line"/>
+      <point x="826" y="1500" type="line"/>
+    </contour>
+    <contour>
+      <point x="1252" y="516" type="line"/>
+      <point x="1252" y="560" type="line"/>
+      <point x="436" y="560" type="line"/>
+      <point x="436" y="516" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/16 22:59:40</string>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>1</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>0</integer>
+          </array>
+          <key>scale</key>
+          <array>
+            <real>-1.3</real>
+            <integer>1</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>3</integer>
+          </array>
+          <key>scale</key>
+          <array>
+            <real>1.3</real>
+            <integer>1</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>1</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>4</integer>
+          </array>
+          <key>scale</key>
+          <array>
+            <real>-0.76</real>
+            <integer>1</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <false/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>7</integer>
+          </array>
+          <key>scale</key>
+          <array>
+            <real>0.76</real>
+            <integer>1</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Corner</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

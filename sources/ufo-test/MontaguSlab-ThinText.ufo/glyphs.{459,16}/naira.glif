@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="naira" format="2">
+  <advance width="1802"/>
+  <unicode hex="20A6"/>
+  <outline>
+    <contour>
+      <point x="66" y="658" type="line"/>
+      <point x="66" y="502" type="line"/>
+      <point x="1001" y="502" type="line"/>
+      <point x="1001" y="658" type="line"/>
+    </contour>
+    <contour>
+      <point x="66" y="1039" type="line"/>
+      <point x="66" y="883" type="line"/>
+      <point x="782" y="883" type="line"/>
+      <point x="782" y="1039" type="line"/>
+    </contour>
+    <contour>
+      <point x="782" y="1039" type="line"/>
+      <point x="782" y="883" type="line"/>
+      <point x="1719" y="883" type="line"/>
+      <point x="1719" y="1039" type="line"/>
+    </contour>
+    <contour>
+      <point x="1001" y="658" type="line"/>
+      <point x="1001" y="502" type="line"/>
+      <point x="1719" y="502" type="line"/>
+      <point x="1719" y="658" type="line"/>
+    </contour>
+    <component base="N"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>N</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/02/10 22:42:01</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iinvertedbreve.ss01" format="2">
+  <advance width="713"/>
+  <outline>
+    <component base="idotless.ss01"/>
+    <component base="breveinvertedcomb" xOffset="-89"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/17 11:32:25</string>
+    </dict>
+  </lib>
+</glyph>

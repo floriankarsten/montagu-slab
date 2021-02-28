@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb_tildecomb" format="2">
+  <outline>
+    <component base="brevecomb" xOffset="2"/>
+    <component base="tildecomb" yOffset="440"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/06 19:42:27</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>692</integer>
+    </dict>
+  </lib>
+</glyph>

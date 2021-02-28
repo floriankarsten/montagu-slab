@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.dnom" format="2">
+  <advance width="636"/>
+  <outline>
+    <contour>
+      <point x="48" y="720" type="line"/>
+      <point x="48" y="680" type="line"/>
+      <point x="554" y="680" type="line"/>
+      <point x="596" y="683" type="line"/>
+      <point x="596" y="720" type="line"/>
+    </contour>
+    <contour>
+      <point x="237" y="0" type="curve"/>
+      <point x="285" y="0" type="line"/>
+      <point x="298" y="315"/>
+      <point x="437" y="502"/>
+      <point x="596" y="683" type="curve"/>
+      <point x="554" y="680" type="line"/>
+      <point x="412" y="527"/>
+      <point x="252" y="329"/>
+    </contour>
+    <contour>
+      <point x="147" y="680" type="curve"/>
+      <point x="48" y="680" type="line"/>
+      <point x="48" y="557" type="line"/>
+      <point x="80" y="557" type="line"/>
+      <point x="80" y="610" type="line" smooth="yes"/>
+      <point x="80" y="657"/>
+      <point x="84" y="680"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021/02/14 23:56:57</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

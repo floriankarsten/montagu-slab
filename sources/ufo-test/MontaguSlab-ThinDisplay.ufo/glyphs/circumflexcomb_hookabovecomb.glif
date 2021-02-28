@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_hookabovecomb" format="2">
+  <outline>
+    <component base="circumflexcomb"/>
+    <component base="hookabovecomb.alt" xOffset="375" yOffset="230"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>dotaccentcomb</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/16 21:05:47</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>909</integer>
+    </dict>
+  </lib>
+</glyph>

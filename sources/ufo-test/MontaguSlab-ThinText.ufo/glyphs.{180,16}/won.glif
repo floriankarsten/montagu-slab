@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="won" format="2">
+  <advance width="2335"/>
+  <unicode hex="20A9"/>
+  <outline>
+    <contour>
+      <point x="1260" y="903" type="line"/>
+      <point x="2266" y="903" type="line"/>
+      <point x="2266" y="970" type="line"/>
+      <point x="1260" y="970" type="line"/>
+    </contour>
+    <contour>
+      <point x="69" y="624" type="line"/>
+      <point x="69" y="556" type="line"/>
+      <point x="1381" y="556" type="line"/>
+      <point x="1381" y="624" type="line"/>
+    </contour>
+    <contour>
+      <point x="1381" y="624" type="line"/>
+      <point x="1381" y="556" type="line"/>
+      <point x="2266" y="556" type="line"/>
+      <point x="2266" y="624" type="line"/>
+    </contour>
+    <contour>
+      <point x="1260" y="970" type="line"/>
+      <point x="69" y="970" type="line"/>
+      <point x="69" y="903" type="line"/>
+      <point x="1260" y="903" type="line"/>
+    </contour>
+    <component base="W" xOffset="40"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>W</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/16 22:43:47</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

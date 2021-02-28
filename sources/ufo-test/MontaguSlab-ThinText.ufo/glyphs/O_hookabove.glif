@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ohookabove" format="2">
+  <advance width="1812"/>
+  <unicode hex="1ECE"/>
+  <outline>
+    <component base="O"/>
+    <component base="hookabovecomb" xOffset="645" yOffset="400"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/11/16 21:05:47</string>
+    </dict>
+  </lib>
+</glyph>

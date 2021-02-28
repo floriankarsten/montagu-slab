@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="c" format="2">
+  <advance width="1127"/>
+  <unicode hex="0063"/>
+  <anchor x="560" y="0" name="bottom"/>
+  <anchor x="598" y="1080" name="top"/>
+  <outline>
+    <contour>
+      <point x="1031" y="409" type="curve"/>
+      <point x="991" y="409" type="line"/>
+      <point x="977" y="228"/>
+      <point x="860" y="24"/>
+      <point x="590" y="24" type="curve" smooth="yes"/>
+      <point x="330" y="24"/>
+      <point x="160" y="218"/>
+      <point x="160" y="540" type="curve" smooth="yes"/>
+      <point x="160" y="863"/>
+      <point x="338" y="1058"/>
+      <point x="604" y="1058" type="curve"/>
+      <point x="604" y="1096" type="line"/>
+      <point x="312" y="1096"/>
+      <point x="110" y="894"/>
+      <point x="110" y="540" type="curve" smooth="yes"/>
+      <point x="110" y="186"/>
+      <point x="305" y="-16"/>
+      <point x="590" y="-16" type="curve" smooth="yes"/>
+      <point x="886" y="-16"/>
+      <point x="1015" y="197"/>
+    </contour>
+    <contour>
+      <point x="604" y="1096" type="curve"/>
+      <point x="604" y="1058" type="line"/>
+      <point x="866" y="1058"/>
+      <point x="974" y="908"/>
+      <point x="970" y="768" type="curve"/>
+      <point x="987" y="790" type="line"/>
+      <point x="939" y="796"/>
+      <point x="890" y="777"/>
+      <point x="890" y="730" type="curve" smooth="yes"/>
+      <point x="890" y="698"/>
+      <point x="911" y="678"/>
+      <point x="944" y="678" type="curve" smooth="yes"/>
+      <point x="988" y="678"/>
+      <point x="1014" y="707"/>
+      <point x="1014" y="772" type="curve" smooth="yes"/>
+      <point x="1014" y="932"/>
+      <point x="884" y="1096"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2020/12/16 22:51:55</string>
+      <key>com.schriftgestaltung.Glyphs.layer.rightMetricsKey</key>
+      <string>=o-14</string>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
+</glyph>

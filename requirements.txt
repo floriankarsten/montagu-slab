@@ -1,0 +1,4 @@
+fontmake
+git+https://github.com/googlefonts/gftools
+statmake
+brotli

@@ -6,7 +6,7 @@ WIP
 
 Before building the fonts, it is necessary to decompose all smart components inside the Glyphs app.
 
-First, install "Pre-build" script placed in sources/glyphs-decomposed:
+First, install "Pre-build" script placed in "sources/glyphs-decomposed":
 
 1. Shift+Cmd+Y
 2. place "Pre-build.py" file into the "Scripts" folder

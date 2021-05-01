@@ -3,7 +3,7 @@
 set -e
 
 font_file="Montagu-Slab"
-VF_file=Montagu-Slab\[wght\].ttf
+VF_file=Montagu-Slab\[opsz,wght\].ttf
 
 mkdir -p ../fonts/otf ../fonts/ttf ../fonts/ttf/static ../fonts/woff2 ../fonts/woff2/static
 

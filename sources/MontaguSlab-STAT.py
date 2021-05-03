@@ -44,7 +44,7 @@ UPRIGHT_AXES = [
 ]
 
 VARIABLE_DIR = "../fonts/ttf"
-VR_UPRIGHT = f"{VARIABLE_DIR}/MontaguSlan[opsz,wght].ttf"
+VR_UPRIGHT = f"{VARIABLE_DIR}/MontaguSlab[opsz,wght].ttf"
 
 
 def main():

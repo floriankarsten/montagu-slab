@@ -10,7 +10,7 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 }
 );
-copyright = "Copyright 2020 Montagu Slab Authors (https://github.com/floriankarsten/montagu-slab)";
+copyright = "Copyright 2020 The Montagu Slab Project Authors (https://github.com/floriankarsten/montagu-slab)";
 customParameters = (
 {
 name = vendorID;
@@ -174,11 +174,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1800;
+value = 2500;
 },
 {
 name = winDescent;
-value = 600;
+value = 700;
 }
 );
 descender = -420;
@@ -232,11 +232,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1800;
+value = 2500;
 },
 {
 name = winDescent;
-value = 600;
+value = 700;
 }
 );
 descender = -420;
@@ -290,11 +290,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1800;
+value = 2500;
 },
 {
 name = winDescent;
-value = 600;
+value = 700;
 }
 );
 descender = -420;
@@ -359,11 +359,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1800;
+value = 2500;
 },
 {
 name = winDescent;
-value = 600;
+value = 700;
 }
 );
 descender = -420;
@@ -1003,7 +1003,7 @@ unicode = 1EB0;
 },
 {
 glyphname = Abrevehookabove;
-lastChange = "2021-04-28 22:58:43 +0000";
+lastChange = "2021-05-03 10:08:25 +0000";
 layers = (
 {
 components = (
@@ -32286,7 +32286,7 @@ unicode = 0137;
 {
 color = 8;
 glyphname = kgreenlandic;
-lastChange = "2021-05-03 08:53:24 +0000";
+lastChange = "2021-05-03 10:04:00 +0000";
 layers = (
 {
 hints = (
@@ -32518,8 +32518,8 @@ paths = (
 closed = 1;
 nodes = (
 "637 0 LINE",
-"638 1160 LINE",
-"238 1160 LINE",
+"637 1160 LINE",
+"237 1160 LINE",
 "237 0 LINE"
 );
 },
@@ -32604,8 +32604,8 @@ paths = (
 closed = 1;
 nodes = (
 "598 0 LINE",
-"599 1140 LINE",
-"199 1140 LINE",
+"598 1140 LINE",
+"198 1140 LINE",
 "198 0 LINE"
 );
 },
@@ -69279,7 +69279,7 @@ unicode = 030C;
 {
 color = 8;
 glyphname = brevecomb;
-lastChange = "2021-05-03 08:45:35 +0000";
+lastChange = "2021-05-03 10:08:18 +0000";
 layers = (
 {
 anchors = (
@@ -69367,7 +69367,7 @@ position = "{454, 1160}";
 },
 {
 name = side;
-position = "{454, 1540}";
+position = "{454, 1534}";
 },
 {
 name = top;
@@ -73433,7 +73433,7 @@ rightMetricsKey = dotaccentcomb;
 },
 {
 glyphname = brevecomb_acutecomb;
-lastChange = "2020-11-16 21:05:47 +0000";
+lastChange = "2021-05-03 10:09:23 +0000";
 layers = (
 {
 components = (
@@ -73468,7 +73468,7 @@ name = brevecomb;
 },
 {
 name = acutecomb.alt;
-transform = "{1, 0, 0, 1, 251, 380}";
+transform = "{1, 0, 0, 1, 251, 374}";
 }
 );
 layerId = "219068EA-2B9B-40DC-949E-B60449C01B8A";
@@ -73493,7 +73493,7 @@ rightMetricsKey = dotaccentcomb;
 },
 {
 glyphname = brevecomb_gravecomb;
-lastChange = "2020-11-16 21:05:47 +0000";
+lastChange = "2021-05-03 10:09:23 +0000";
 layers = (
 {
 components = (
@@ -73528,7 +73528,7 @@ name = brevecomb;
 },
 {
 name = gravecomb.alt;
-transform = "{1, 0, 0, 1, 117, 380}";
+transform = "{1, 0, 0, 1, 117, 374}";
 }
 );
 layerId = "219068EA-2B9B-40DC-949E-B60449C01B8A";
@@ -73553,7 +73553,7 @@ rightMetricsKey = dotaccentcomb;
 },
 {
 glyphname = brevecomb_hookabovecomb;
-lastChange = "2020-11-16 21:05:47 +0000";
+lastChange = "2021-05-03 10:08:18 +0000";
 layers = (
 {
 components = (
@@ -73588,7 +73588,7 @@ name = brevecomb;
 },
 {
 name = hookabovecomb.alt;
-transform = "{1, 0, 0, 1, 91, 380}";
+transform = "{1, 0, 0, 1, 91, 374}";
 }
 );
 layerId = "219068EA-2B9B-40DC-949E-B60449C01B8A";

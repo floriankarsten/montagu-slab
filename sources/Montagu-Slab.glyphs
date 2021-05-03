@@ -28373,7 +28373,7 @@ unicode = 0259;
 {
 color = 8;
 glyphname = f;
-lastChange = "2021-05-03 08:45:35 +0000";
+lastChange = "2021-05-03 10:02:20 +0000";
 layers = (
 {
 anchors = (
@@ -30347,7 +30347,7 @@ unicode = 1E25;
 },
 {
 glyphname = i;
-lastChange = "2021-05-02 20:40:55 +0000";
+lastChange = "2021-05-03 10:02:03 +0000";
 layers = (
 {
 anchors = (
@@ -32640,7 +32640,7 @@ unicode = 0138;
 {
 color = 8;
 glyphname = l;
-lastChange = "2021-05-03 08:45:35 +0000";
+lastChange = "2021-05-03 10:01:47 +0000";
 layers = (
 {
 anchors = (
@@ -75002,6 +75002,12 @@ kerning = {
 "@MMK_R_o" = 0;
 "@MMK_R_t" = 0;
 };
+"@MMK_L_f" = {
+"@MMK_R_f" = 0;
+"@MMK_R_l" = 64;
+"@MMK_R_n" = 0;
+i = 0;
+};
 "@MMK_L_k" = {
 "@MMK_R_o" = 0;
 };
@@ -75073,6 +75079,12 @@ kerning = {
 "@MMK_R_o" = 0;
 "@MMK_R_t" = 0;
 };
+"@MMK_L_f" = {
+"@MMK_R_f" = -26;
+"@MMK_R_l" = 88;
+"@MMK_R_n" = 0;
+i = 6;
+};
 "@MMK_L_k" = {
 "@MMK_R_o" = 0;
 };
@@ -75113,6 +75125,11 @@ kerning = {
 "@MMK_L_c" = {
 "@MMK_R_o" = 0;
 };
+"@MMK_L_f" = {
+"@MMK_R_l" = 172;
+"@MMK_R_n" = 0;
+i = 62;
+};
 "@MMK_L_g" = {
 "@MMK_R_a" = -26;
 "@MMK_R_o" = -60;
@@ -75123,6 +75140,7 @@ kerning = {
 "@MMK_R_v" = -38;
 };
 "@MMK_L_n" = {
+"@MMK_R_f" = -32;
 "@MMK_R_p" = 0;
 "@MMK_R_t" = -30;
 "@MMK_R_u" = -48;
@@ -75198,6 +75216,11 @@ kerning = {
 "@MMK_R_o" = 20;
 "@MMK_R_t" = 4;
 };
+"@MMK_L_f" = {
+"@MMK_R_f" = 12;
+"@MMK_R_l" = 176;
+i = 20;
+};
 "@MMK_L_g" = {
 "@MMK_R_a" = -18;
 "@MMK_R_o" = -32;
@@ -75211,6 +75234,7 @@ kerning = {
 "@MMK_R_v" = -28;
 };
 "@MMK_L_n" = {
+"@MMK_R_f" = -22;
 "@MMK_R_p" = 0;
 "@MMK_R_t" = -58;
 "@MMK_R_u" = -34;

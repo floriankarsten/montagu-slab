@@ -1,0 +1,655 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="100" maximum="700" default="100">
+      <map input="100" output="100"/>
+      <map input="200" output="180"/>
+      <map input="300" output="260"/>
+      <map input="400" output="378"/>
+      <map input="500" output="492"/>
+      <map input="600" output="588"/>
+      <map input="700" output="700"/>
+    </axis>
+    <axis tag="opsz" name="Optical size" minimum="14" maximum="144" default="14"/>
+  </axes>
+  <sources>
+    <source filename="glyphs-decomposed/MontaguSlab-Thin14pt.ufo" name="Montagu Slab Thin 14pt" familyname="Montagu Slab" stylename="Thin 14pt">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Thin14pt.ufo" name="Montagu Slab Thin 14pt {180,14}" layer="{180,14}">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Thin14pt.ufo" name="Montagu Slab Thin 14pt {181,14}" layer="{181,14}">
+      <location>
+        <dimension name="Weight" xvalue="181"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+    </source>
+<!--     <source filename="glyphs-decomposed/MontaguSlab-Thin14pt.ufo" name="Montagu Slab Thin 14pt {358,14}" layer="{358,14}">
+      <location>
+        <dimension name="Weight" xvalue="358"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+    </source> -->
+    <source filename="glyphs-decomposed/MontaguSlab-Thin14pt.ufo" name="Montagu Slab Thin 14pt {459,14}" layer="{459,14}">
+      <location>
+        <dimension name="Weight" xvalue="459"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Thin14pt.ufo" name="Montagu Slab Thin 14pt {460,14}" layer="{460,14}">
+      <location>
+        <dimension name="Weight" xvalue="460"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Thin14pt.ufo" name="Montagu Slab Thin 14pt {492,14}" layer="{492,14}">
+      <location>
+        <dimension name="Weight" xvalue="492"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Thin14pt.ufo" name="Montagu Slab Thin 14pt {493,14}" layer="{493,14}">
+      <location>
+        <dimension name="Weight" xvalue="493"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Thin144pt.ufo" name="Montagu Slab Thin 144pt" familyname="Montagu Slab" stylename="Thin 144pt">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Bold14pt.ufo" name="Montagu Slab Bold 14pt" familyname="Montagu Slab" stylename="Bold 14pt">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Bold14pt.ufo" name="Montagu Slab Bold 14pt {180,144}" layer="{180,144}">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Bold14pt.ufo" name="Montagu Slab Bold 14pt {181,144}" layer="{181,144}">
+      <location>
+        <dimension name="Weight" xvalue="181"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source>
+<!--     <source filename="glyphs-decomposed/MontaguSlab-Bold14pt.ufo" name="Montagu Slab Bold 14pt {358,144}" layer="{358,144}">
+      <location>
+        <dimension name="Weight" xvalue="358"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source> -->
+    <source filename="glyphs-decomposed/MontaguSlab-Bold14pt.ufo" name="Montagu Slab Bold 14pt {459,144}" layer="{459,144}">
+      <location>
+        <dimension name="Weight" xvalue="459"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Bold14pt.ufo" name="Montagu Slab Bold 14pt {460,144}" layer="{460,144}">
+      <location>
+        <dimension name="Weight" xvalue="460"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Bold14pt.ufo" name="Montagu Slab Bold 14pt {492,144}" layer="{492,144}">
+      <location>
+        <dimension name="Weight" xvalue="492"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Bold14pt.ufo" name="Montagu Slab Bold 14pt {493,144}" layer="{493,144}">
+      <location>
+        <dimension name="Weight" xvalue="493"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source>
+    <source filename="glyphs-decomposed/MontaguSlab-Bold144pt.ufo" name="Montagu Slab Bold 144pt" familyname="Montagu Slab" stylename="Bold 144pt">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Montagu Slab 14pt Thin" familyname="Montagu Slab 14pt" stylename="Thin" filename="instance_ufos/MontaguSlab14pt-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Thin</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 14pt ExtraLight" familyname="Montagu Slab 14pt" stylename="ExtraLight" filename="instance_ufos/MontaguSlab14pt-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>219068EA-2B9B-40DC-949E-B60449C01B8A</key>
+            <real>0.13333</real>
+            <key>CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B</key>
+            <real>0.86667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 14pt Light" familyname="Montagu Slab 14pt" stylename="Light" filename="instance_ufos/MontaguSlab14pt-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="260"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>219068EA-2B9B-40DC-949E-B60449C01B8A</key>
+            <real>0.26667</real>
+            <key>CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B</key>
+            <real>0.73333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 14pt Regular" familyname="Montagu Slab 14pt" stylename="Regular" filename="instance_ufos/MontaguSlab14pt-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="378"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>219068EA-2B9B-40DC-949E-B60449C01B8A</key>
+            <real>0.46333</real>
+            <key>CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B</key>
+            <real>0.53667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 14pt Medium" familyname="Montagu Slab 14pt" stylename="Medium" filename="instance_ufos/MontaguSlab14pt-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="492"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>219068EA-2B9B-40DC-949E-B60449C01B8A</key>
+            <real>0.65333</real>
+            <key>CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B</key>
+            <real>0.34667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 14pt SemiBold" familyname="Montagu Slab 14pt" stylename="SemiBold" filename="instance_ufos/MontaguSlab14pt-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="588"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>219068EA-2B9B-40DC-949E-B60449C01B8A</key>
+            <real>0.81333</real>
+            <key>CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B</key>
+            <real>0.18667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>SemiBold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 14pt Bold" familyname="Montagu Slab 14pt" stylename="Bold" filename="instance_ufos/MontaguSlab14pt-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical size" xvalue="14"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>219068EA-2B9B-40DC-949E-B60449C01B8A</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 144pt Thin" familyname="Montagu Slab 144pt" stylename="Thin" filename="instance_ufos/MontaguSlab144pt-Thin.ufo">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>1E61A082-F045-49A7-AB52-DD1B03FD9B54</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Thin</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 144pt ExtraLight" familyname="Montagu Slab 144pt" stylename="ExtraLight" filename="instance_ufos/MontaguSlab144pt-ExtraLight.ufo">
+      <location>
+        <dimension name="Weight" xvalue="180"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0C29AA02-E021-4BD1-A2C4-87F681D64C35</key>
+            <real>0.13333</real>
+            <key>1E61A082-F045-49A7-AB52-DD1B03FD9B54</key>
+            <real>0.86667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>ExtraLight</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 144pt Light" familyname="Montagu Slab 144pt" stylename="Light" filename="instance_ufos/MontaguSlab144pt-Light.ufo">
+      <location>
+        <dimension name="Weight" xvalue="260"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0C29AA02-E021-4BD1-A2C4-87F681D64C35</key>
+            <real>0.26667</real>
+            <key>1E61A082-F045-49A7-AB52-DD1B03FD9B54</key>
+            <real>0.73333</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Light</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 144pt Regular" familyname="Montagu Slab 144pt" stylename="Regular" filename="instance_ufos/MontaguSlab144pt-Regular.ufo">
+      <location>
+        <dimension name="Weight" xvalue="378"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0C29AA02-E021-4BD1-A2C4-87F681D64C35</key>
+            <real>0.46333</real>
+            <key>1E61A082-F045-49A7-AB52-DD1B03FD9B54</key>
+            <real>0.53667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 144pt Medium" familyname="Montagu Slab 144pt" stylename="Medium" filename="instance_ufos/MontaguSlab144pt-Medium.ufo">
+      <location>
+        <dimension name="Weight" xvalue="492"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0C29AA02-E021-4BD1-A2C4-87F681D64C35</key>
+            <real>0.65333</real>
+            <key>1E61A082-F045-49A7-AB52-DD1B03FD9B54</key>
+            <real>0.34667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Medium</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 144pt SemiBold" familyname="Montagu Slab 144pt" stylename="SemiBold" filename="instance_ufos/MontaguSlab144pt-SemiBold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="588"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0C29AA02-E021-4BD1-A2C4-87F681D64C35</key>
+            <real>0.81333</real>
+            <key>1E61A082-F045-49A7-AB52-DD1B03FD9B54</key>
+            <real>0.18667</real>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Regular</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Montagu Slab 144pt Bold" familyname="Montagu Slab 144pt" stylename="Bold" filename="instance_ufos/MontaguSlab144pt-Bold.ufo">
+      <location>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Optical size" xvalue="144"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.export</key>
+          <true/>
+          <key>com.schriftgestaltung.intanceInterpolations</key>
+          <dict>
+            <key>0C29AA02-E021-4BD1-A2C4-87F681D64C35</key>
+            <integer>1</integer>
+          </dict>
+          <key>com.schriftgestaltung.manualInterpolation</key>
+          <false/>
+          <key>com.schriftgestaltung.weight</key>
+          <string>Bold</string>
+          <key>com.schriftgestaltung.width</key>
+          <string>Medium (normal)</string>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>0C29AA02-E021-4BD1-A2C4-87F681D64C35</key>
+        <dict>
+          <key>HH</key>
+          <string>208</string>
+          <key>HV</key>
+          <string>420</string>
+          <key>OH</key>
+          <string>194</string>
+          <key>OV</key>
+          <string>468</string>
+          <key>nV</key>
+          <string>400</string>
+          <key>nd</key>
+          <string>106</string>
+          <key>oH</key>
+          <string>184</string>
+          <key>oV</key>
+          <string>446</string>
+          <key>tH</key>
+          <string>208</string>
+        </dict>
+        <key>1E61A082-F045-49A7-AB52-DD1B03FD9B54</key>
+        <dict>
+          <key>HH</key>
+          <string>38</string>
+          <key>HV</key>
+          <string>48</string>
+          <key>OH</key>
+          <string>38</string>
+          <key>OV</key>
+          <string>48</string>
+          <key>nV</key>
+          <string>48</string>
+          <key>nd</key>
+          <string>32</string>
+          <key>oH</key>
+          <string>38</string>
+          <key>oV</key>
+          <string>48</string>
+          <key>tH</key>
+          <string>38</string>
+        </dict>
+        <key>219068EA-2B9B-40DC-949E-B60449C01B8A</key>
+        <dict>
+          <key>HH</key>
+          <string>208</string>
+          <key>HV</key>
+          <string>420</string>
+          <key>OH</key>
+          <string>234</string>
+          <key>OV</key>
+          <string>468</string>
+          <key>nV</key>
+          <string>400</string>
+          <key>nd</key>
+          <string>118</string>
+          <key>oH</key>
+          <string>228</string>
+          <key>oV</key>
+          <string>446</string>
+          <key>tH</key>
+          <string>230</string>
+        </dict>
+        <key>642E5713-E15A-4A7E-A28E-9A6B75A6585C</key>
+        <dict>
+          <key>HH</key>
+          <string>158</string>
+          <key>HV</key>
+          <string>290</string>
+          <key>OH</key>
+          <string>158</string>
+          <key>OV</key>
+          <string>318</string>
+          <key>nV</key>
+          <string>280</string>
+          <key>nd</key>
+          <string>110</string>
+          <key>oH</key>
+          <string>154</string>
+          <key>oV</key>
+          <string>302</string>
+          <key>tH</key>
+          <string>158</string>
+        </dict>
+        <key>8E2477B1-6F82-4933-924D-A4D021D30CA2</key>
+        <dict>
+          <key>HH</key>
+          <string>40</string>
+          <key>HV</key>
+          <string>52</string>
+          <key>OH</key>
+          <string>42</string>
+          <key>OV</key>
+          <string>54</string>
+          <key>nV</key>
+          <string>50</string>
+          <key>nd</key>
+          <string>36</string>
+          <key>oH</key>
+          <string>42</string>
+          <key>oV</key>
+          <string>52</string>
+          <key>tH</key>
+          <string>40</string>
+        </dict>
+        <key>AF891779-7DE6-4679-9CA2-17B922C1DF84</key>
+        <dict>
+          <key>HH</key>
+          <string>184</string>
+          <key>HV</key>
+          <string>290</string>
+          <key>OH</key>
+          <string>182</string>
+          <key>OV</key>
+          <string>318</string>
+          <key>nV</key>
+          <string>280</string>
+          <key>nd</key>
+          <string>140</string>
+          <key>oH</key>
+          <string>180</string>
+          <key>oV</key>
+          <string>304</string>
+          <key>tH</key>
+          <string>180</string>
+        </dict>
+        <key>CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B</key>
+        <dict>
+          <key>HH</key>
+          <string>44</string>
+          <key>HV</key>
+          <string>48</string>
+          <key>OH</key>
+          <string>44</string>
+          <key>OV</key>
+          <string>48</string>
+          <key>nV</key>
+          <string>48</string>
+          <key>nd</key>
+          <string>40</string>
+          <key>oH</key>
+          <string>44</string>
+          <key>oV</key>
+          <string>48</string>
+          <key>tH</key>
+          <string>44</string>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</designspace>

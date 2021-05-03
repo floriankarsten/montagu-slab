@@ -1,8 +1,5 @@
 {
 .appVersion = "1352";
-DisplayStrings = (
-"co/f_f eine"
-);
 classes = (
 {
 automatic = 1;
@@ -2836,7 +2833,7 @@ unicode = 01FC;
 {
 color = 8;
 glyphname = B;
-lastChange = "2021-05-03 08:47:55 +0000";
+lastChange = "2021-05-03 10:18:41 +0000";
 layers = (
 {
 anchors = (
@@ -2901,8 +2898,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"916 755 LINE SMOOTH",
-"1190 754 OFFCURVE",
+"916 756 LINE SMOOTH",
+"1190 756 OFFCURVE",
 "1356 880 OFFCURVE",
 "1356 1121 CURVE SMOOTH",
 "1356 1371 OFFCURVE",
@@ -2987,8 +2984,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"865 757 LINE SMOOTH",
-"1139 756 OFFCURVE",
+"865 758 LINE SMOOTH",
+"1139 758 OFFCURVE",
 "1305 881 OFFCURVE",
 "1305 1121 CURVE SMOOTH",
 "1305 1371 OFFCURVE",
@@ -3055,8 +3052,8 @@ nodes = (
 "1608 128 OFFCURVE",
 "1608 408 CURVE SMOOTH",
 "1608 679 OFFCURVE",
-"1398 790 OFFCURVE",
-"1076 791 CURVE SMOOTH",
+"1398 792 OFFCURVE",
+"1076 792 CURVE SMOOTH",
 "647 792 LINE",
 "647 653 LINE",
 "938 653 LINE SMOOTH",
@@ -6473,7 +6470,7 @@ unicode = 0046;
 {
 color = 8;
 glyphname = G;
-lastChange = "2021-05-03 08:45:35 +0000";
+lastChange = "2021-05-03 10:19:56 +0000";
 layers = (
 {
 anchors = (
@@ -6492,7 +6489,7 @@ paths = (
 closed = 1;
 nodes = (
 "1347 -24 OFFCURVE",
-"1560 276 OFFCURVE",
+"1562 276 OFFCURVE",
 "1558 678 CURVE",
 "1524 678 LINE",
 "1524 326 OFFCURVE",
@@ -7820,7 +7817,7 @@ unicode = 1E24;
 {
 color = 8;
 glyphname = I;
-lastChange = "2021-05-03 08:45:35 +0000";
+lastChange = "2021-05-03 10:13:16 +0000";
 layers = (
 {
 anchors = (
@@ -7994,8 +7991,8 @@ paths = (
 closed = 1;
 nodes = (
 "658 0 LINE",
-"658 1501 LINE",
-"238 1501 LINE",
+"658 1500 LINE",
+"238 1500 LINE",
 "238 0 LINE"
 );
 }
@@ -8054,8 +8051,8 @@ paths = (
 closed = 1;
 nodes = (
 "664 0 LINE",
-"664 1501 LINE",
-"244 1501 LINE",
+"664 1500 LINE",
+"244 1500 LINE",
 "244 0 LINE"
 );
 }
@@ -15066,7 +15063,7 @@ unicode = 0050;
 {
 color = 8;
 glyphname = Thorn;
-lastChange = "2021-05-03 08:50:36 +0000";
+lastChange = "2021-05-03 10:13:20 +0000";
 layers = (
 {
 hints = (
@@ -15232,8 +15229,8 @@ paths = (
 closed = 1;
 nodes = (
 "658 0 LINE",
-"658 1501 LINE",
-"238 1501 LINE",
+"658 1500 LINE",
+"238 1500 LINE",
 "238 0 LINE"
 );
 },
@@ -15297,8 +15294,8 @@ paths = (
 closed = 1;
 nodes = (
 "664 0 LINE",
-"664 1501 LINE",
-"244 1501 LINE",
+"664 1500 LINE",
+"244 1500 LINE",
 "244 0 LINE"
 );
 },
@@ -16579,7 +16576,7 @@ unicode = 1E5E;
 {
 color = 8;
 glyphname = S;
-lastChange = "2021-05-03 08:45:35 +0000";
+lastChange = "2021-05-03 10:13:30 +0000";
 layers = (
 {
 anchors = (
@@ -16815,8 +16812,8 @@ nodes = (
 closed = 1;
 nodes = (
 "1426 1041 LINE",
-"1426 1501 LINE",
-"1182 1501 LINE",
+"1426 1500 LINE",
+"1182 1500 LINE",
 "1182 1275 LINE",
 "1309 1041 LINE"
 );
@@ -16896,8 +16893,8 @@ nodes = (
 closed = 1;
 nodes = (
 "1336 981 LINE",
-"1336 1501 LINE",
-"1120 1501 LINE",
+"1336 1500 LINE",
+"1120 1500 LINE",
 "1120 1115 LINE",
 "1223 981 LINE"
 );
@@ -22276,7 +22273,7 @@ unicode = 1E92;
 {
 color = 8;
 glyphname = a;
-lastChange = "2021-05-03 08:52:00 +0000";
+lastChange = "2021-05-03 10:23:12 +0000";
 layers = (
 {
 anchors = (
@@ -22305,7 +22302,7 @@ nodes = (
 "288 874 OFFCURVE",
 "237 867 CURVE",
 "254 854 LINE",
-"247 1006 OFFCURVE",
+"250 1004 OFFCURVE",
 "429 1072 OFFCURVE",
 "623 1072 CURVE SMOOTH",
 "846 1072 OFFCURVE",
@@ -24851,7 +24848,7 @@ unicode = 01FD;
 {
 color = 8;
 glyphname = b;
-lastChange = "2021-05-03 08:45:35 +0000";
+lastChange = "2021-05-03 10:23:46 +0000";
 layers = (
 {
 anchors = (
@@ -24866,7 +24863,7 @@ position = "{713, 1560}";
 );
 hints = (
 {
-origin = "{1, 5}";
+origin = "{2, 5}";
 scale = "{-0.9, 1}";
 type = Corner;
 name = _corner.Serif;
@@ -24895,18 +24892,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"314 0 LINE",
-"314 334 LINE",
-"288 550 LINE",
-"318 746 LINE",
-"318 1560 LINE",
-"270 1560 LINE",
-"270 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "509 28 OFFCURVE",
 "314 223 OFFCURVE",
 "314 550 CURVE SMOOTH",
@@ -24919,6 +24904,18 @@ nodes = (
 "1246 223 OFFCURVE",
 "1055 28 OFFCURVE",
 "784 28 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"314 0 LINE",
+"314 334 LINE",
+"288 550 LINE",
+"318 746 LINE",
+"318 1560 LINE",
+"270 1560 LINE",
+"270 0 LINE"
 );
 }
 );
@@ -24937,7 +24934,7 @@ position = "{645, 1500}";
 );
 hints = (
 {
-origin = "{1, 5}";
+origin = "{2, 5}";
 scale = "{-0.9, 1}";
 type = Corner;
 name = _corner.Serif;
@@ -24966,18 +24963,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"265 0 LINE",
-"265 324 LINE",
-"249 540 LINE",
-"269 736 LINE",
-"269 1500 LINE",
-"221 1500 LINE",
-"221 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "445 22 OFFCURVE",
 "265 215 OFFCURVE",
 "265 540 CURVE SMOOTH",
@@ -24990,6 +24975,18 @@ nodes = (
 "1121 215 OFFCURVE",
 "945 22 OFFCURVE",
 "697 22 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"265 0 LINE",
+"265 324 LINE",
+"249 540 LINE",
+"269 736 LINE",
+"269 1500 LINE",
+"221 1500 LINE",
+"221 0 LINE"
 );
 }
 );
@@ -25008,7 +25005,7 @@ position = "{777, 1580}";
 );
 hints = (
 {
-origin = "{1, 5}";
+origin = "{2, 5}";
 scale = "{-0.9, 0.96933}";
 type = Corner;
 name = _corner.Serif;
@@ -25037,18 +25034,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"539 0 LINE",
-"539 262 LINE",
-"508 581 LINE",
-"569 838 LINE",
-"569 1580 LINE",
-"169 1580 LINE",
-"169 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "639 230 OFFCURVE",
 "549 350 OFFCURVE",
 "549 580 CURVE SMOOTH",
@@ -25061,6 +25046,18 @@ nodes = (
 "1035 350 OFFCURVE",
 "945 230 OFFCURVE",
 "793 230 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"539 0 LINE",
+"539 262 LINE",
+"508 581 LINE",
+"569 838 LINE",
+"569 1580 LINE",
+"169 1580 LINE",
+"169 0 LINE"
 );
 }
 );
@@ -25079,7 +25076,7 @@ position = "{708, 1500}";
 );
 hints = (
 {
-origin = "{1, 5}";
+origin = "{2, 5}";
 scale = "{-0.9, 0.96933}";
 type = Corner;
 name = _corner.Serif;
@@ -25108,18 +25105,6 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"510 0 LINE",
-"510 262 LINE",
-"479 581 LINE",
-"540 838 LINE",
-"540 1500 LINE",
-"140 1500 LINE",
-"140 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "594 198 OFFCURVE",
 "520 326 OFFCURVE",
 "520 570 CURVE SMOOTH",
@@ -25132,6 +25117,18 @@ nodes = (
 "934 326 OFFCURVE",
 "860 198 OFFCURVE",
 "728 198 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"510 0 LINE",
+"510 262 LINE",
+"479 581 LINE",
+"540 838 LINE",
+"540 1500 LINE",
+"140 1500 LINE",
+"140 0 LINE"
 );
 }
 );
@@ -33362,7 +33359,7 @@ unicode = 0142;
 {
 color = 8;
 glyphname = m;
-lastChange = "2021-05-03 08:45:35 +0000";
+lastChange = "2021-05-03 11:53:20 +0000";
 layers = (
 {
 anchors = (
@@ -33377,39 +33374,13 @@ position = "{936, 1100}";
 );
 hints = (
 {
-origin = "{1, 4}";
+origin = "{0, 4}";
 scale = "{-0.9, 1}";
 type = Corner;
 name = _corner.Serif;
 },
 {
-origin = "{1, 5}";
-type = Corner;
-name = _corner.Serif;
-options = 1;
-},
-{
-origin = "{1, 0}";
-scale = "{-0.86, 1}";
-type = Corner;
-name = _corner.Serif;
-},
-{
-origin = "{2, 15}";
-scale = "{0.86, 1}";
-type = Corner;
-name = _corner.Serif;
-},
-{
-origin = "{2, 0}";
-scale = "{-0.86, 1}";
-type = Corner;
-name = _corner.Serif;
-options = 1;
-},
-{
-origin = "{0, 15}";
-scale = "{0.86, 1}";
+origin = "{0, 5}";
 type = Corner;
 name = _corner.Serif;
 options = 1;
@@ -33419,31 +33390,36 @@ origin = "{0, 0}";
 scale = "{-0.86, 1}";
 type = Corner;
 name = _corner.Serif;
+},
+{
+origin = "{1, 15}";
+scale = "{0.86, 1}";
+type = Corner;
+name = _corner.Serif;
+},
+{
+origin = "{1, 0}";
+scale = "{-0.86, 1}";
+type = Corner;
+name = _corner.Serif;
+options = 1;
+},
+{
+origin = "{2, 15}";
+scale = "{0.86, 1}";
+type = Corner;
+name = _corner.Serif;
+options = 1;
+},
+{
+origin = "{2, 0}";
+scale = "{-0.86, 1}";
+type = Corner;
+name = _corner.Serif;
 }
 );
 layerId = "CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B";
 paths = (
-{
-closed = 1;
-nodes = (
-"1616 0 LINE",
-"1616 812 LINE SMOOTH",
-"1616 1031 OFFCURVE",
-"1498 1116 OFFCURVE",
-"1318 1116 CURVE SMOOTH",
-"1125 1116 OFFCURVE",
-"954 982 OFFCURVE",
-"954 674 CURVE",
-"990 674 LINE",
-"990 949 OFFCURVE",
-"1149 1072 OFFCURVE",
-"1316 1072 CURVE SMOOTH",
-"1475 1072 OFFCURVE",
-"1568 995 OFFCURVE",
-"1568 812 CURVE SMOOTH",
-"1568 0 LINE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -33475,6 +33451,27 @@ nodes = (
 "942 812 CURVE SMOOTH",
 "942 0 LINE"
 );
+},
+{
+closed = 1;
+nodes = (
+"1616 0 LINE",
+"1616 812 LINE SMOOTH",
+"1616 1031 OFFCURVE",
+"1498 1116 OFFCURVE",
+"1318 1116 CURVE SMOOTH",
+"1125 1116 OFFCURVE",
+"954 982 OFFCURVE",
+"954 674 CURVE",
+"990 674 LINE",
+"990 949 OFFCURVE",
+"1149 1072 OFFCURVE",
+"1316 1072 CURVE SMOOTH",
+"1475 1072 OFFCURVE",
+"1568 995 OFFCURVE",
+"1568 812 CURVE SMOOTH",
+"1568 0 LINE"
+);
 }
 );
 width = 1876;
@@ -33492,31 +33489,31 @@ position = "{818, 1080}";
 );
 hints = (
 {
-origin = "{1, 4}";
+origin = "{0, 4}";
 scale = "{-0.9, 1}";
 type = Corner;
 name = _corner.Serif;
 },
 {
-origin = "{1, 5}";
+origin = "{0, 5}";
 type = Corner;
 name = _corner.Serif;
 options = 1;
 },
 {
-origin = "{1, 0}";
+origin = "{0, 0}";
 scale = "{-0.88, 1}";
 type = Corner;
 name = _corner.Serif;
 },
 {
-origin = "{0, 15}";
+origin = "{1, 15}";
 scale = "{0.88, 1}";
 type = Corner;
 name = _corner.Serif;
 },
 {
-origin = "{0, 0}";
+origin = "{1, 0}";
 scale = "{-0.88, 1}";
 type = Corner;
 name = _corner.Serif;
@@ -33541,6 +33538,17 @@ paths = (
 {
 closed = 1;
 nodes = (
+"312 0 LINE",
+"312 764 LINE",
+"308 764 LINE",
+"308 1080 LINE",
+"264 1080 LINE",
+"264 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "866 0 LINE",
 "866 844 LINE SMOOTH",
 "866 1021 OFFCURVE",
@@ -33557,17 +33565,6 @@ nodes = (
 "818 989 OFFCURVE",
 "818 844 CURVE SMOOTH",
 "818 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"312 0 LINE",
-"312 764 LINE",
-"308 764 LINE",
-"308 1080 LINE",
-"264 1080 LINE",
-"264 0 LINE"
 );
 },
 {
@@ -33607,21 +33604,34 @@ position = "{1091, 1160}";
 );
 hints = (
 {
-origin = "{1, 5}";
+origin = "{0, 5}";
 scale = "{1.06, 0.98}";
 type = Corner;
 name = _corner.Serif;
 },
 {
-origin = "{1, 0}";
+origin = "{0, 0}";
 scale = "{-0.62, 0.98}";
 type = Corner;
 name = _corner.Serif;
 options = 1;
 },
 {
-origin = "{1, 4}";
+origin = "{0, 4}";
 scale = "{-0.96, 0.98}";
+type = Corner;
+name = _corner.Serif;
+},
+{
+origin = "{1, 15}";
+scale = "{0.62, 0.98}";
+type = Corner;
+name = _corner.Serif;
+options = 1;
+},
+{
+origin = "{1, 0}";
+scale = "{-0.62, 0.98}";
 type = Corner;
 name = _corner.Serif;
 },
@@ -33634,19 +33644,6 @@ options = 1;
 },
 {
 origin = "{2, 0}";
-scale = "{-0.62, 0.98}";
-type = Corner;
-name = _corner.Serif;
-},
-{
-origin = "{0, 15}";
-scale = "{0.62, 0.98}";
-type = Corner;
-name = _corner.Serif;
-options = 1;
-},
-{
-origin = "{0, 0}";
 scale = "{-0.76, 0.98}";
 type = Corner;
 name = _corner.Serif;
@@ -33654,27 +33651,6 @@ name = _corner.Serif;
 );
 layerId = "219068EA-2B9B-40DC-949E-B60449C01B8A";
 paths = (
-{
-closed = 1;
-nodes = (
-"1991 0 LINE",
-"1991 790 LINE SMOOTH",
-"1991 1065 OFFCURVE",
-"1842 1186 OFFCURVE",
-"1634 1186 CURVE SMOOTH",
-"1338 1186 OFFCURVE",
-"1264 1007 OFFCURVE",
-"1264 731 CURVE",
-"1311 733 LINE",
-"1311 873 OFFCURVE",
-"1383 922 OFFCURVE",
-"1466 922 CURVE SMOOTH",
-"1545 922 OFFCURVE",
-"1597 874 OFFCURVE",
-"1597 779 CURVE SMOOTH",
-"1597 0 LINE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -33706,6 +33682,27 @@ nodes = (
 "917 779 CURVE SMOOTH",
 "917 0 LINE"
 );
+},
+{
+closed = 1;
+nodes = (
+"1991 0 LINE",
+"1991 790 LINE SMOOTH",
+"1991 1065 OFFCURVE",
+"1842 1186 OFFCURVE",
+"1634 1186 CURVE SMOOTH",
+"1338 1186 OFFCURVE",
+"1264 1007 OFFCURVE",
+"1264 731 CURVE",
+"1311 733 LINE",
+"1311 873 OFFCURVE",
+"1383 922 OFFCURVE",
+"1466 922 CURVE SMOOTH",
+"1545 922 OFFCURVE",
+"1597 874 OFFCURVE",
+"1597 779 CURVE SMOOTH",
+"1597 0 LINE"
+);
 }
 );
 width = 2183;
@@ -33723,21 +33720,34 @@ position = "{1050, 1140}";
 );
 hints = (
 {
-origin = "{1, 5}";
+origin = "{0, 5}";
 scale = "{1.06, 0.98}";
 type = Corner;
 name = _corner.Serif;
 },
 {
-origin = "{1, 0}";
+origin = "{0, 0}";
 scale = "{-0.6, 0.98}";
 type = Corner;
 name = _corner.Serif;
 options = 1;
 },
 {
-origin = "{1, 4}";
+origin = "{0, 4}";
 scale = "{-0.96, 0.98}";
+type = Corner;
+name = _corner.Serif;
+},
+{
+origin = "{1, 15}";
+scale = "{0.6, 0.98}";
+type = Corner;
+name = _corner.Serif;
+options = 1;
+},
+{
+origin = "{1, 0}";
+scale = "{-0.6, 0.98}";
 type = Corner;
 name = _corner.Serif;
 },
@@ -33750,19 +33760,6 @@ options = 1;
 },
 {
 origin = "{2, 0}";
-scale = "{-0.6, 0.98}";
-type = Corner;
-name = _corner.Serif;
-},
-{
-origin = "{0, 15}";
-scale = "{0.6, 0.98}";
-type = Corner;
-name = _corner.Serif;
-options = 1;
-},
-{
-origin = "{0, 0}";
 scale = "{-0.76, 0.98}";
 type = Corner;
 name = _corner.Serif;
@@ -33770,27 +33767,6 @@ name = _corner.Serif;
 );
 layerId = "0C29AA02-E021-4BD1-A2C4-87F681D64C35";
 paths = (
-{
-closed = 1;
-nodes = (
-"1904 0 LINE",
-"1904 780 LINE SMOOTH",
-"1904 1048 OFFCURVE",
-"1768 1166 OFFCURVE",
-"1565 1166 CURVE SMOOTH",
-"1280 1166 OFFCURVE",
-"1209 999 OFFCURVE",
-"1209 741 CURVE",
-"1250 743 LINE",
-"1250 876 OFFCURVE",
-"1317 922 OFFCURVE",
-"1395 922 CURVE SMOOTH",
-"1468 922 OFFCURVE",
-"1516 877 OFFCURVE",
-"1516 789 CURVE SMOOTH",
-"1516 0 LINE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -33821,6 +33797,27 @@ nodes = (
 "862 877 OFFCURVE",
 "862 789 CURVE SMOOTH",
 "862 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"1904 0 LINE",
+"1904 780 LINE SMOOTH",
+"1904 1048 OFFCURVE",
+"1768 1166 OFFCURVE",
+"1565 1166 CURVE SMOOTH",
+"1280 1166 OFFCURVE",
+"1209 999 OFFCURVE",
+"1209 741 CURVE",
+"1250 743 LINE",
+"1250 876 OFFCURVE",
+"1317 922 OFFCURVE",
+"1395 922 CURVE SMOOTH",
+"1468 922 OFFCURVE",
+"1516 877 OFFCURVE",
+"1516 789 CURVE SMOOTH",
+"1516 0 LINE"
 );
 }
 );
@@ -34535,7 +34532,7 @@ unicode = 1E47;
 {
 color = 8;
 glyphname = eng;
-lastChange = "2021-05-03 08:45:35 +0000";
+lastChange = "2021-05-03 10:13:48 +0000";
 layers = (
 {
 hints = (
@@ -34808,8 +34805,8 @@ nodes = (
 "637 0 LINE",
 "637 783 LINE",
 "587 775 LINE",
-"587 1161 LINE",
-"237 1161 LINE",
+"587 1160 LINE",
+"237 1160 LINE",
 "237 0 LINE"
 );
 }

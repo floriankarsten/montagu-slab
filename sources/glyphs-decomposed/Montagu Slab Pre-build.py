@@ -1,4 +1,4 @@
-#MenuTitle: Pre-build
+#MenuTitle: Montagu Slab Pre-build
 # -*- coding: utf-8 -*-
 
 
@@ -10,6 +10,14 @@ for thisGlyph in thisFont.glyphs:
 		thisLayer.decomposeSmartOutlines()
 		thisLayer.cleanUpPaths()
 
+del thisFont.glyphs["_corner.Serif"]
+del thisFont.glyphs["_corner.Serif.001"]
+del thisFont.glyphs["caroncomb.alt"]
+del thisFont.glyphs["gravecomb.alt"]
+del thisFont.glyphs["acutecomb.alt"]
+del thisFont.glyphs["_U"]
+del thisFont.glyphs["_U.horn"]
+del thisFont.glyphs["_zero.slash"]
 
 Glyphs.clearLog() # clears macro window log
 listOfSelectedLayers = [ l for l in thisFont.selectedLayers if hasattr(l.parent, 'name')]

@@ -27,22 +27,22 @@ python3 build-scripts/fix-font-name.py $VF_File "Montagu Slab"
 fonttools ttLib.woff2 compress $VF_File
 mv ../fonts/ttf/*.woff2 ../fonts/woff2
 
-# echo "Generating static TTFs"
-# fontmake -m MontaguSlab.designspace -i -o ttf --output-dir ../fonts/ttf/static/ -a
+echo "Generating static TTFs"
+fontmake -m MontaguSlab.designspace -i -o ttf --output-dir ../fonts/ttf/static/ -a
 
-# echo "Post processing static TTFs"
-# ttfs=$(ls ../fonts/ttf/static/*.ttf)
-# for ttf in $ttfs
-# do
-# 	gftools fix-dsig -f $ttf;
-# 	gftools fix-hinting $ttf
-# 	mv "$ttf.fix" $ttf
-# 	fonttools ttLib.woff2 compress $ttf
-# done
-# mv ../fonts/ttf/static/*.woff2 ../fonts/woff2/static
+echo "Post processing static TTFs"
+ttfs=$(ls ../fonts/ttf/static/*.ttf)
+for ttf in $ttfs
+do
+	gftools fix-dsig -f $ttf;
+	gftools fix-hinting $ttf
+	mv "$ttf.fix" $ttf
+	fonttools ttLib.woff2 compress $ttf
+done
+mv ../fonts/ttf/static/*.woff2 ../fonts/woff2/static
 
-# echo "Generating Static OTFs"
-# fontmake -m MontaguSlab.designspace -i -o otf --output-dir ../fonts/otf
+echo "Generating Static OTFs"
+fontmake -m MontaguSlab.designspace -i -o otf --output-dir ../fonts/otf
 
 echo "Cleaning"
 rm -rf instance_ufos glyphs-decomposed/*.ufo glyphs-decomposed/MontaguSlab.designspace ../fonts/ttf/*backup*.ttf

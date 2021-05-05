@@ -44,8 +44,18 @@ mv ../fonts/ttf/static/*.woff2 ../fonts/woff2/static
 echo "Generating Static OTFs"
 fontmake -m MontaguSlab.designspace -i -o otf --output-dir ../fonts/otf
 
+echo "Post processing static OTFs"
+otfs=$(ls ../fonts/otf/*.otf)
+for otf in $otfs
+do
+    gftools fix-dsig -f $otf;
+    if [ -f "$otf.fix" ]; then mv "$otf.fix" $otf; fi
+    gftools fix-nonhinting $otf $otf.fix
+    mv  $otf.fix $otf
+done
+
 echo "Cleaning"
-rm -rf instance_ufos glyphs-decomposed/*.ufo glyphs-decomposed/MontaguSlab.designspace ../fonts/ttf/*backup*.ttf
+rm -rf instance_ufos glyphs-decomposed/*.ufo glyphs-decomposed/MontaguSlab.designspace ../fonts/ttf/*backup*.ttf ../fonts/otf/*gasp.otf
 
 echo "Voila! Done."
 cd ..

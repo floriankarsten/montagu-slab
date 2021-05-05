@@ -37,7 +37,7 @@ pip install -r requirements.txt
 Then run the build script in the terminal:
 
 ```
-cd sources/glyphs-decomposed
+cd sources
 sh build.sh
 ```
 

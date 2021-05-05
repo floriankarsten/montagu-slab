@@ -14,7 +14,7 @@ First, install "Montagu Slab Pre-build.py" script placed in "sources/glyphs-deco
 
 Pre-build process:
 
-1. Duplicate "Montagu-Slab.glyphs" placed in "sources" into "sources/glyphs-decomposed"
+1. Duplicate "Montagu-Slab.glyphs" placed in "sources/glyphs-origin" into "sources/glyphs-decomposed"
 2. Open the duplicate in Glyphs app
 3. Cmd+A (Edit > Select All)
 4. Run "Montagu Slab Pre-build" from Script menu

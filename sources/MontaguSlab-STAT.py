@@ -34,10 +34,10 @@ UPRIGHT_AXES = [
             dict(nominalValue=100, rangeMinValue=100, rangeMaxValue=150, name="Thin"),
             dict(nominalValue=200, rangeMinValue=150, rangeMaxValue=250, name="ExtraLight"),
             dict(nominalValue=300, rangeMinValue=250, rangeMaxValue=350, name="Light"),
-            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=450, name="Regular", flags=0x2, linkedValue=700),
+            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=450, name="Regular", linkedValue=700),
             dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=550, name="Medium"),
             dict(nominalValue=600, rangeMinValue=550, rangeMaxValue=650, name="SemiBold"),
-            dict(nominalValue=700, rangeMinValue=650, rangeMaxValue=700, name="Bold"),
+            dict(nominalValue=700, rangeMinValue=650, rangeMaxValue=700, name="Bold", flags=0x2),
         ],
     ),
 ]

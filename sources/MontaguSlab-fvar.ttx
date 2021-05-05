@@ -8,7 +8,7 @@
       <AxisTag>wght</AxisTag>
       <Flags>0x0</Flags>
       <MinValue>100.0</MinValue>
-      <DefaultValue>100.0</DefaultValue>
+      <DefaultValue>700.0</DefaultValue>
       <MaxValue>700.0</MaxValue>
       <AxisNameID>256</AxisNameID>
     </Axis>
@@ -18,7 +18,7 @@
       <AxisTag>opsz</AxisTag>
       <Flags>0x0</Flags>
       <MinValue>14.0</MinValue>
-      <DefaultValue>14.0</DefaultValue>
+      <DefaultValue>144.0</DefaultValue>
       <MaxValue>144.0</MaxValue>
       <AxisNameID>257</AxisNameID>
     </Axis>
@@ -26,43 +26,43 @@
     <!-- Thin -->
     <NamedInstance flags="0x0" subfamilyNameID="258">
       <coord axis="wght" value="100.0"/>
-      <coord axis="opsz" value="14.0"/>
+      <coord axis="opsz" value="144.0"/>
     </NamedInstance>
 
     <!-- ExtraLight -->
     <NamedInstance flags="0x0" subfamilyNameID="259">
       <coord axis="wght" value="200.0"/>
-      <coord axis="opsz" value="14.0"/>
+      <coord axis="opsz" value="144.0"/>
     </NamedInstance>
 
     <!-- Light -->
     <NamedInstance flags="0x0" subfamilyNameID="260">
       <coord axis="wght" value="300.0"/>
-      <coord axis="opsz" value="14.0"/>
+      <coord axis="opsz" value="144.0"/>
     </NamedInstance>
 
     <!-- Regular -->
     <NamedInstance flags="0x0" subfamilyNameID="261">
       <coord axis="wght" value="400.0"/>
-      <coord axis="opsz" value="14.0"/>
+      <coord axis="opsz" value="144.0"/>
     </NamedInstance>
 
     <!-- Medium -->
     <NamedInstance flags="0x0" subfamilyNameID="262">
       <coord axis="wght" value="500.0"/>
-      <coord axis="opsz" value="14.0"/>
+      <coord axis="opsz" value="144.0"/>
     </NamedInstance>
 
     <!-- SemiBold -->
     <NamedInstance flags="0x0" subfamilyNameID="263">
       <coord axis="wght" value="600.0"/>
-      <coord axis="opsz" value="14.0"/>
+      <coord axis="opsz" value="144.0"/>
     </NamedInstance>
 
     <!-- Bold -->
     <NamedInstance flags="0x0" subfamilyNameID="264">
       <coord axis="wght" value="700.0"/>
-      <coord axis="opsz" value="14.0"/>
+      <coord axis="opsz" value="144.0"/>
     </NamedInstance>
   </fvar>
 

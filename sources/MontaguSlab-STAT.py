@@ -22,8 +22,8 @@ UPRIGHT_AXES = [
         name="Optical Size",
         ordering=0,
         values=[
-            dict(value=14, name="14pt"),
-            dict(value=144, name="144pt", flags=0x2),
+            dict(nominalValue=14, rangeMinValue=14, rangeMaxValue=72, name="14pt"),
+            dict(nominalValue=144, rangeMinValue=72, rangeMaxValue=144, name="144pt"),
         ],
     ),
     dict(
@@ -31,13 +31,13 @@ UPRIGHT_AXES = [
         name="Weight",
         ordering=1,
         values=[
-            dict(value=100, name="Thin"),
-            dict(value=200, name="ExtraLight"),
-            dict(value=300, name="Light"),
-            dict(value=400, name="Regular", flags=0x2, linkedValue=700),
-            dict(value=500, name="Medium"),
-            dict(value=600, name="SemiBold"),
-            dict(value=700, name="Bold"),
+            dict(nominalValue=100, rangeMinValue=100, rangeMaxValue=150, name="Thin"),
+            dict(nominalValue=200, rangeMinValue=150, rangeMaxValue=250, name="ExtraLight"),
+            dict(nominalValue=300, rangeMinValue=250, rangeMaxValue=350, name="Light"),
+            dict(nominalValue=400, rangeMinValue=350, rangeMaxValue=450, name="Regular", flags=0x2, linkedValue=700),
+            dict(nominalValue=500, rangeMinValue=450, rangeMaxValue=550, name="Medium"),
+            dict(nominalValue=600, rangeMinValue=550, rangeMaxValue=650, name="SemiBold"),
+            dict(nominalValue=700, rangeMinValue=650, rangeMaxValue=700, name="Bold"),
         ],
     ),
 ]

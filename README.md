@@ -6,13 +6,19 @@ WIP
 
 Before building the fonts, it is necessary to decompose all smart components inside the Glyphs app.
 
-First, install "Montagu Slab Pre-build" script placed in "sources/glyphs-decomposed":
+First, install "Montagu Slab Pre-build.py" script placed in "sources/glyphs-decomposed". Open Glyphs app and do the following:
 
-1. Shift+Cmd+Y
-2. place "Montagu Slab Pre-build.py" file into the "Scripts" folder
-3. restart Glyphs app
+1. Shift+Cmd+Y (Script > Open Scripts Folder)
+2. Place "Montagu Slab Pre-build.py" file into the "Scripts" folder
+3. Quit Glyphs app
 
-Duplicate "Montagu-Slab.glyphs" into "sources/glyphs-decomposed", select all glyphs (Cmd+A) and run the script (under Script menu).
+Pre-build process:
+
+1. Duplicate "Montagu-Slab.glyphs" placed in "sources" into "sources/glyphs-decomposed"
+2. Open the duplicate in Glyphs app
+3. Cmd+A (Edit > Select All)
+4. Run "Montagu Slab Pre-build" from Script menu
+5. Save file
 
 Tested with Glyphs v2.6.6
 

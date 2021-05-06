@@ -1,8 +1,33 @@
 #MenuTitle: Montagu Slab Pre-build
 # -*- coding: utf-8 -*-
 
-
+Glyphs.clearLog()
 thisFont = Glyphs.font
+
+# add "virtual" master
+
+thinMaster = thisFont.masters[0]
+boldMaster = thisFont.masters[2]
+
+for thisGlyph in [l.parent for l in thisFont.selectedLayers]:
+
+	if thisGlyph.name != "_corner.Serif":
+
+		newThinLayer = GSLayer()
+		newThinLayer.associatedMasterId = thinMaster.id
+			
+		if newThinLayer:
+			newThinLayer.name = "{378,14}"
+			thisGlyph.layers.append(newThinLayer)
+			newThinLayer.reinterpolate()
+
+		newBoldLayer = GSLayer()
+		newBoldLayer.associatedMasterId = boldMaster.id
+			
+		if newBoldLayer:
+			newBoldLayer.name = "{378,144}"
+			thisGlyph.layers.append(newBoldLayer)
+			newBoldLayer.reinterpolate()
 
 for thisGlyph in thisFont.glyphs:
 	for thisLayer in thisGlyph.layers:

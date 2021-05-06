@@ -34,12 +34,12 @@
         <dimension name="Optical size" xvalue="14"/>
       </location>
     </source>
-<!--     <source filename="glyphs-decomposed/MontaguSlab-Thin14pt.ufo" name="Montagu Slab Thin {358,14}" layer="{358,14}">
+    <source filename="glyphs-decomposed/MontaguSlab-Thin14pt.ufo" name="Montagu Slab Thin {378,14}" layer="{378,14}">
       <location>
-        <dimension name="Weight" xvalue="358"/>
+        <dimension name="Weight" xvalue="378"/>
         <dimension name="Optical size" xvalue="14"/>
       </location>
-    </source> -->
+    </source>
     <source filename="glyphs-decomposed/MontaguSlab-Thin14pt.ufo" name="Montagu Slab Thin {459,14}" layer="{459,14}">
       <location>
         <dimension name="Weight" xvalue="459"/>
@@ -88,12 +88,12 @@
         <dimension name="Optical size" xvalue="144"/>
       </location>
     </source>
-<!--     <source filename="glyphs-decomposed/MontaguSlab-Bold14pt.ufo" name="Montagu Slab Bold {358,144}" layer="{358,144}">
+    <source filename="glyphs-decomposed/MontaguSlab-Bold14pt.ufo" name="Montagu Slab Bold {378,144}" layer="{378,144}">
       <location>
-        <dimension name="Weight" xvalue="358"/>
+        <dimension name="Weight" xvalue="378"/>
         <dimension name="Optical size" xvalue="144"/>
       </location>
-    </source> -->
+    </source>
     <source filename="glyphs-decomposed/MontaguSlab-Bold14pt.ufo" name="Montagu Slab Bold {459,144}" layer="{459,144}">
       <location>
         <dimension name="Weight" xvalue="459"/>

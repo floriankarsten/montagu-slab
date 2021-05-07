@@ -1,8 +1,5 @@
 {
 .appVersion = "1352";
-DisplayStrings = (
-"t/cedi ¢/colonsign ¤$/dong/euro/florin/franc/guarani/kip/lira/liraTurkish/manat/naira/peseta/peso/ruble/rupeeIndian £/won ¥/bulletoperator/commercialMinusSign/divisionslash +/minus ×÷=/notequal ></greaterequal/lessequal ±/approxequal ~¬^µ%/perthousand @&¶§©®/trademark °/minute/second |¦/dagger/daggerdbl No/numero"
-);
 classes = (
 {
 automatic = 1;
@@ -146,7 +143,7 @@ alignmentZones = (
 );
 ascender = 1560;
 capHeight = 1500;
-custom = "Thin 14pt";
+custom = "Thin 16pt";
 customParameters = (
 {
 name = typoAscender;
@@ -191,7 +188,7 @@ verticalStems = (
 48,
 44
 );
-widthValue = 14;
+widthValue = 16;
 xHeight = 1100;
 },
 {
@@ -262,7 +259,7 @@ alignmentZones = (
 );
 ascender = 1580;
 capHeight = 1500;
-custom = "14pt";
+custom = "16pt";
 customParameters = (
 {
 name = typoAscender;
@@ -318,7 +315,7 @@ verticalStems = (
 );
 weight = Bold;
 weightValue = 700;
-widthValue = 14;
+widthValue = 16;
 xHeight = 1160;
 },
 {
@@ -63756,7 +63753,7 @@ unicode = 20BC;
 {
 color = 8;
 glyphname = naira;
-lastChange = "2021-05-06 19:34:20 +0000";
+lastChange = "2021-05-07 19:02:29 +0000";
 layers = (
 {
 components = (
@@ -63956,7 +63953,7 @@ name = N;
 }
 );
 layerId = "DA98F5EE-60B4-4379-92ED-55CED32851BA";
-name = "{459,14}";
+name = "{459,16}";
 paths = (
 {
 closed = 1;
@@ -64006,7 +64003,7 @@ name = N;
 }
 );
 layerId = "4B99D46C-58E1-4D3E-9DAD-FC51A51C1E7A";
-name = "{460,14}";
+name = "{460,16}";
 paths = (
 {
 closed = 1;
@@ -65349,7 +65346,7 @@ unicode = 00A3;
 {
 color = 8;
 glyphname = won;
-lastChange = "2021-05-06 19:34:21 +0000";
+lastChange = "2021-05-07 19:02:46 +0000";
 layers = (
 {
 components = (
@@ -65409,7 +65406,7 @@ transform = "{1, 0, 0, 1, 42, 0}";
 }
 );
 layerId = "F08F9925-C75E-4B09-8C79-2C7A7036E505";
-name = "{180,14}";
+name = "{180,16}";
 paths = (
 {
 closed = 1;
@@ -65460,7 +65457,7 @@ transform = "{1, 0, 0, 1, 42, 0}";
 }
 );
 layerId = "FE60F357-41F7-4A8E-983E-437F769B8352";
-name = "{181,14}";
+name = "{181,16}";
 paths = (
 {
 closed = 1;
@@ -65511,7 +65508,7 @@ transform = "{1, 0, 0, 1, 32, 0}";
 }
 );
 layerId = "6BFE1634-CF74-40A8-BD75-8DF20517615C";
-name = "{492,14}";
+name = "{492,16}";
 paths = (
 {
 closed = 1;
@@ -65562,7 +65559,7 @@ transform = "{1, 0, 0, 1, 31, 0}";
 }
 );
 layerId = "D211A1C0-784A-4030-A78F-2621F458E07D";
-name = "{493,14}";
+name = "{493,16}";
 paths = (
 {
 closed = 1;
@@ -75311,7 +75308,7 @@ rightMetricsKey = dotaccentcomb;
 color = 8;
 export = 0;
 glyphname = _corner.Serif;
-lastChange = "2021-05-05 13:58:12 +0000";
+lastChange = "2021-05-07 19:03:08 +0000";
 layers = (
 {
 anchors = (
@@ -75429,7 +75426,7 @@ position = "{0, 52}";
 );
 associatedMasterId = "CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B";
 layerId = "3C3AA33C-18F9-465A-989A-3CD7AC33BBC1";
-name = "{378,14}";
+name = "{378,16}";
 paths = (
 {
 closed = 0;
@@ -75448,7 +75445,7 @@ width = 40;
 {
 export = 0;
 glyphname = _corner.Serif.001;
-lastChange = "2021-04-29 12:56:17 +0000";
+lastChange = "2021-05-07 19:06:05 +0000";
 layers = (
 {
 anchors = (
@@ -75566,7 +75563,7 @@ position = "{0, 45}";
 );
 associatedMasterId = "CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B";
 layerId = "3C3AA33C-18F9-465A-989A-3CD7AC33BBC1";
-name = "{358,14}";
+name = "{358,16}";
 paths = (
 {
 closed = 0;
@@ -76092,10 +76089,10 @@ value = 100;
 },
 {
 name = familyName;
-value = "Montagu Slab 14pt";
+value = "Montagu Slab 16pt";
 }
 );
-interpolationWidth = 14;
+interpolationWidth = 16;
 instanceInterpolations = {
 "CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B" = 1;
 };
@@ -76110,11 +76107,11 @@ value = 200;
 },
 {
 name = familyName;
-value = "Montagu Slab 14pt";
+value = "Montagu Slab 16pt";
 }
 );
 interpolationWeight = 180;
-interpolationWidth = 14;
+interpolationWidth = 16;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.13333;
 "CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B" = 0.86667;
@@ -76130,11 +76127,11 @@ value = 300;
 },
 {
 name = familyName;
-value = "Montagu Slab 14pt";
+value = "Montagu Slab 16pt";
 }
 );
 interpolationWeight = 260;
-interpolationWidth = 14;
+interpolationWidth = 16;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.26667;
 "CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B" = 0.73333;
@@ -76150,11 +76147,11 @@ value = 400;
 },
 {
 name = familyName;
-value = "Montagu Slab 14pt";
+value = "Montagu Slab 16pt";
 }
 );
 interpolationWeight = 378;
-interpolationWidth = 14;
+interpolationWidth = 16;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.46333;
 "CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B" = 0.53667;
@@ -76169,11 +76166,11 @@ value = 500;
 },
 {
 name = familyName;
-value = "Montagu Slab 14pt";
+value = "Montagu Slab 16pt";
 }
 );
 interpolationWeight = 492;
-interpolationWidth = 14;
+interpolationWidth = 16;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.65333;
 "CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B" = 0.34667;
@@ -76189,11 +76186,11 @@ value = 600;
 },
 {
 name = familyName;
-value = "Montagu Slab 14pt";
+value = "Montagu Slab 16pt";
 }
 );
 interpolationWeight = 588;
-interpolationWidth = 14;
+interpolationWidth = 16;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.81333;
 "CA54B7DC-FBBB-40FE-ACF3-AABDD76D6A7B" = 0.18667;
@@ -76209,11 +76206,11 @@ value = 700;
 },
 {
 name = familyName;
-value = "Montagu Slab 14pt";
+value = "Montagu Slab 16pt";
 }
 );
 interpolationWeight = 700;
-interpolationWidth = 14;
+interpolationWidth = 16;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 1;
 };
@@ -77666,7 +77663,7 @@ tcaron = {
 };
 manufacturer = "Florian Karsten";
 manufacturerURL = "https://fonts.floriankarsten.com";
-unitsPerEm = 2000;
+unitsPerEm = 2200;
 userData = {
 GSDimensionPlugin.Dimensions = {
 "0C29AA02-E021-4BD1-A2C4-87F681D64C35" = {

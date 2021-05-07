@@ -22,7 +22,7 @@ UPRIGHT_AXES = [
         name="Optical Size",
         ordering=0,
         values=[
-            dict(nominalValue=14, rangeMinValue=14, rangeMaxValue=72, name="14pt"),
+            dict(nominalValue=16, rangeMinValue=16, rangeMaxValue=72, name="16pt"),
             dict(nominalValue=144, rangeMinValue=72, rangeMaxValue=144, name="144pt"),
         ],
     ),

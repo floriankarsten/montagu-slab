@@ -17,7 +17,7 @@
     <Axis>
       <AxisTag>opsz</AxisTag>
       <Flags>0x0</Flags>
-      <MinValue>14.0</MinValue>
+      <MinValue>16.0</MinValue>
       <DefaultValue>144.0</DefaultValue>
       <MaxValue>144.0</MaxValue>
       <AxisNameID>257</AxisNameID>

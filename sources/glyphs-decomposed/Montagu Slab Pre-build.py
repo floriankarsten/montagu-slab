@@ -17,7 +17,7 @@ for thisGlyph in [l.parent for l in thisFont.selectedLayers]:
 		newThinLayer.associatedMasterId = thinMaster.id
 			
 		if newThinLayer:
-			newThinLayer.name = "{378,14}"
+			newThinLayer.name = "{378,16}"
 			thisGlyph.layers.append(newThinLayer)
 			newThinLayer.reinterpolate()
 

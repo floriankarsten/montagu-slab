@@ -4,13 +4,14 @@ set -e
 
 rm -rf ../fonts
 mkdir -p ../fonts/otf ../fonts/ttf ../fonts/ttf/static ../fonts/woff2 ../fonts/woff2/static
+# mkdir -p ../fonts/woff ../fonts/woff/static
 
 echo "Generating UFOs"
 glyphs2ufo glyphs-decomposed/MontaguSlab.glyphs --generate-GDEF
 
 echo "Generating VF"
 VF_File=../fonts/ttf/MontaguSlab\[opsz,wght\].ttf
-#fontmake -g glyphs-decomposed/MontaguSlab.glyphs -o variable --output-dir ../fonts/ttf
+# fontmake -g glyphs-decomposed/MontaguSlab.glyphs -o variable --output-dir ../fonts/ttf
 fontmake -m MontaguSlab.designspace -o variable --output-path $VF_File
 
 echo "Post processing VF"
@@ -26,6 +27,8 @@ mv ../fonts/ttf/MontaguSlab-fvar.ttf $VF_File
 python3 build-scripts/fix-font-name.py $VF_File "Montagu Slab"
 fonttools ttLib.woff2 compress $VF_File
 mv ../fonts/ttf/*.woff2 ../fonts/woff2
+# sfnt2woff $VF_File
+# mv *.woff ../fonts/woff
 
 echo "Generating static TTFs"
 fontmake -m MontaguSlab.designspace -i -o ttf --output-dir ../fonts/ttf/static/ -a
@@ -38,8 +41,10 @@ do
 	gftools fix-hinting $ttf
 	mv "$ttf.fix" $ttf
 	fonttools ttLib.woff2 compress $ttf
+	# sfnt2woff $ttf
 done
 mv ../fonts/ttf/static/*.woff2 ../fonts/woff2/static
+# mv *.woff ../fonts/woff/static
 
 echo "Generating Static OTFs"
 fontmake -m MontaguSlab.designspace -i -o otf --output-dir ../fonts/otf

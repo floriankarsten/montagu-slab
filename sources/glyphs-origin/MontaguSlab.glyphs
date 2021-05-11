@@ -147,19 +147,19 @@ custom = "Thin 16pt";
 customParameters = (
 {
 name = typoAscender;
-value = 1800;
+value = 2160;
 },
 {
 name = hheaAscender;
-value = 1800;
+value = 2160;
 },
 {
 name = typoDescender;
-value = -600;
+value = -660;
 },
 {
 name = hheaDescender;
-value = -600;
+value = -660;
 },
 {
 name = typoLineGap;
@@ -207,19 +207,19 @@ custom = Thin;
 customParameters = (
 {
 name = typoAscender;
-value = 1800;
+value = 2160;
 },
 {
 name = hheaAscender;
-value = 1800;
+value = 2160;
 },
 {
 name = typoDescender;
-value = -600;
+value = -660;
 },
 {
 name = hheaDescender;
-value = -600;
+value = -660;
 },
 {
 name = typoLineGap;
@@ -264,19 +264,19 @@ custom = "16pt";
 customParameters = (
 {
 name = typoAscender;
-value = 1800;
+value = 2160;
 },
 {
 name = hheaAscender;
-value = 1800;
+value = 2160;
 },
 {
 name = typoDescender;
-value = -600;
+value = -660;
 },
 {
 name = hheaDescender;
-value = -600;
+value = -660;
 },
 {
 name = typoLineGap;
@@ -329,19 +329,19 @@ capHeight = 1500;
 customParameters = (
 {
 name = typoAscender;
-value = 1800;
+value = 2160;
 },
 {
 name = hheaAscender;
-value = 1800;
+value = 2160;
 },
 {
 name = typoDescender;
-value = -600;
+value = -660;
 },
 {
 name = hheaDescender;
-value = -600;
+value = -660;
 },
 {
 name = typoLineGap;

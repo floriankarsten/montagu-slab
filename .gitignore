@@ -7,3 +7,4 @@
 *.vfbak
 sources/instance_ufo
 sources/master_ufo
+venv

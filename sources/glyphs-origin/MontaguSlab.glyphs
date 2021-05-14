@@ -76010,6 +76010,7 @@ interpolationWidth = 16;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 1;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
@@ -76145,6 +76146,7 @@ interpolationWidth = 144;
 instanceInterpolations = {
 "0C29AA02-E021-4BD1-A2C4-87F681D64C35" = 1;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 }

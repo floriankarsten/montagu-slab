@@ -1,5 +1,5 @@
 {
-.appVersion = "1352";
+.appVersion = "1342";
 classes = (
 {
 automatic = 1;
@@ -41,6 +41,32 @@ value = (
 },
 {
 name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "0C29AA02-E021-4BD1-A2C4-87F681D64C35";
+},
+{
+name = "Axis Mappings";
+value = {
+opsz = {
+16 = 16;
+144 = 144;
+};
+wght = {
+100 = 100;
+200 = 180;
+300 = 260;
+400 = 378;
+500 = 492;
+600 = 588;
+700 = 700;
+};
+};
+},
+{
+name = "Enforce Compatibility Check";
 value = 1;
 }
 );
@@ -75784,6 +75810,74 @@ width = 1017;
 );
 instances = (
 {
+interpolationWidth = 144;
+instanceInterpolations = {
+"1E61A082-F045-49A7-AB52-DD1B03FD9B54" = 1;
+};
+name = Thin;
+weightClass = Thin;
+},
+{
+interpolationWeight = 180;
+interpolationWidth = 144;
+instanceInterpolations = {
+"0C29AA02-E021-4BD1-A2C4-87F681D64C35" = 0.13333;
+"1E61A082-F045-49A7-AB52-DD1B03FD9B54" = 0.86667;
+};
+name = ExtraLight;
+weightClass = ExtraLight;
+},
+{
+interpolationWeight = 260;
+interpolationWidth = 144;
+instanceInterpolations = {
+"0C29AA02-E021-4BD1-A2C4-87F681D64C35" = 0.26667;
+"1E61A082-F045-49A7-AB52-DD1B03FD9B54" = 0.73333;
+};
+name = Light;
+weightClass = Light;
+},
+{
+interpolationWeight = 378;
+interpolationWidth = 144;
+instanceInterpolations = {
+"0C29AA02-E021-4BD1-A2C4-87F681D64C35" = 0.46333;
+"1E61A082-F045-49A7-AB52-DD1B03FD9B54" = 0.53667;
+};
+name = Regular;
+},
+{
+interpolationWeight = 492;
+instanceInterpolations = {
+"0C29AA02-E021-4BD1-A2C4-87F681D64C35" = 0.42875;
+"1E61A082-F045-49A7-AB52-DD1B03FD9B54" = 0.2275;
+"219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.22458;
+"2B88661E-23DD-4EDA-82FC-C2AEA983F097" = 0.11917;
+};
+name = Medium;
+weightClass = Medium;
+},
+{
+interpolationWeight = 588;
+interpolationWidth = 144;
+instanceInterpolations = {
+"0C29AA02-E021-4BD1-A2C4-87F681D64C35" = 0.81333;
+"1E61A082-F045-49A7-AB52-DD1B03FD9B54" = 0.18667;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+interpolationWeight = 700;
+interpolationWidth = 144;
+instanceInterpolations = {
+"0C29AA02-E021-4BD1-A2C4-87F681D64C35" = 1;
+};
+isBold = 1;
+name = Bold;
+weightClass = Bold;
+},
+{
 customParameters = (
 {
 name = weightClass;
@@ -75916,6 +76010,7 @@ interpolationWidth = 16;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 1;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 },
@@ -76051,6 +76146,7 @@ interpolationWidth = 144;
 instanceInterpolations = {
 "0C29AA02-E021-4BD1-A2C4-87F681D64C35" = 1;
 };
+isBold = 1;
 name = Bold;
 weightClass = Bold;
 }

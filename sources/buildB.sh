@@ -16,3 +16,7 @@ rm -rf ../fonts/ttf/delete-ttf
 mkdir -p ../fonts/otf/delete-otf
 mv ../fonts/otf/MontaguSlab-*.otf ../fonts/otf/delete-otf
 rm -rf ../fonts/otf/delete-otf
+
+mkdir -p ../fonts/webfonts/delete-webfonts
+mv ../fonts/webfonts/MontaguSlab-*.woff2 ../fonts/webfonts/delete-webfonts
+rm -rf ../fonts/webfonts/delete-webfonts

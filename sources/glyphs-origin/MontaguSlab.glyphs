@@ -153,8 +153,7 @@ code = "sub i by i.ss01;\012sub idotless by idotless.ss01;\012sub iacute by iacu
 name = salt;
 },
 {
-automatic = 1;
-code = "sub i by i.ss01;\012sub idotless by idotless.ss01;\012sub iacute by iacute.ss01;\012sub icircumflex by icircumflex.ss01;\012sub idieresis by idieresis.ss01;\012sub idotaccent by idotaccent.ss01;\012sub idotbelow by idotbelow.ss01;\012sub igrave by igrave.ss01;\012sub iinvertedbreve by iinvertedbreve.ss01;\012sub imacron by imacron.ss01;\012sub l by l.ss01;\012sub lacute by lacute.ss01;\012sub lcaron by lcaron.ss01;\012sub lcommaaccent by lcommaaccent.ss01;\012";
+code = "featureNames {\012    name \"Alternate i, l\";\012    name 1 \"Alternate i, l\";\012};\012sub i by i.ss01;\012sub idotless by idotless.ss01;\012sub iacute by iacute.ss01;\012sub icircumflex by icircumflex.ss01;\012sub idieresis by idieresis.ss01;\012sub idotaccent by idotaccent.ss01;\012sub idotbelow by idotbelow.ss01;\012sub igrave by igrave.ss01;\012sub iinvertedbreve by iinvertedbreve.ss01;\012sub imacron by imacron.ss01;\012sub l by l.ss01;\012sub lacute by lacute.ss01;\012sub lcaron by lcaron.ss01;\012sub lcommaaccent by lcommaaccent.ss01;\012";
 name = ss01;
 }
 );

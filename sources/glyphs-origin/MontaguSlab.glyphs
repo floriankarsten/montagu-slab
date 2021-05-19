@@ -1,5 +1,5 @@
 {
-.appVersion = "1342";
+.appVersion = "1352";
 classes = (
 {
 automatic = 1;
@@ -70,7 +70,7 @@ name = "Enforce Compatibility Check";
 value = 1;
 }
 );
-date = "2021-04-29 12:28:57 +0000";
+date = "2021-05-19 08:12:01 +0000";
 designer = "Florian Karsten";
 designerURL = "https://fonts.floriankarsten.com";
 familyName = "Montagu Slab";
@@ -139,7 +139,7 @@ name = case;
 },
 {
 automatic = 1;
-code = "lookupflag IgnoreMarks;\012sub f f i by f_f_i;\012sub f f l by f_f_l;\012sub f f by f_f;\012sub f t by f_t.liga;\012sub t t by t_t.liga;\012sub f i by fi;\012sub f l by fl;\012";
+code = "lookupflag IgnoreMarks;\012sub f f i by f_f_i;\012sub f f l by f_f_l;\012sub f f by f_f;\012sub f i by fi;\012sub f l by fl;\012";
 name = liga;
 },
 {
@@ -49527,8 +49527,9 @@ unicode = FB02;
 },
 {
 color = 1;
+export = 0;
 glyphname = f_t.liga;
-lastChange = "2021-05-14 23:03:03 +0000";
+lastChange = "2021-05-19 08:33:44 +0000";
 layers = (
 {
 hints = (
@@ -49770,8 +49771,9 @@ rightMetricsKey = t;
 },
 {
 color = 1;
+export = 0;
 glyphname = t_t.liga;
-lastChange = "2021-05-14 23:01:38 +0000";
+lastChange = "2021-05-19 08:33:44 +0000";
 layers = (
 {
 layerId = "2B88661E-23DD-4EDA-82FC-C2AEA983F097";
@@ -76266,11 +76268,10 @@ name = Regular;
 },
 {
 interpolationWeight = 492;
+interpolationWidth = 144;
 instanceInterpolations = {
-"0C29AA02-E021-4BD1-A2C4-87F681D64C35" = 0.42875;
-"1E61A082-F045-49A7-AB52-DD1B03FD9B54" = 0.2275;
-"219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.22458;
-"2B88661E-23DD-4EDA-82FC-C2AEA983F097" = 0.11917;
+"0C29AA02-E021-4BD1-A2C4-87F681D64C35" = 0.65333;
+"1E61A082-F045-49A7-AB52-DD1B03FD9B54" = 0.34667;
 };
 name = Medium;
 weightClass = Medium;

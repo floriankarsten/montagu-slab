@@ -2,10 +2,13 @@
 set -e
 #source ../env/bin/activate
 
-echo "BUILDING THE FONTS"
+echo "Building the fonts"
 
 gftools builder glyphs-decomposed/config.yml
 
+#VF_File=../fonts/variable/MontaguSlab\[opsz,wght\].ttf
+#python3 build-scripts/fix-font-name.py $VF_File "Montagu Slab"
+#fonttools ttLib.woff2 compress $VF_File
 
 echo "Deleting unnecessary static fonts"
 

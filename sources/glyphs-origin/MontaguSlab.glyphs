@@ -1,5 +1,8 @@
 {
 .appVersion = "1352";
+DisplayStrings = (
+Montagu
+);
 classes = (
 {
 automatic = 1;

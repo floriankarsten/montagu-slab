@@ -25330,7 +25330,7 @@ unicode = 01FD;
 {
 color = 8;
 glyphname = b;
-lastChange = "2021-06-17 13:23:31 +0000";
+lastChange = "2021-06-17 13:38:49 +0000";
 layers = (
 {
 anchors = (
@@ -25363,10 +25363,10 @@ nodes = (
 "446 501 OFFCURVE",
 "320 501 CURVE SMOOTH",
 "190 501 OFFCURVE",
-"112 407 OFFCURVE",
+"112 406 OFFCURVE",
 "112 246 CURVE",
-"112 245 LINE",
-"112 85 OFFCURVE",
+"112 244 LINE",
+"112 84 OFFCURVE",
 "190 -9 OFFCURVE",
 "320 -9 CURVE SMOOTH"
 );
@@ -25392,7 +25392,7 @@ nodes = (
 closed = 1;
 nodes = (
 "123 0 LINE",
-"123 147 LINE",
+"123 174 LINE",
 "116 245 LINE",
 "125 335 LINE",
 "125 682 LINE",
@@ -25435,8 +25435,8 @@ nodes = (
 "427 537 CURVE SMOOTH",
 "279 537 OFFCURVE",
 "232 435 OFFCURVE",
-"232 264 CURVE",
-"219 264 LINE",
+"232 265 CURVE",
+"219 263 LINE",
 "219 97 OFFCURVE",
 "279 -10 OFFCURVE",
 "425 -10 CURVE SMOOTH"
@@ -25506,8 +25506,8 @@ nodes = (
 "401 528 CURVE SMOOTH",
 "254 528 OFFCURVE",
 "211 418 OFFCURVE",
-"211 259 CURVE",
-"201 259 LINE",
+"211 260 CURVE",
+"201 258 LINE",
 "200 105 OFFCURVE",
 "254 -10 OFFCURVE",
 "400 -10 CURVE SMOOTH"
@@ -25577,8 +25577,8 @@ nodes = (
 "360 508 CURVE SMOOTH",
 "215 508 OFFCURVE",
 "129 410 OFFCURVE",
-"129 250 CURVE",
-"129 250 LINE",
+"129 251 CURVE",
+"129 249 LINE",
 "129 90 OFFCURVE",
 "215 -8 OFFCURVE",
 "360 -8 CURVE SMOOTH"
@@ -26197,7 +26197,7 @@ unicode = 010B;
 {
 color = 8;
 glyphname = d;
-lastChange = "2021-06-17 13:23:31 +0000";
+lastChange = "2021-06-17 13:38:44 +0000";
 layers = (
 {
 anchors = (
@@ -26238,8 +26238,8 @@ paths = (
 closed = 1;
 nodes = (
 "393 -9 OFFCURVE",
-"471 85 OFFCURVE",
-"471 245 CURVE",
+"471 84 OFFCURVE",
+"471 244 CURVE",
 "471 246 LINE",
 "471 406 OFFCURVE",
 "393 500 OFFCURVE",
@@ -26277,7 +26277,7 @@ nodes = (
 "458 682 LINE",
 "458 335 LINE",
 "465 245 LINE",
-"460 147 LINE",
+"460 168 LINE",
 "460 0 LINE"
 );
 }
@@ -26324,8 +26324,8 @@ closed = 1;
 nodes = (
 "433 -10 OFFCURVE",
 "493 97 OFFCURVE",
-"493 264 CURVE",
-"480 264 LINE",
+"493 263 CURVE",
+"480 265 LINE",
 "480 435 OFFCURVE",
 "433 537 OFFCURVE",
 "285 537 CURVE SMOOTH",
@@ -26409,8 +26409,8 @@ closed = 1;
 nodes = (
 "406 -10 OFFCURVE",
 "459 105 OFFCURVE",
-"458 259 CURVE",
-"448 259 LINE",
+"458 258 CURVE",
+"448 260 LINE",
 "448 418 OFFCURVE",
 "406 528 OFFCURVE",
 "258 528 CURVE SMOOTH",
@@ -26494,8 +26494,8 @@ closed = 1;
 nodes = (
 "436 -8 OFFCURVE",
 "523 90 OFFCURVE",
-"523 250 CURVE",
-"523 250 LINE",
+"523 249 CURVE",
+"523 251 LINE",
 "523 410 OFFCURVE",
 "436 508 OFFCURVE",
 "292 508 CURVE SMOOTH",
@@ -26772,18 +26772,18 @@ unicode = 00F0;
 },
 {
 glyphname = dcaron;
-lastChange = "2021-06-17 13:23:35 +0000";
+lastChange = "2021-06-17 13:30:17 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = d;
-transform = "{1, 0, 0, 1, 3, 0}";
+transform = "{1, 0, 0, 1, 8, 0}";
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 214, 0}";
+transform = "{1, 0, 0, 1, 219, 0}";
 }
 );
 layerId = "1E61A082-F045-49A7-AB52-DD1B03FD9B54";
@@ -26794,11 +26794,11 @@ components = (
 {
 alignment = -1;
 name = d;
-transform = "{1, 0, 0, 1, -4, 0}";
+transform = "{1, 0, 0, 1, -10, 0}";
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 364, 36}";
+transform = "{1, 0, 0, 1, 358, 36}";
 }
 );
 layerId = "219068EA-2B9B-40DC-949E-B60449C01B8A";
@@ -26809,11 +26809,11 @@ components = (
 {
 alignment = -1;
 name = d;
-transform = "{1, 0, 0, 1, -6, 0}";
+transform = "{1, 0, 0, 1, -14, 0}";
 },
 {
 name = caroncomb.alt;
-transform = "{1, 0, 0, 1, 335, 0}";
+transform = "{1, 0, 0, 1, 327, 0}";
 }
 );
 layerId = "0C29AA02-E021-4BD1-A2C4-87F681D64C35";
@@ -26844,7 +26844,7 @@ unicode = 010F;
 {
 color = 8;
 glyphname = dcroat;
-lastChange = "2021-06-17 13:23:31 +0000";
+lastChange = "2021-06-17 13:38:36 +0000";
 layers = (
 {
 anchors = (
@@ -26867,8 +26867,8 @@ paths = (
 closed = 1;
 nodes = (
 "397 -9 OFFCURVE",
-"471 87 OFFCURVE",
-"471 245 CURVE",
+"471 86 OFFCURVE",
+"471 244 CURVE",
 "471 246 LINE",
 "471 404 OFFCURVE",
 "396 500 OFFCURVE",
@@ -26906,7 +26906,7 @@ nodes = (
 "458 682 LINE",
 "458 335 LINE",
 "465 245 LINE",
-"460 147 LINE",
+"460 178 LINE",
 "460 0 LINE"
 );
 },
@@ -26944,8 +26944,8 @@ closed = 1;
 nodes = (
 "433 -10 OFFCURVE",
 "493 95 OFFCURVE",
-"493 259 CURVE",
-"480 259 LINE",
+"493 258 CURVE",
+"480 260 LINE",
 "480 427 OFFCURVE",
 "433 528 OFFCURVE",
 "285 528 CURVE SMOOTH",
@@ -27020,8 +27020,8 @@ closed = 1;
 nodes = (
 "406 -10 OFFCURVE",
 "459 103 OFFCURVE",
-"458 255 CURVE",
-"448 255 LINE",
+"458 254 CURVE",
+"448 256 LINE",
 "448 411 OFFCURVE",
 "406 519 OFFCURVE",
 "258 519 CURVE SMOOTH",
@@ -27096,8 +27096,8 @@ closed = 1;
 nodes = (
 "436 -8 OFFCURVE",
 "523 90 OFFCURVE",
-"523 250 CURVE",
-"523 250 LINE",
+"523 249 CURVE",
+"523 251 LINE",
 "523 410 OFFCURVE",
 "436 508 OFFCURVE",
 "292 508 CURVE SMOOTH",
@@ -38204,7 +38204,7 @@ unicode = 0153;
 {
 color = 8;
 glyphname = p;
-lastChange = "2021-06-17 13:22:20 +0000";
+lastChange = "2021-06-17 13:38:28 +0000";
 layers = (
 {
 anchors = (
@@ -38280,9 +38280,9 @@ nodes = (
 closed = 1;
 nodes = (
 "142 -191 LINE",
-"142 147 LINE",
+"142 163 LINE",
 "135 245 LINE",
-"140 335 LINE",
+"140 321 LINE",
 "140 491 LINE",
 "120 491 LINE",
 "120 -191 LINE"
@@ -38866,7 +38866,7 @@ unicode = 00FE;
 {
 color = 8;
 glyphname = q;
-lastChange = "2021-06-17 13:22:20 +0000";
+lastChange = "2021-06-17 13:38:18 +0000";
 layers = (
 {
 anchors = (
@@ -38901,10 +38901,10 @@ paths = (
 closed = 1;
 nodes = (
 "393 -9 OFFCURVE",
-"471 85 OFFCURVE",
-"471 245 CURVE",
+"471 84 OFFCURVE",
+"471 244 CURVE",
 "471 246 LINE",
-"471 407 OFFCURVE",
+"471 406 OFFCURVE",
 "393 501 OFFCURVE",
 "263 501 CURVE SMOOTH",
 "137 501 OFFCURVE",
@@ -38938,9 +38938,9 @@ nodes = (
 "480 -191 LINE",
 "480 491 LINE",
 "460 491 LINE",
-"460 336 LINE",
+"460 326 LINE",
 "465 245 LINE",
-"458 147 LINE",
+"458 160 LINE",
 "458 -191 LINE"
 );
 }
@@ -39138,8 +39138,8 @@ closed = 1;
 nodes = (
 "436 -8 OFFCURVE",
 "523 90 OFFCURVE",
-"523 250 CURVE",
-"523 250 LINE",
+"523 249 CURVE",
+"523 251 LINE",
 "523 410 OFFCURVE",
 "436 508 OFFCURVE",
 "292 508 CURVE SMOOTH",
@@ -49890,7 +49890,7 @@ unicode = FB02;
 {
 color = 8;
 glyphname = f_b.liga;
-lastChange = "2021-06-17 13:23:31 +0000";
+lastChange = "2021-06-17 13:38:06 +0000";
 layers = (
 {
 hints = (
@@ -49973,8 +49973,8 @@ nodes = (
 "785 508 CURVE SMOOTH",
 "640 508 OFFCURVE",
 "554 410 OFFCURVE",
-"554 250 CURVE",
-"554 250 LINE",
+"554 251 CURVE",
+"554 249 LINE",
 "554 90 OFFCURVE",
 "640 -8 OFFCURVE",
 "785 -8 CURVE SMOOTH"
@@ -50092,10 +50092,10 @@ nodes = (
 "832 501 OFFCURVE",
 "705 501 CURVE SMOOTH",
 "576 501 OFFCURVE",
-"498 407 OFFCURVE",
+"498 406 OFFCURVE",
 "498 246 CURVE",
-"498 245 LINE",
-"498 85 OFFCURVE",
+"498 244 LINE",
+"498 84 OFFCURVE",
 "575 -9 OFFCURVE",
 "705 -9 CURVE SMOOTH"
 );
@@ -50121,7 +50121,7 @@ nodes = (
 closed = 1;
 nodes = (
 "509 0 LINE",
-"509 147 LINE",
+"509 166 LINE",
 "502 245 LINE",
 "511 335 LINE",
 "511 682 LINE",
@@ -50214,8 +50214,8 @@ nodes = (
 "907 537 CURVE SMOOTH",
 "759 537 OFFCURVE",
 "711 435 OFFCURVE",
-"711 264 CURVE",
-"699 264 LINE",
+"711 265 CURVE",
+"699 263 LINE",
 "699 97 OFFCURVE",
 "759 -10 OFFCURVE",
 "905 -10 CURVE SMOOTH"
@@ -50335,8 +50335,8 @@ nodes = (
 "842 528 CURVE SMOOTH",
 "695 528 OFFCURVE",
 "652 418 OFFCURVE",
-"652 259 CURVE",
-"642 259 LINE",
+"652 260 CURVE",
+"642 258 LINE",
 "641 105 OFFCURVE",
 "695 -10 OFFCURVE",
 "840 -10 CURVE SMOOTH"
@@ -50381,7 +50381,7 @@ rightMetricsKey = b;
 {
 color = 8;
 glyphname = f_f_b.liga;
-lastChange = "2021-06-17 13:23:31 +0000";
+lastChange = "2021-06-17 13:37:55 +0000";
 layers = (
 {
 anchors = (
@@ -50526,8 +50526,8 @@ nodes = (
 "1155 508 CURVE SMOOTH",
 "1010 508 OFFCURVE",
 "924 410 OFFCURVE",
-"924 250 CURVE",
-"924 250 LINE",
+"924 251 CURVE",
+"924 249 LINE",
 "924 90 OFFCURVE",
 "1010 -8 OFFCURVE",
 "1155 -8 CURVE SMOOTH"
@@ -50707,10 +50707,10 @@ nodes = (
 "1163 501 OFFCURVE",
 "1036 501 CURVE SMOOTH",
 "907 501 OFFCURVE",
-"829 407 OFFCURVE",
+"829 406 OFFCURVE",
 "829 246 CURVE",
-"829 245 LINE",
-"829 85 OFFCURVE",
+"829 244 LINE",
+"829 84 OFFCURVE",
 "906 -9 OFFCURVE",
 "1036 -9 CURVE SMOOTH"
 );
@@ -50736,7 +50736,7 @@ nodes = (
 closed = 1;
 nodes = (
 "840 0 LINE",
-"840 147 LINE",
+"840 172 LINE",
 "833 245 LINE",
 "842 335 LINE",
 "842 682 LINE",
@@ -50892,8 +50892,8 @@ nodes = (
 "1342 537 CURVE SMOOTH",
 "1194 537 OFFCURVE",
 "1147 435 OFFCURVE",
-"1147 264 CURVE",
-"1134 264 LINE",
+"1147 265 CURVE",
+"1134 263 LINE",
 "1134 97 OFFCURVE",
 "1194 -10 OFFCURVE",
 "1340 -10 CURVE SMOOTH"
@@ -51076,8 +51076,8 @@ nodes = (
 "1244 528 CURVE SMOOTH",
 "1096 528 OFFCURVE",
 "1054 418 OFFCURVE",
-"1054 259 CURVE",
-"1044 259 LINE",
+"1054 260 CURVE",
+"1044 258 LINE",
 "1043 105 OFFCURVE",
 "1096 -10 OFFCURVE",
 "1242 -10 CURVE SMOOTH"
@@ -60763,7 +60763,7 @@ rightKerningGroup = zero.numr;
 },
 {
 glyphname = one.numr;
-lastChange = "2021-06-17 13:23:35 +0000";
+lastChange = "2021-06-17 13:40:43 +0000";
 layers = (
 {
 components = (
@@ -60813,7 +60813,7 @@ rightMetricsKey = one;
 },
 {
 glyphname = two.numr;
-lastChange = "2021-06-17 13:23:35 +0000";
+lastChange = "2021-06-17 13:40:43 +0000";
 layers = (
 {
 components = (
@@ -60863,7 +60863,7 @@ rightMetricsKey = two;
 },
 {
 glyphname = three.numr;
-lastChange = "2021-06-17 13:23:35 +0000";
+lastChange = "2021-06-17 13:40:43 +0000";
 layers = (
 {
 components = (
@@ -60913,7 +60913,7 @@ rightMetricsKey = three;
 },
 {
 glyphname = four.numr;
-lastChange = "2021-06-17 13:23:35 +0000";
+lastChange = "2021-06-17 13:40:43 +0000";
 layers = (
 {
 components = (
@@ -61011,7 +61011,7 @@ rightKerningGroup = five.numr;
 },
 {
 glyphname = six.numr;
-lastChange = "2021-06-17 13:23:31 +0000";
+lastChange = "2021-06-17 13:30:17 +0000";
 layers = (
 {
 components = (
@@ -63334,7 +63334,7 @@ unicode = 2022;
 {
 color = 8;
 glyphname = asterisk;
-lastChange = "2021-06-17 13:22:10 +0000";
+lastChange = "2021-06-17 13:41:56 +0000";
 layers = (
 {
 layerId = "1E61A082-F045-49A7-AB52-DD1B03FD9B54";
@@ -63360,7 +63360,7 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"286 550 OFFCURVE",
+"287 550 OFFCURVE",
 "344 604 OFFCURVE",
 "358 617 CURVE SMOOTH",
 "365 625 OFFCURVE",
@@ -63400,7 +63400,7 @@ nodes = (
 "365 375 OFFCURVE",
 "358 383 CURVE SMOOTH",
 "344 396 OFFCURVE",
-"286 450 OFFCURVE",
+"287 450 OFFCURVE",
 "228 504 CURVE",
 "221 496 LINE",
 "275 438 OFFCURVE",
@@ -63439,7 +63439,7 @@ nodes = (
 "174 438 OFFCURVE",
 "228 496 CURVE",
 "221 504 LINE",
-"163 450 OFFCURVE",
+"162 450 OFFCURVE",
 "105 396 OFFCURVE",
 "91 383 CURVE SMOOTH",
 "84 375 OFFCURVE",
@@ -63469,7 +63469,7 @@ nodes = (
 closed = 1;
 nodes = (
 "228 504 LINE",
-"174 562 OFFCURVE",
+"175 562 OFFCURVE",
 "121 620 OFFCURVE",
 "108 633 CURVE SMOOTH",
 "100 640 OFFCURVE",
@@ -63479,7 +63479,7 @@ nodes = (
 "84 625 OFFCURVE",
 "91 617 CURVE SMOOTH",
 "105 604 OFFCURVE",
-"163 550 OFFCURVE",
+"162 550 OFFCURVE",
 "221 496 CURVE"
 );
 }
@@ -63929,7 +63929,7 @@ nodes = (
 "100 624 OFFCURVE",
 "108 615 CURVE SMOOTH",
 "122 602 OFFCURVE",
-"179 550 OFFCURVE",
+"178 550 OFFCURVE",
 "237 496 CURVE"
 );
 }

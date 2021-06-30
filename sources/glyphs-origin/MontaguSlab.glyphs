@@ -324,20 +324,24 @@ value = 318;
 descender = -190;
 horizontalStems = (
 106,
-105,
-103,
+102,
 100,
-97,
-95
+96,
+94,
+88,
+80
 );
 iconName = Bold_SemiExtended;
 id = "219068EA-2B9B-40DC-949E-B60449C01B8A";
 verticalStems = (
 213,
-203,
+202,
+196,
 191,
 182,
-180
+118,
+113,
+106
 );
 weight = Bold;
 weightValue = 700;
@@ -390,20 +394,23 @@ value = 318;
 );
 descender = -190;
 horizontalStems = (
-95,
+93,
 91,
-89,
 88,
-87,
-79
+86,
+80
 );
 id = "0C29AA02-E021-4BD1-A2C4-87F681D64C35";
 verticalStems = (
-215,
-203,
+214,
+206,
 191,
 182,
-180
+180,
+176,
+102,
+95,
+90
 );
 weight = Bold;
 weightValue = 700;
@@ -9630,7 +9637,7 @@ unicode = 0136;
 {
 color = 8;
 glyphname = L;
-lastChange = "2021-06-30 11:47:51 +0000";
+lastChange = "2021-06-30 21:28:39 +0000";
 layers = (
 {
 anchors = (
@@ -30342,7 +30349,7 @@ unicode = 0068;
 {
 color = 8;
 glyphname = hbar;
-lastChange = "2021-06-30 15:53:55 +0000";
+lastChange = "2021-06-30 21:21:18 +0000";
 layers = (
 {
 hints = (
@@ -30479,10 +30486,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"409 578 LINE",
+"409 579 LINE",
 "409 659 LINE",
 "41 659 LINE",
-"41 578 LINE"
+"41 579 LINE"
 );
 }
 );
@@ -39187,7 +39194,7 @@ unicode = 0071;
 {
 color = 8;
 glyphname = r;
-lastChange = "2021-06-30 15:50:32 +0000";
+lastChange = "2021-06-30 21:19:04 +0000";
 layers = (
 {
 anchors = (
@@ -91113,15 +91120,15 @@ unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
 "0C29AA02-E021-4BD1-A2C4-87F681D64C35" = {
-HH = "208";
-HV = "420";
-OH = "194";
-OV = "468";
-nV = "400";
-nd = "110";
-oH = "174";
+HH = "93";
+HV = "191";
+OH = "88";
+OV = "214";
+nV = "182";
+nd = "76";
+oH = "80";
 oV = "446";
-tH = "200";
+tH = "91";
 };
 "1E61A082-F045-49A7-AB52-DD1B03FD9B54" = {
 HH = "17";
@@ -91135,15 +91142,15 @@ oV = "22";
 tH = "17";
 };
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = {
-HH = "230";
-HV = "420";
-OH = "234";
-OV = "468";
-nV = "400";
-nd = "120";
-oH = "220";
-oV = "446";
-tH = "226";
+HH = "102";
+HV = "191";
+OH = "106";
+OV = "213";
+nV = "182";
+nd = "96";
+oH = "102";
+oV = "202";
+tH = "102";
 };
 "2B88661E-23DD-4EDA-82FC-C2AEA983F097" = {
 HH = "23";

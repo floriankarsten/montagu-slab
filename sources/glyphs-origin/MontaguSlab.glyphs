@@ -47212,13 +47212,13 @@ rightKerningGroup = ialt;
 {
 color = 8;
 glyphname = f_f;
-lastChange = "2021-07-12 16:22:24 +0000";
+lastChange = "2021-07-12 17:19:14 +0000";
 layers = (
 {
 anchors = (
 {
 name = caret_1;
-position = "{358, 0}";
+position = "{366, 0}";
 }
 );
 hints = (
@@ -47353,7 +47353,7 @@ width = 727;
 anchors = (
 {
 name = caret_1;
-position = "{406, 0}";
+position = "{448, 0}";
 }
 );
 hints = (
@@ -47490,7 +47490,7 @@ width = 930;
 anchors = (
 {
 name = caret_1;
-position = "{390, 0}";
+position = "{414, 0}";
 }
 );
 hints = (
@@ -47627,7 +47627,7 @@ width = 851;
 anchors = (
 {
 name = caret_1;
-position = "{402, 0}";
+position = "{389, 0}";
 }
 );
 hints = (
@@ -47767,17 +47767,17 @@ rightMetricsKey = f;
 {
 color = 8;
 glyphname = f_f_i;
-lastChange = "2021-07-12 16:32:16 +0000";
+lastChange = "2021-07-12 17:19:26 +0000";
 layers = (
 {
 anchors = (
 {
 name = caret_1;
-position = "{347, 0}";
+position = "{366, 0}";
 },
 {
 name = caret_2;
-position = "{670, 0}";
+position = "{687, 0}";
 }
 );
 hints = (
@@ -47933,11 +47933,11 @@ width = 958;
 anchors = (
 {
 name = caret_1;
-position = "{404, 0}";
+position = "{447, 0}";
 },
 {
 name = caret_2;
-position = "{826, 0}";
+position = "{878, 0}";
 }
 );
 hints = (
@@ -48259,11 +48259,11 @@ width = 1168;
 anchors = (
 {
 name = caret_1;
-position = "{366, 0}";
+position = "{385, 0}";
 },
 {
 name = caret_2;
-position = "{702, 0}";
+position = "{755, 0}";
 }
 );
 hints = (
@@ -48424,17 +48424,17 @@ rightMetricsKey = idotless;
 {
 color = 8;
 glyphname = f_f_l;
-lastChange = "2021-07-12 16:32:16 +0000";
+lastChange = "2021-07-12 17:19:43 +0000";
 layers = (
 {
 anchors = (
 {
 name = caret_1;
-position = "{347, 0}";
+position = "{366, 0}";
 },
 {
 name = caret_2;
-position = "{670, 0}";
+position = "{698, 0}";
 }
 );
 hints = (
@@ -48590,11 +48590,11 @@ width = 958;
 anchors = (
 {
 name = caret_1;
-position = "{431, 0}";
+position = "{448, 0}";
 },
 {
 name = caret_2;
-position = "{854, 0}";
+position = "{882, 0}";
 }
 );
 hints = (
@@ -48757,7 +48757,7 @@ position = "{413, 0}";
 },
 {
 name = caret_2;
-position = "{814, 0}";
+position = "{813, 0}";
 }
 );
 hints = (
@@ -48916,11 +48916,11 @@ width = 1170;
 anchors = (
 {
 name = caret_1;
-position = "{366, 0}";
+position = "{383, 0}";
 },
 {
 name = caret_2;
-position = "{702, 0}";
+position = "{759, 0}";
 }
 );
 hints = (
@@ -49081,7 +49081,7 @@ rightMetricsKey = l;
 {
 color = 8;
 glyphname = fi;
-lastChange = "2021-07-12 16:32:16 +0000";
+lastChange = "2021-07-12 17:19:52 +0000";
 layers = (
 {
 anchors = (
@@ -49187,7 +49187,7 @@ width = 625;
 anchors = (
 {
 name = caret_1;
-position = "{413, 0}";
+position = "{446, 0}";
 }
 );
 hints = (
@@ -49289,7 +49289,7 @@ width = 831;
 anchors = (
 {
 name = caret_1;
-position = "{415, 0}";
+position = "{412, 0}";
 }
 );
 hints = (
@@ -49391,7 +49391,7 @@ width = 768;
 anchors = (
 {
 name = caret_1;
-position = "{401, 0}";
+position = "{386, 0}";
 }
 );
 hints = (
@@ -49497,13 +49497,13 @@ unicode = FB01;
 {
 color = 8;
 glyphname = fl;
-lastChange = "2021-07-12 16:32:16 +0000";
+lastChange = "2021-07-12 17:19:59 +0000";
 layers = (
 {
 anchors = (
 {
 name = caret_1;
-position = "{347, 0}";
+position = "{366, 0}";
 }
 );
 hints = (
@@ -49603,7 +49603,7 @@ width = 625;
 anchors = (
 {
 name = caret_1;
-position = "{423, 0}";
+position = "{446, 0}";
 }
 );
 hints = (
@@ -49807,7 +49807,7 @@ width = 770;
 anchors = (
 {
 name = caret_1;
-position = "{402, 0}";
+position = "{386, 0}";
 }
 );
 hints = (
@@ -49913,9 +49913,15 @@ unicode = FB02;
 {
 color = 8;
 glyphname = f_b.liga;
-lastChange = "2021-07-12 16:32:16 +0000";
+lastChange = "2021-07-12 17:19:02 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{427, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -50036,6 +50042,12 @@ nodes = (
 width = 1077;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{413, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -50156,6 +50168,12 @@ nodes = (
 width = 969;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{477, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -50277,6 +50295,12 @@ nodes = (
 width = 1191;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{457, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -50404,13 +50428,17 @@ rightMetricsKey = b;
 {
 color = 8;
 glyphname = f_f_b.liga;
-lastChange = "2021-07-12 16:32:16 +0000";
+lastChange = "2021-07-12 17:20:57 +0000";
 layers = (
 {
 anchors = (
 {
 name = caret_1;
-position = "{402, 0}";
+position = "{382, 0}";
+},
+{
+name = caret_2;
+position = "{805, 0}";
 }
 );
 hints = (
@@ -50592,7 +50620,11 @@ width = 1447;
 anchors = (
 {
 name = caret_1;
-position = "{358, 0}";
+position = "{365, 0}";
+},
+{
+name = caret_2;
+position = "{749, 0}";
 }
 );
 hints = (
@@ -50774,7 +50806,11 @@ width = 1300;
 anchors = (
 {
 name = caret_1;
-position = "{406, 0}";
+position = "{446, 0}";
+},
+{
+name = caret_2;
+position = "{916, 0}";
 }
 );
 hints = (
@@ -50958,7 +50994,11 @@ width = 1624;
 anchors = (
 {
 name = caret_1;
-position = "{390, 0}";
+position = "{413, 0}";
+},
+{
+name = caret_2;
+position = "{858, 0}";
 }
 );
 hints = (
@@ -51145,13 +51185,17 @@ rightMetricsKey = b;
 {
 color = 8;
 glyphname = f_f_h.liga;
-lastChange = "2021-07-12 16:32:16 +0000";
+lastChange = "2021-07-12 17:21:33 +0000";
 layers = (
 {
 anchors = (
 {
 name = caret_1;
-position = "{402, 0}";
+position = "{384, 0}";
+},
+{
+name = caret_2;
+position = "{755, 0}";
 }
 );
 hints = (
@@ -51341,7 +51385,11 @@ width = 1418;
 anchors = (
 {
 name = caret_1;
-position = "{358, 0}";
+position = "{366, 0}";
+},
+{
+name = caret_2;
+position = "{698, 0}";
 }
 );
 hints = (
@@ -51530,7 +51578,11 @@ width = 1278;
 anchors = (
 {
 name = caret_1;
-position = "{406, 0}";
+position = "{447, 0}";
+},
+{
+name = caret_2;
+position = "{882, 0}";
 }
 );
 hints = (
@@ -51723,7 +51775,11 @@ width = 1603;
 anchors = (
 {
 name = caret_1;
-position = "{390, 0}";
+position = "{414, 0}";
+},
+{
+name = caret_2;
+position = "{819, 0}";
 }
 );
 hints = (
@@ -51919,13 +51975,17 @@ rightMetricsKey = h;
 {
 color = 8;
 glyphname = f_f_k.liga;
-lastChange = "2021-07-12 16:32:43 +0000";
+lastChange = "2021-07-12 17:22:02 +0000";
 layers = (
 {
 anchors = (
 {
 name = caret_1;
-position = "{402, 0}";
+position = "{384, 0}";
+},
+{
+name = caret_2;
+position = "{755, 0}";
 }
 );
 hints = (
@@ -52125,7 +52185,11 @@ width = 1410;
 anchors = (
 {
 name = caret_1;
-position = "{358, 0}";
+position = "{366, 0}";
+},
+{
+name = caret_2;
+position = "{698, 0}";
 }
 );
 hints = (
@@ -52325,7 +52389,11 @@ width = 1281;
 anchors = (
 {
 name = caret_1;
-position = "{406, 0}";
+position = "{447, 0}";
+},
+{
+name = caret_2;
+position = "{882, 0}";
 }
 );
 hints = (
@@ -52528,7 +52596,11 @@ width = 1594;
 anchors = (
 {
 name = caret_1;
-position = "{390, 0}";
+position = "{414, 0}";
+},
+{
+name = caret_2;
+position = "{819, 0}";
 }
 );
 hints = (
@@ -52734,9 +52806,15 @@ rightMetricsKey = k;
 {
 color = 8;
 glyphname = f_h.liga;
-lastChange = "2021-07-12 16:32:16 +0000";
+lastChange = "2021-07-12 17:22:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{384, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -52865,6 +52943,12 @@ nodes = (
 width = 1048;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{366, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -52992,6 +53076,12 @@ nodes = (
 width = 945;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{447, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -53122,6 +53212,12 @@ nodes = (
 width = 1169;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{414, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -53258,9 +53354,15 @@ rightMetricsKey = h;
 {
 color = 8;
 glyphname = f_k.liga;
-lastChange = "2021-07-12 16:32:16 +0000";
+lastChange = "2021-07-12 17:22:36 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{384, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -53399,6 +53501,12 @@ nodes = (
 width = 1040;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{366, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -53537,6 +53645,12 @@ nodes = (
 width = 948;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{447, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -53677,6 +53791,12 @@ nodes = (
 width = 1161;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{414, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -53823,9 +53943,15 @@ rightMetricsKey = k;
 {
 color = 8;
 glyphname = f_t.liga;
-lastChange = "2021-07-12 16:32:16 +0000";
+lastChange = "2021-07-12 17:22:51 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{437, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 3}";
@@ -53929,6 +54055,12 @@ nodes = (
 width = 889;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{412, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 3}";
@@ -54032,6 +54164,12 @@ nodes = (
 width = 796;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{494, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 0}";
@@ -54136,6 +54274,12 @@ nodes = (
 width = 1017;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{453, 0}";
+}
+);
 hints = (
 {
 origin = "{0, 3}";
@@ -54248,9 +54392,15 @@ rightMetricsKey = t;
 {
 color = 8;
 glyphname = t_t.liga;
-lastChange = "2021-07-12 16:32:16 +0000";
+lastChange = "2021-07-12 17:23:13 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+position = "{500, 0}";
+}
+);
 layerId = "2B88661E-23DD-4EDA-82FC-C2AEA983F097";
 paths = (
 {
@@ -54326,6 +54476,12 @@ nodes = (
 width = 915;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{425, 0}";
+}
+);
 layerId = "1E61A082-F045-49A7-AB52-DD1B03FD9B54";
 paths = (
 {
@@ -54401,6 +54557,12 @@ nodes = (
 width = 797;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{583, 0}";
+}
+);
 layerId = "219068EA-2B9B-40DC-949E-B60449C01B8A";
 paths = (
 {
@@ -54476,6 +54638,12 @@ nodes = (
 width = 1093;
 },
 {
+anchors = (
+{
+name = caret_1;
+position = "{501, 0}";
+}
+);
 layerId = "0C29AA02-E021-4BD1-A2C4-87F681D64C35";
 paths = (
 {

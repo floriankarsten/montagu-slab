@@ -94,7 +94,7 @@ than 100 reported misalignments.</pre>
 	* uni1EC2: X=540.5,Y=983.5 (should be at ascender 982?)
 	* uni1ED4: X=648.5,Y=981.0 (should be at ascender 982?)
 	* uni1ED4: X=590.0,Y=983.0 (should be at ascender 982?)
-	* uni1ED4: X=592.5,Y=983.5 (should be at ascender 982?) and 46 more. [code: found-misalignments]
+	* uni1ED4: X=592.5,Y=983.5 (should be at ascender 982?) and 50 more. [code: found-misalignments]
 
 </details>
 <br>

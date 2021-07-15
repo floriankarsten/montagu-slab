@@ -289,10 +289,11 @@ by manual inspection.</pre>
 	* braceright.case: B<<205.5,309.0>-<234.0,338.0>-<284.0,341.0>>/B<<284.0,341.0>-<234.0,344.0>-<205.5,373.0>> = 6.86726072490102
 	* braceright: B<<223.0,250.0>-<254.0,284.0>-<310.0,287.0>>/B<<310.0,287.0>-<254.0,290.0>-<223.0,324.0>> = 6.13297100225171
 	* eth: B<<408.0,478.5>-<458.0,451.0>-<485.0,393.0>>/B<<485.0,393.0>-<470.0,456.0>-<442.0,507.0>> = 11.570292077055889
-	* nine.lf: B<<502.5,249.0>-<519.0,330.0>-<510.0,445.0>>/B<<510.0,445.0>-<503.0,360.0>-<446.5,307.5>> = 9.182748750618295
-	* nine: B<<502.5,249.0>-<519.0,330.0>-<510.0,445.0>>/B<<510.0,445.0>-<503.0,360.0>-<446.5,307.5>> = 9.182748750618295
-	* six.lf: B<<120.0,433.0>-<104.0,352.0>-<112.0,237.0>>/B<<112.0,237.0>-<120.0,322.0>-<176.5,374.5>> = 9.356087880728927
-	* six: B<<120.0,433.0>-<104.0,352.0>-<112.0,237.0>>/B<<112.0,237.0>-<120.0,322.0>-<176.5,374.5>> = 9.356087880728927 and yen: L<<365.0,270.0>--<300.0,359.0>>/L<<300.0,359.0>--<309.0,346.0>> = 1.4468877051371514 [code: found-jaggy-segments]
+	* nine.dnom: B<<250.0,61.5>-<286.0,104.0>-<280.0,195.0>>/B<<280.0,195.0>-<275.0,166.0>-<246.5,143.5>> = 13.554690641187118
+	* nine.lf: B<<512.0,197.5>-<542.0,288.0>-<532.0,437.0>>/B<<532.0,437.0>-<524.0,355.0>-<466.5,304.0>> = 9.41179414191719
+	* nine.numr: B<<250.0,409.0>-<286.0,451.0>-<280.0,543.0>>/B<<280.0,543.0>-<275.0,513.0>-<246.5,491.0>> = 13.19371920718604
+	* nine: B<<512.0,197.5>-<542.0,288.0>-<532.0,437.0>>/B<<532.0,437.0>-<524.0,355.0>-<466.5,304.0>> = 9.41179414191719
+	* six.dnom: B<<112.0,272.5>-<76.0,231.0>-<82.0,139.0>>/B<<82.0,139.0>-<87.0,168.0>-<115.5,190.5>> = 13.51380403096773 and 8 more. [code: found-jaggy-segments]
 
 </details>
 <details>
@@ -447,8 +448,8 @@ by manual inspection.</pre>
 	* braceright.case: B<<202.5,308.5>-<231.0,338.0>-<283.0,341.0>>/B<<283.0,341.0>-<231.0,344.0>-<202.5,373.5>> = 6.603731348869935
 	* braceright: B<<219.0,248.5>-<250.0,284.0>-<311.0,287.0>>/B<<311.0,287.0>-<250.0,290.0>-<219.0,326.5>> = 5.631113368422407
 	* eth: B<<402.0,478.5>-<451.0,451.0>-<477.0,394.0>>/B<<477.0,394.0>-<463.0,455.0>-<437.5,505.5>> = 11.593643563484813
-	* nine.lf: B<<492.5,247.0>-<508.0,323.0>-<500.0,429.0>>/B<<500.0,429.0>-<491.0,351.0>-<437.0,302.5>> = 10.89797217504365
-	* nine: B<<492.5,247.0>-<508.0,323.0>-<500.0,429.0>>/B<<500.0,429.0>-<491.0,351.0>-<437.0,302.5>> = 10.89797217504365 and 7 more. [code: found-jaggy-segments]
+	* nine.lf: B<<504.0,200.5>-<531.0,286.0>-<523.0,421.0>>/B<<523.0,421.0>-<513.0,346.0>-<457.0,299.0>> = 10.985982788387767
+	* nine: B<<504.0,200.5>-<531.0,286.0>-<523.0,421.0>>/B<<523.0,421.0>-<513.0,346.0>-<457.0,299.0>> = 10.985982788387767 and 7 more. [code: found-jaggy-segments]
 
 </details>
 <details>
@@ -1018,11 +1019,11 @@ by manual inspection.</pre>
 	* braceright.case: B<<209.0,310.0>-<237.0,338.0>-<284.0,341.0>>/B<<284.0,341.0>-<237.0,344.0>-<209.0,372.5>> = 7.304445560612643
 	* braceright: B<<228.0,251.0>-<259.0,283.0>-<310.0,286.0>>/B<<310.0,286.0>-<259.0,289.0>-<228.0,321.5>> = 6.732921326859609
 	* eth: B<<414.5,478.5>-<466.0,450.0>-<493.0,391.0>>/B<<493.0,391.0>-<477.0,456.0>-<447.0,508.5>> = 10.761466193915874
-	* nine.dnom: B<<264.5,93.5>-<281.0,135.0>-<277.0,200.0>>/B<<277.0,200.0>-<273.0,168.0>-<244.0,143.5>> = 10.646469725824005
-	* nine.lf: B<<512.0,252.0>-<529.0,338.0>-<520.0,461.0>>/B<<520.0,461.0>-<515.0,369.0>-<456.0,312.5>> = 7.29575677860915
-	* nine.numr: B<<264.5,446.5>-<281.0,488.0>-<277.0,553.0>>/B<<277.0,553.0>-<273.0,521.0>-<244.0,496.5>> = 10.646469725824005
-	* nine: B<<512.0,252.0>-<529.0,338.0>-<520.0,461.0>>/B<<520.0,461.0>-<515.0,369.0>-<456.0,312.5>> = 7.29575677860915
-	* six.dnom: B<<76.0,236.0>-<60.0,195.0>-<64.0,129.0>>/B<<64.0,129.0>-<69.0,161.0>-<98.0,185.5>> = 12.348888409437384 and 8 more. [code: found-jaggy-segments]
+	* nine.dnom: B<<269.5,93.5>-<286.0,135.0>-<282.0,200.0>>/B<<282.0,200.0>-<278.0,168.0>-<249.0,143.5>> = 10.646469725824005
+	* nine.lf: B<<533.0,247.5>-<550.0,331.0>-<541.0,452.0>>/B<<541.0,452.0>-<536.0,364.0>-<476.0,309.0>> = 7.505782036483042
+	* nine.numr: B<<269.5,446.5>-<286.0,488.0>-<282.0,553.0>>/B<<282.0,553.0>-<278.0,521.0>-<249.0,496.5>> = 10.646469725824005
+	* nine: B<<533.0,247.5>-<550.0,331.0>-<541.0,452.0>>/B<<541.0,452.0>-<536.0,364.0>-<476.0,309.0>> = 7.505782036483042
+	* six.dnom: B<<81.0,236.0>-<65.0,195.0>-<69.0,129.0>>/B<<69.0,129.0>-<74.0,161.0>-<103.0,185.5>> = 12.348888409437384 and 8 more. [code: found-jaggy-segments]
 
 </details>
 <details>
@@ -1139,7 +1140,7 @@ than 100 reported misalignments.</pre>
 	* uni1ED4: X=592.0,Y=984.0 (should be at ascender 982?)
 	* uni1EA3: X=275.5,Y=681.5 (should be at cap-height 682?)
 	* atilde: X=311.0,Y=680.0 (should be at cap-height 682?)
-	* uni1EBB: X=268.5,Y=681.5 (should be at cap-height 682?) and 32 more. [code: found-misalignments]
+	* uni1EBB: X=268.5,Y=681.5 (should be at cap-height 682?) and 36 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -1366,12 +1367,22 @@ The following glyphs do not have the recommended number of contours:
 
 Glyph name: two	Contours detected: 2	Expected: 1
 Glyph name: Q	Contours detected: 3	Expected: 2
+Glyph name: c	Contours detected: 2	Expected: 1
 Glyph name: uni00B2	Contours detected: 2	Expected: 1
 Glyph name: onehalf	Contours detected: 4	Expected: 3
+Glyph name: cacute	Contours detected: 3	Expected: 2
+Glyph name: ccircumflex	Contours detected: 3	Expected: 2
+Glyph name: cdotaccent	Contours detected: 3	Expected: 2
+Glyph name: ccaron	Contours detected: 3	Expected: 2
 Glyph name: uni2082	Contours detected: 2	Expected: 1
 Glyph name: lira	Contours detected: 2	Expected: 1
 Glyph name: uni20A9	Contours detected: 6	Expected: 1, 3, 4 or 7
 Glyph name: Q	Contours detected: 3	Expected: 2
+Glyph name: c	Contours detected: 2	Expected: 1
+Glyph name: cacute	Contours detected: 3	Expected: 2
+Glyph name: ccaron	Contours detected: 3	Expected: 2
+Glyph name: ccircumflex	Contours detected: 3	Expected: 2
+Glyph name: cdotaccent	Contours detected: 3	Expected: 2
 Glyph name: fi	Contours detected: 1	Expected: 3
 Glyph name: lira	Contours detected: 2	Expected: 1
 Glyph name: onehalf	Contours detected: 4	Expected: 3
@@ -1478,7 +1489,7 @@ by manual inspection.</pre>
 	* abreve: L<<390.0,95.0>--<390.0,138.0>>/B<<390.0,138.0>-<372.0,61.0>-<322.5,26.5>> = 13.157542740014811
 	* acircumflex: L<<390.0,95.0>--<390.0,138.0>>/B<<390.0,138.0>-<372.0,61.0>-<322.5,26.5>> = 13.157542740014811
 	* adieresis: L<<390.0,95.0>--<390.0,138.0>>/B<<390.0,138.0>-<372.0,61.0>-<322.5,26.5>> = 13.157542740014811
-	* agrave: L<<390.0,95.0>--<390.0,138.0>>/B<<390.0,138.0>-<372.0,61.0>-<322.5,26.5>> = 13.157542740014811 and 85 more. [code: found-jaggy-segments]
+	* agrave: L<<390.0,95.0>--<390.0,138.0>>/B<<390.0,138.0>-<372.0,61.0>-<322.5,26.5>> = 13.157542740014811 and 97 more. [code: found-jaggy-segments]
 
 </details>
 <br>
@@ -1606,7 +1617,7 @@ than 100 reported misalignments.</pre>
 	* W: X=397.0,Y=-2.0 (should be at baseline 0?)
 	* Wacute: X=297.0,Y=-2.0 (should be at baseline 0?)
 	* Wacute: X=775.0,Y=-2.0 (should be at baseline 0?)
-	* Wacute: X=673.0,Y=-2.0 (should be at baseline 0?) and 69 more. [code: found-misalignments]
+	* Wacute: X=673.0,Y=-2.0 (should be at baseline 0?) and 68 more. [code: found-misalignments]
 
 </details>
 <details>
@@ -1658,22 +1669,12 @@ The following glyphs do not have the recommended number of contours:
 
 Glyph name: two	Contours detected: 2	Expected: 1
 Glyph name: Q	Contours detected: 3	Expected: 2
-Glyph name: c	Contours detected: 2	Expected: 1
 Glyph name: uni00B2	Contours detected: 2	Expected: 1
 Glyph name: onehalf	Contours detected: 4	Expected: 3
-Glyph name: cacute	Contours detected: 3	Expected: 2
-Glyph name: ccircumflex	Contours detected: 3	Expected: 2
-Glyph name: cdotaccent	Contours detected: 3	Expected: 2
-Glyph name: ccaron	Contours detected: 3	Expected: 2
 Glyph name: uni2082	Contours detected: 2	Expected: 1
 Glyph name: lira	Contours detected: 2	Expected: 1
 Glyph name: uni20A9	Contours detected: 6	Expected: 1, 3, 4 or 7
 Glyph name: Q	Contours detected: 3	Expected: 2
-Glyph name: c	Contours detected: 2	Expected: 1
-Glyph name: cacute	Contours detected: 3	Expected: 2
-Glyph name: ccaron	Contours detected: 3	Expected: 2
-Glyph name: ccircumflex	Contours detected: 3	Expected: 2
-Glyph name: cdotaccent	Contours detected: 3	Expected: 2
 Glyph name: fi	Contours detected: 1	Expected: 3
 Glyph name: lira	Contours detected: 2	Expected: 1
 Glyph name: onehalf	Contours detected: 4	Expected: 3
@@ -1759,7 +1760,7 @@ by manual inspection.</pre>
 	* abreve: L<<382.0,109.0>--<382.0,129.0>>/B<<382.0,129.0>-<365.0,57.0>-<317.0,24.0>> = 13.284866484902187
 	* acircumflex: L<<382.0,109.0>--<382.0,129.0>>/B<<382.0,129.0>-<365.0,57.0>-<317.0,24.0>> = 13.284866484902187
 	* adieresis: L<<382.0,109.0>--<382.0,129.0>>/B<<382.0,129.0>-<365.0,57.0>-<317.0,24.0>> = 13.284866484902187
-	* agrave: L<<382.0,109.0>--<382.0,129.0>>/B<<382.0,129.0>-<365.0,57.0>-<317.0,24.0>> = 13.284866484902187 and 81 more. [code: found-jaggy-segments]
+	* agrave: L<<382.0,109.0>--<382.0,129.0>>/B<<382.0,129.0>-<365.0,57.0>-<317.0,24.0>> = 13.284866484902187 and 75 more. [code: found-jaggy-segments]
 
 </details>
 <br>
@@ -1926,7 +1927,7 @@ by manual inspection.</pre>
 	* braceleft: B<<251.5,321.0>-<216.0,276.0>-<119.0,273.0>>/B<<119.0,273.0>-<216.0,270.0>-<251.5,225.0>> = 3.542939480068082
 	* braceright.case: B<<172.5,302.5>-<202.0,338.0>-<272.0,341.0>>/B<<272.0,341.0>-<202.0,344.0>-<172.5,379.0>> = 4.908063349054138
 	* braceright: B<<181.5,225.0>-<217.0,270.0>-<314.0,273.0>>/B<<314.0,273.0>-<217.0,276.0>-<181.5,321.0>> = 3.542939480068082
-	* c: B<<450.0,380.0>-<447.0,389.0>-<442.0,398.0>>/L<<442.0,398.0>--<450.0,380.0>> = 5.0921151244989575 and 53 more. [code: found-jaggy-segments]
+	* c: B<<450.0,380.0>-<447.0,390.0>-<442.0,399.0>>/L<<442.0,399.0>--<450.0,380.0>> = 6.220949921159606 and 53 more. [code: found-jaggy-segments]
 
 </details>
 <br>

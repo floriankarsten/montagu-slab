@@ -1,6 +1,6 @@
 ## Fontbakery report
 
-Fontbakery version: 0.7.38
+Fontbakery version: 0.8.0
 
 <details>
 <summary><b>[1] Family checks</b></summary>
@@ -24,7 +24,7 @@ https://github.com/googlefonts/fontbakery/blob/main/prebuilt/workarounds
 <br>
 </details>
 <details>
-<summary><b>[4] MontaguSlab16pt-Bold.ttf</b></summary>
+<summary><b>[5] MontaguSlab16pt-Bold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -91,6 +91,47 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
 
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
@@ -144,7 +185,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[7] MontaguSlab16pt-ExtraLight.ttf</b></summary>
+<summary><b>[8] MontaguSlab16pt-ExtraLight.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -234,6 +275,47 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
 
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
@@ -320,7 +402,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[6] MontaguSlab16pt-Light.ttf</b></summary>
+<summary><b>[7] MontaguSlab16pt-Light.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -410,6 +492,47 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
 
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
@@ -478,7 +601,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[5] MontaguSlab16pt-Medium.ttf</b></summary>
+<summary><b>[6] MontaguSlab16pt-Medium.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -568,6 +691,47 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
 
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
@@ -621,7 +785,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[4] MontaguSlab16pt-Regular.ttf</b></summary>
+<summary><b>[5] MontaguSlab16pt-Regular.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -690,6 +854,47 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
 
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
@@ -743,7 +948,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[4] MontaguSlab16pt-SemiBold.ttf</b></summary>
+<summary><b>[5] MontaguSlab16pt-SemiBold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -833,6 +1038,47 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
 
 * [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
@@ -858,7 +1104,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[6] MontaguSlab16pt-Thin.ttf</b></summary>
+<summary><b>[7] MontaguSlab16pt-Thin.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -944,6 +1190,47 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
 
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
@@ -1019,7 +1306,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[4] MontaguSlab144pt-Bold.ttf</b></summary>
+<summary><b>[5] MontaguSlab144pt-Bold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -1086,6 +1373,47 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
 
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
@@ -1139,7 +1467,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[7] MontaguSlab144pt-ExtraLight.ttf</b></summary>
+<summary><b>[8] MontaguSlab144pt-ExtraLight.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -1224,6 +1552,47 @@ decided that allowing up to 27 chars would still be on the safe side, though.
  FONT_FAMILY_NAME = 'Montagu Slab 144pt ExtraLight' / SUBFAMILY_NAME = 'Regular'
 
 Please take a look at the conversation at https://github.com/googlefonts/fontbakery/issues/2179 in order to understand the reasoning behind these name table records max-length criteria. [code: too-long]
+
+</details>
+<details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
 
 </details>
 <details>
@@ -1316,7 +1685,7 @@ lines.</pre>
 <br>
 </details>
 <details>
-<summary><b>[5] MontaguSlab144pt-Light.ttf</b></summary>
+<summary><b>[6] MontaguSlab144pt-Light.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -1404,6 +1773,47 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
 
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
@@ -1457,7 +1867,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[5] MontaguSlab144pt-Medium.ttf</b></summary>
+<summary><b>[6] MontaguSlab144pt-Medium.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -1545,6 +1955,47 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
 
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
@@ -1598,7 +2049,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[4] MontaguSlab144pt-Regular.ttf</b></summary>
+<summary><b>[5] MontaguSlab144pt-Regular.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -1665,6 +2116,47 @@ https://github.com/impallari/Raleway/issues/14).</pre>
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
 
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
@@ -1718,7 +2210,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[6] MontaguSlab144pt-SemiBold.ttf</b></summary>
+<summary><b>[7] MontaguSlab144pt-SemiBold.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -1806,6 +2298,47 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points?</summary>
 
 * [com.google.fonts/check/outline_alignment_miss](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss)
@@ -1877,7 +2410,7 @@ by manual inspection.</pre>
 <br>
 </details>
 <details>
-<summary><b>[4] MontaguSlab144pt-Thin.ttf</b></summary>
+<summary><b>[5] MontaguSlab144pt-Thin.ttf</b></summary>
 <details>
 <summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours.</summary>
 
@@ -1963,6 +2496,47 @@ Please take a look at the conversation at https://github.com/googlefonts/fontbak
 
 </details>
 <details>
+<summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table.</summary>
+
+* [com.google.fonts/check/meta/script_lang_tags](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags)
+<pre>--- Rationale ---
+The OpenType &#x27;meta&#x27; table originated at Apple. Microsoft added it to OT with
+just two DataMap records:
+- dlng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font is designed for
+- slng: comma-separated ScriptLangTags that indicate which scripts, or languages
+and scripts, with possible variants, the font supports
+The slng structure is intended to describe which languages and scripts the font
+overall supports. For example, a Traditional Chinese font that also contains
+Latin characters, can indicate Hant,Latn, showing that it supports Hant, the
+Traditional Chinese variant of the Hani script, and it also supports the Latn
+script
+The dlng structure is far more interesting. A font may contain various glyphs,
+but only a particular subset of the glyphs may be truly &quot;leading&quot; in the design,
+while other glyphs may have been included for technical reasons. Such a
+Traditional Chinese font could only list Hant there, showing that it’s designed
+for Traditional Chinese, but the font would omit Latn, because the developers
+don’t think the font is really recommended for purely Latin-script use.
+The tags used in the structures can comprise just script, or also language and
+script. For example, if a font has Bulgarian Cyrillic alternates in the locl
+feature for the cyrl BGR OT languagesystem, it could also indicate in dlng
+explicitly that it supports bul-Cyrl. (Note that the scripts and languages in
+meta use the ISO language and script codes, not the OpenType ones).
+This check ensures that the font has the meta table containing the slng and dlng
+structures.
+All families in the Google Fonts collection should contain the &#x27;meta&#x27; table.
+Windows 10 already uses it when deciding on which fonts to fall back to. The
+Google Fonts API and also other environments could use the data for smarter
+filtering. Most importantly, those entries should be added to the Noto fonts.
+In the font making process, some environments store this data in external files
+already. But the meta table provides a convenient way to store this inside the
+font file, so some tools may add the data, and unrelated tools may read this
+data. This makes the solution much more portable and universal.</pre>
+
+* ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+
+</details>
+<details>
 <summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments?</summary>
 
 * [com.google.fonts/check/outline_jaggy_segments](https://font-bakery.readthedocs.io/en/latest/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments)
@@ -1992,8 +2566,8 @@ by manual inspection.</pre>
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 0 | 72 | 1373 | 85 | 1173 | 0 |
-| 0% | 0% | 3% | 51% | 3% | 43% | 0% |
+| 0 | 0 | 86 | 1373 | 85 | 1230 | 0 |
+| 0% | 0% | 3% | 49% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

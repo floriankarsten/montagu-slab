@@ -4,9 +4,9 @@ WIP
 
 ## Pre-building the Fonts
 
-Before building the fonts, it is necessary to decompose all smart components inside the Glyphs app.
+If you want to make a contribution and generate new fonts, before building them, it is necessary to decompose all smart components inside the Glyphs app.
 
-First, install "Montagu Slab Pre-build.py" script placed in "sources/glyphs-decomposed". Open Glyphs app and do the following:
+First, install "Montagu Slab Pre-build.py" script placed in "sources/glyphs-decomposed". To do so, open Glyphs app and do the following:
 
 1. Shift+Cmd+Y (Script > Open Scripts Folder)
 2. Place "Montagu Slab Pre-build.py" file into the "Scripts" folder
@@ -15,7 +15,7 @@ First, install "Montagu Slab Pre-build.py" script placed in "sources/glyphs-deco
 Pre-build process:
 
 1. Duplicate "Montagu-Slab.glyphs" placed in "sources/glyphs-origin" into "sources/glyphs-decomposed"
-2. Open the duplicate in Glyphs app
+2. Open the duplicated `glyphs-decomposed` file in Glyphs app
 3. Cmd+A (Edit > Select All)
 4. Run "Montagu Slab Pre-build" from Script menu
 5. Save file
@@ -26,11 +26,16 @@ Tested with Glyphs v2.6.6
 
 Family is built using fontmake and gftools post processing script. Tools are all python based.
 
-To install all the Python tools into a virtualenv, do the following:
+To install all the Python tools into a virtualenv, do the following :
 
 ```
-python3 -m venv venv
-source venv/bin/activate
+#Create the virtualenv. This step is only required once
+python3 -m venv venv 
+
+#Activate the virtualenv. This step is needed every time before building new fonts
+source venv/bin/activate 
+
+#Installing required dependencies. This step is only required when creating the venv
 pip install -r requirements.txt
 ```
 

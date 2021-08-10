@@ -22761,7 +22761,7 @@ unicode = 1E92;
 {
 color = 8;
 glyphname = a;
-lastChange = "2021-08-09 21:22:14 +0000";
+lastChange = "2021-08-10 07:51:20 +0000";
 layers = (
 {
 anchors = (
@@ -23714,7 +23714,7 @@ unicode = 00E2;
 },
 {
 glyphname = acircumflexacute;
-lastChange = "2021-07-12 16:39:56 +0000";
+lastChange = "2021-08-10 08:03:13 +0000";
 layers = (
 {
 components = (
@@ -23852,7 +23852,7 @@ unicode = 1EAD;
 },
 {
 glyphname = acircumflexgrave;
-lastChange = "2021-07-12 16:39:56 +0000";
+lastChange = "2021-08-10 08:12:21 +0000";
 layers = (
 {
 components = (
@@ -25336,7 +25336,7 @@ unicode = 01FD;
 {
 color = 8;
 glyphname = b;
-lastChange = "2021-08-09 21:16:43 +0000";
+lastChange = "2021-08-10 08:09:06 +0000";
 layers = (
 {
 anchors = (
@@ -26555,7 +26555,7 @@ unicode = 0064;
 {
 color = 8;
 glyphname = eth;
-lastChange = "2021-07-12 16:20:07 +0000";
+lastChange = "2021-08-10 07:57:03 +0000";
 layers = (
 {
 layerId = "1E61A082-F045-49A7-AB52-DD1B03FD9B54";
@@ -27346,7 +27346,7 @@ unicode = 01C6;
 {
 color = 8;
 glyphname = e;
-lastChange = "2021-08-09 20:28:35 +0000";
+lastChange = "2021-08-10 07:56:50 +0000";
 layers = (
 {
 anchors = (
@@ -28857,7 +28857,7 @@ unicode = 0259;
 {
 color = 8;
 glyphname = f;
-lastChange = "2021-08-09 21:05:12 +0000";
+lastChange = "2021-08-10 08:11:08 +0000";
 layers = (
 {
 anchors = (
@@ -29201,7 +29201,7 @@ unicode = 0066;
 {
 color = 8;
 glyphname = g;
-lastChange = "2021-08-09 21:17:22 +0000";
+lastChange = "2021-08-10 07:56:25 +0000";
 layers = (
 {
 anchors = (
@@ -30005,7 +30005,7 @@ unicode = 1E21;
 {
 color = 8;
 glyphname = h;
-lastChange = "2021-08-09 21:17:30 +0000";
+lastChange = "2021-08-10 07:57:44 +0000";
 layers = (
 {
 anchors = (
@@ -30350,7 +30350,7 @@ unicode = 0068;
 {
 color = 8;
 glyphname = hbar;
-lastChange = "2021-08-09 21:17:28 +0000";
+lastChange = "2021-08-10 08:09:13 +0000";
 layers = (
 {
 hints = (
@@ -30833,7 +30833,7 @@ unicode = 1E25;
 },
 {
 glyphname = i;
-lastChange = "2021-07-14 10:56:33 +0000";
+lastChange = "2021-08-10 07:52:40 +0000";
 layers = (
 {
 anchors = (
@@ -31189,7 +31189,7 @@ unicode = 00ED;
 },
 {
 glyphname = ibreve;
-lastChange = "2021-08-09 21:18:08 +0000";
+lastChange = "2021-08-10 07:58:58 +0000";
 layers = (
 {
 components = (
@@ -31250,7 +31250,7 @@ unicode = 012D;
 },
 {
 glyphname = icircumflex;
-lastChange = "2021-08-09 21:18:47 +0000";
+lastChange = "2021-08-10 07:59:13 +0000";
 layers = (
 {
 components = (
@@ -31311,7 +31311,7 @@ unicode = 00EE;
 },
 {
 glyphname = idblgrave;
-lastChange = "2021-08-09 21:18:55 +0000";
+lastChange = "2021-08-10 07:59:25 +0000";
 layers = (
 {
 components = (
@@ -31372,7 +31372,7 @@ unicode = 0209;
 },
 {
 glyphname = idieresis;
-lastChange = "2021-08-09 21:19:24 +0000";
+lastChange = "2021-08-10 07:59:42 +0000";
 layers = (
 {
 components = (
@@ -31676,7 +31676,7 @@ unicode = 1EC9;
 },
 {
 glyphname = iinvertedbreve;
-lastChange = "2021-08-09 21:18:29 +0000";
+lastChange = "2021-08-10 07:59:04 +0000";
 layers = (
 {
 components = (
@@ -31737,7 +31737,7 @@ unicode = 020B;
 },
 {
 glyphname = imacron;
-lastChange = "2021-08-09 21:19:10 +0000";
+lastChange = "2021-08-10 07:59:34 +0000";
 layers = (
 {
 components = (
@@ -31875,7 +31875,7 @@ unicode = 012F;
 },
 {
 glyphname = itilde;
-lastChange = "2021-08-09 21:17:55 +0000";
+lastChange = "2021-08-10 07:58:42 +0000";
 layers = (
 {
 components = (
@@ -31936,7 +31936,7 @@ unicode = 0129;
 },
 {
 glyphname = j;
-lastChange = "2021-08-09 21:21:40 +0000";
+lastChange = "2021-08-10 08:13:05 +0000";
 layers = (
 {
 components = (
@@ -31998,7 +31998,7 @@ unicode = 006A;
 {
 color = 8;
 glyphname = jdotless;
-lastChange = "2021-08-09 21:21:31 +0000";
+lastChange = "2021-08-10 08:10:29 +0000";
 layers = (
 {
 anchors = (
@@ -33784,7 +33784,7 @@ unicode = 1E3B;
 },
 {
 glyphname = lslash;
-lastChange = "2021-08-09 21:19:40 +0000";
+lastChange = "2021-08-10 08:13:16 +0000";
 layers = (
 {
 components = (
@@ -34388,7 +34388,7 @@ unicode = 1E43;
 {
 color = 8;
 glyphname = n;
-lastChange = "2021-08-09 20:47:42 +0000";
+lastChange = "2021-08-10 07:55:41 +0000";
 layers = (
 {
 anchors = (
@@ -35595,7 +35595,7 @@ unicode = 00F1;
 {
 color = 8;
 glyphname = o;
-lastChange = "2021-08-09 21:16:28 +0000";
+lastChange = "2021-08-10 08:11:22 +0000";
 layers = (
 {
 anchors = (
@@ -37415,7 +37415,7 @@ unicode = 01EB;
 },
 {
 glyphname = oslash;
-lastChange = "2021-08-09 21:08:26 +0000";
+lastChange = "2021-08-10 08:00:42 +0000";
 layers = (
 {
 anchors = (
@@ -37644,7 +37644,7 @@ unicode = 00F8;
 },
 {
 glyphname = oslashacute;
-lastChange = "2021-08-09 21:08:22 +0000";
+lastChange = "2021-08-10 08:00:38 +0000";
 layers = (
 {
 components = (
@@ -38208,7 +38208,7 @@ unicode = 0153;
 {
 color = 8;
 glyphname = p;
-lastChange = "2021-08-09 21:22:42 +0000";
+lastChange = "2021-08-10 08:00:48 +0000";
 layers = (
 {
 anchors = (
@@ -39940,7 +39940,7 @@ unicode = 1E5F;
 {
 color = 8;
 glyphname = s;
-lastChange = "2021-08-09 21:09:07 +0000";
+lastChange = "2021-08-10 08:01:07 +0000";
 layers = (
 {
 anchors = (
@@ -40701,7 +40701,7 @@ unicode = 1E63;
 {
 color = 8;
 glyphname = germandbls;
-lastChange = "2021-08-09 21:22:52 +0000";
+lastChange = "2021-08-10 08:12:03 +0000";
 layers = (
 {
 hints = (
@@ -40980,7 +40980,6 @@ nodes = (
 width = 632;
 }
 );
-leftKerningGroup = l;
 leftMetricsKey = l;
 rightMetricsKey = s;
 unicode = 00DF;
@@ -40988,7 +40987,7 @@ unicode = 00DF;
 {
 color = 8;
 glyphname = t;
-lastChange = "2021-08-09 21:09:20 +0000";
+lastChange = "2021-08-10 08:02:15 +0000";
 layers = (
 {
 anchors = (
@@ -41250,7 +41249,7 @@ unicode = 0074;
 {
 color = 8;
 glyphname = tbar;
-lastChange = "2021-08-09 20:52:10 +0000";
+lastChange = "2021-08-10 08:02:24 +0000";
 layers = (
 {
 layerId = "1E61A082-F045-49A7-AB52-DD1B03FD9B54";
@@ -41779,7 +41778,7 @@ unicode = 1E6F;
 {
 color = 8;
 glyphname = u;
-lastChange = "2021-08-09 20:52:16 +0000";
+lastChange = "2021-08-10 07:55:06 +0000";
 layers = (
 {
 anchors = (
@@ -42582,7 +42581,7 @@ unicode = 1EE7;
 },
 {
 glyphname = uhorn;
-lastChange = "2021-08-09 13:06:54 +0000";
+lastChange = "2021-08-10 08:02:46 +0000";
 layers = (
 {
 components = (
@@ -43321,7 +43320,7 @@ unicode = 0169;
 {
 color = 8;
 glyphname = v;
-lastChange = "2021-08-09 21:20:09 +0000";
+lastChange = "2021-08-10 08:02:59 +0000";
 layers = (
 {
 anchors = (
@@ -44147,7 +44146,7 @@ unicode = 1E81;
 {
 color = 8;
 glyphname = x;
-lastChange = "2021-08-09 21:01:50 +0000";
+lastChange = "2021-08-10 07:55:39 +0000";
 layers = (
 {
 anchors = (
@@ -45472,7 +45471,7 @@ unicode = 1EF9;
 {
 color = 8;
 glyphname = z;
-lastChange = "2021-08-09 21:00:21 +0000";
+lastChange = "2021-08-10 07:55:50 +0000";
 layers = (
 {
 anchors = (
@@ -60958,7 +60957,7 @@ rightKerningGroup = zero.numr;
 },
 {
 glyphname = one.numr;
-lastChange = "2021-08-09 13:34:07 +0000";
+lastChange = "2021-08-10 07:49:08 +0000";
 layers = (
 {
 components = (
@@ -61008,7 +61007,7 @@ rightMetricsKey = one;
 },
 {
 glyphname = two.numr;
-lastChange = "2021-08-09 13:34:07 +0000";
+lastChange = "2021-08-10 07:49:08 +0000";
 layers = (
 {
 components = (
@@ -61058,7 +61057,7 @@ rightMetricsKey = two;
 },
 {
 glyphname = three.numr;
-lastChange = "2021-08-09 13:34:07 +0000";
+lastChange = "2021-08-10 07:49:08 +0000";
 layers = (
 {
 components = (
@@ -61108,7 +61107,7 @@ rightMetricsKey = three;
 },
 {
 glyphname = four.numr;
-lastChange = "2021-08-09 13:34:07 +0000";
+lastChange = "2021-08-10 07:49:08 +0000";
 layers = (
 {
 components = (
@@ -61206,7 +61205,7 @@ rightKerningGroup = five.numr;
 },
 {
 glyphname = six.numr;
-lastChange = "2021-08-09 13:34:04 +0000";
+lastChange = "2021-08-10 07:49:07 +0000";
 layers = (
 {
 components = (
@@ -64337,7 +64336,7 @@ unicode = 0023;
 {
 color = 8;
 glyphname = slash;
-lastChange = "2021-07-17 14:13:42 +0000";
+lastChange = "2021-08-10 08:13:48 +0000";
 layers = (
 {
 layerId = "1E61A082-F045-49A7-AB52-DD1B03FD9B54";
@@ -64345,14 +64344,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"52 0 LINE",
-"229 682 LINE",
-"210 682 LINE",
-"33 0 LINE"
+"55 0 LINE",
+"232 682 LINE",
+"213 682 LINE",
+"36 0 LINE"
 );
 }
 );
-width = 262;
+width = 268;
 },
 {
 layerId = "219068EA-2B9B-40DC-949E-B60449C01B8A";
@@ -64360,14 +64359,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"131 0 LINE",
-"304 682 LINE",
-"186 682 LINE",
-"13 0 LINE"
+"172 0 LINE",
+"345 718 LINE",
+"227 718 LINE",
+"54 0 LINE"
 );
 }
 );
-width = 316;
+width = 399;
 },
 {
 layerId = "0C29AA02-E021-4BD1-A2C4-87F681D64C35";
@@ -64375,14 +64374,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"106 0 LINE",
-"287 682 LINE",
-"186 682 LINE",
-"5 0 LINE"
+"145 0 LINE",
+"326 682 LINE",
+"225 682 LINE",
+"44 0 LINE"
 );
 }
 );
-width = 293;
+width = 370;
 },
 {
 layerId = "2B88661E-23DD-4EDA-82FC-C2AEA983F097";
@@ -64390,65 +64389,65 @@ paths = (
 {
 closed = 1;
 nodes = (
-"108 0 LINE",
-"285 682 LINE",
-"261 682 LINE",
-"84 0 LINE"
+"88 0 LINE",
+"265 710 LINE",
+"241 710 LINE",
+"64 0 LINE"
 );
 }
 );
-width = 369;
+width = 329;
 }
 );
 unicode = 002F;
 },
 {
 glyphname = backslash;
-lastChange = "2021-06-17 13:22:10 +0000";
+lastChange = "2021-08-10 08:13:55 +0000";
 layers = (
 {
 components = (
 {
 alignment = 1;
 name = slash;
-transform = "{-1, 0, 0, 1, 262, 0}";
+transform = "{-1, 0, 0, 1, 268, 0}";
 }
 );
 layerId = "1E61A082-F045-49A7-AB52-DD1B03FD9B54";
-width = 262;
+width = 268;
 },
 {
 components = (
 {
 alignment = 1;
 name = slash;
-transform = "{-1, 0, 0, 1, 316, 0}";
+transform = "{-1, 0, 0, 1, 399, 0}";
 }
 );
 layerId = "219068EA-2B9B-40DC-949E-B60449C01B8A";
-width = 316;
+width = 399;
 },
 {
 components = (
 {
 alignment = 1;
 name = slash;
-transform = "{-1, 0, 0, 1, 293, 0}";
+transform = "{-1, 0, 0, 1, 370, 0}";
 }
 );
 layerId = "0C29AA02-E021-4BD1-A2C4-87F681D64C35";
-width = 293;
+width = 370;
 },
 {
 components = (
 {
 alignment = 1;
 name = slash;
-transform = "{-1, 0, 0, 1, 369, 0}";
+transform = "{-1, 0, 0, 1, 329, 0}";
 }
 );
 layerId = "2B88661E-23DD-4EDA-82FC-C2AEA983F097";
-width = 369;
+width = 329;
 }
 );
 unicode = 005C;
@@ -65155,7 +65154,7 @@ unicode = 005D;
 {
 color = 8;
 glyphname = parenleft.case;
-lastChange = "2021-08-09 13:12:40 +0000";
+lastChange = "2021-08-10 07:49:07 +0000";
 layers = (
 {
 layerId = "1E61A082-F045-49A7-AB52-DD1B03FD9B54";
@@ -65188,7 +65187,7 @@ nodes = (
 );
 }
 );
-width = 275;
+width = 283;
 },
 {
 layerId = "219068EA-2B9B-40DC-949E-B60449C01B8A";
@@ -65295,18 +65294,18 @@ rightMetricsKey = parenleft;
 },
 {
 glyphname = parenright.case;
-lastChange = "2021-08-09 13:12:45 +0000";
+lastChange = "2021-08-10 07:49:08 +0000";
 layers = (
 {
 components = (
 {
 alignment = 1;
 name = parenleft.case;
-transform = "{-1, 0, 0, 1, 275, 0}";
+transform = "{-1, 0, 0, 1, 283, 0}";
 }
 );
 layerId = "1E61A082-F045-49A7-AB52-DD1B03FD9B54";
-width = 275;
+width = 283;
 },
 {
 components = (
@@ -73711,7 +73710,7 @@ unicode = 2052;
 },
 {
 glyphname = divisionslash;
-lastChange = "2021-06-17 13:22:10 +0000";
+lastChange = "2021-08-10 08:13:58 +0000";
 layers = (
 {
 components = (
@@ -73721,7 +73720,7 @@ name = slash;
 }
 );
 layerId = "1E61A082-F045-49A7-AB52-DD1B03FD9B54";
-width = 262;
+width = 268;
 },
 {
 components = (
@@ -73731,7 +73730,7 @@ name = slash;
 }
 );
 layerId = "219068EA-2B9B-40DC-949E-B60449C01B8A";
-width = 316;
+width = 399;
 },
 {
 components = (
@@ -73741,7 +73740,7 @@ name = slash;
 }
 );
 layerId = "0C29AA02-E021-4BD1-A2C4-87F681D64C35";
-width = 293;
+width = 370;
 },
 {
 components = (
@@ -73751,7 +73750,7 @@ name = slash;
 }
 );
 layerId = "2B88661E-23DD-4EDA-82FC-C2AEA983F097";
-width = 369;
+width = 329;
 }
 );
 unicode = 2215;
@@ -88045,6 +88044,7 @@ tbar = -4;
 "@MMK_R_hyphen" = 28;
 "@MMK_R_o" = 8;
 "@MMK_R_p" = -16;
+"@MMK_R_parenright" = -16;
 "@MMK_R_period" = 2;
 "@MMK_R_quoteright" = -64;
 "@MMK_R_quotesingle" = -56;
@@ -88056,12 +88056,12 @@ tbar = -4;
 lslash = 28;
 oslash = 18;
 oslashacute = 18;
-"@MMK_R_parenright" = -16;
 };
 "@MMK_L_c" = {
 "@MMK_R_b" = -5;
 "@MMK_R_f" = -4;
 "@MMK_R_hyphen" = 18;
+"@MMK_R_parenright" = -4;
 "@MMK_R_period" = -8;
 "@MMK_R_quoteright" = -4;
 "@MMK_R_quotesingle" = -20;
@@ -88071,7 +88071,6 @@ oslashacute = 18;
 "@MMK_R_x" = -17;
 "@MMK_R_z" = -8;
 lslash = 4;
-"@MMK_R_parenright" = -4;
 };
 "@MMK_L_colon" = {
 "@MMK_R_a" = -10;
@@ -88103,12 +88102,12 @@ fraction = -208;
 "@MMK_R_hyphen" = -30;
 "@MMK_R_l" = 45;
 "@MMK_R_o" = -30;
+"@MMK_R_parenright" = 84;
 "@MMK_R_period" = -24;
 "@MMK_R_quoteright" = 102;
 "@MMK_R_quotesingle" = 78;
 "@MMK_R_s" = -15;
 "@MMK_R_x" = -4;
-"@MMK_R_parenright" = 84;
 };
 "@MMK_L_five" = {
 "@MMK_R_eight" = -6;
@@ -88142,6 +88141,7 @@ fraction = -186;
 "@MMK_R_g" = -5;
 "@MMK_R_hyphen" = -8;
 "@MMK_R_o" = -17;
+"@MMK_R_parenright" = 6;
 "@MMK_R_period" = -14;
 "@MMK_R_quoteright" = -4;
 "@MMK_R_quotesingle" = -6;
@@ -88150,7 +88150,6 @@ comma = 0;
 oslash = -6;
 oslashacute = -6;
 tbar = -20;
-"@MMK_R_parenright" = 6;
 };
 "@MMK_L_hyphen" = {
 "@MMK_R_f" = -2;
@@ -88170,29 +88169,30 @@ tbar = 24;
 "@MMK_R_g" = -14;
 "@MMK_R_hyphen" = -26;
 "@MMK_R_o" = -21;
+"@MMK_R_parenright" = -6;
 "@MMK_R_period" = 4;
 "@MMK_R_quoteright" = -4;
 "@MMK_R_s" = -8;
 lslash = -13;
 oslash = 4;
 oslashacute = 4;
-"@MMK_R_parenright" = -6;
 };
 "@MMK_L_l" = {
 "@MMK_R_f" = -4;
 "@MMK_R_o" = -1;
 "@MMK_R_p" = -3;
+"@MMK_R_parenright" = -2;
 "@MMK_R_quoteright" = -22;
 "@MMK_R_quotesingle" = -42;
 "@MMK_R_t" = -7;
 "@MMK_R_v" = -10;
-"@MMK_R_parenright" = -2;
 };
 "@MMK_L_lcaron" = {
 "@MMK_R_a" = -18;
 "@MMK_R_g" = -16;
 "@MMK_R_hyphen" = -10;
 "@MMK_R_o" = -10;
+"@MMK_R_parenright" = 26;
 "@MMK_R_period" = -26;
 "@MMK_R_quoteright" = 28;
 "@MMK_R_quotesingle" = 10;
@@ -88200,7 +88200,6 @@ oslashacute = 4;
 "@MMK_R_u" = 5;
 "@MMK_R_v" = 10;
 "@MMK_R_z" = -10;
-"@MMK_R_parenright" = 26;
 };
 "@MMK_L_n" = {
 "@MMK_R_f" = -3;
@@ -88228,6 +88227,7 @@ fraction = -228;
 "@MMK_R_g" = -5;
 "@MMK_R_hyphen" = 24;
 "@MMK_R_o" = 4;
+"@MMK_R_parenright" = -8;
 "@MMK_R_period" = -28;
 "@MMK_R_quoteright" = -26;
 "@MMK_R_quotesingle" = -44;
@@ -88236,7 +88236,6 @@ fraction = -228;
 "@MMK_R_x" = -24;
 "@MMK_R_z" = -24;
 lslash = 10;
-"@MMK_R_parenright" = -8;
 };
 "@MMK_L_ohorn" = {
 "@MMK_R_a" = -19;
@@ -88263,6 +88262,36 @@ lslash = -14;
 };
 "@MMK_L_one.numr" = {
 fraction = -156;
+};
+"@MMK_L_parenleft" = {
+"@MMK_R_a" = -20;
+"@MMK_R_b" = 22;
+"@MMK_R_g" = -4;
+"@MMK_R_l" = 6;
+"@MMK_R_o" = -8;
+"@MMK_R_v" = -10;
+hbar = 18;
+ibreve = 48;
+icircumflex = 24;
+idblgrave = 108;
+idieresis = 50;
+iinvertedbreve = 42;
+imacron = 50;
+itilde = 40;
+j = 116;
+jdotless = 116;
+lslash = -6;
+p = 4;
+y = 36;
+yacute = 36;
+ycircumflex = 36;
+ydieresis = 36;
+ydotaccent = 36;
+ydotbelow = 36;
+ygrave = 36;
+yhookabove = 36;
+ymacron = 36;
+ytilde = 36;
 };
 "@MMK_L_period" = {
 "@MMK_R_a" = -10;
@@ -88437,6 +88466,7 @@ fraction = -176;
 };
 "@MMK_L_u" = {
 "@MMK_R_f" = -5;
+"@MMK_R_parenright" = -6;
 "@MMK_R_quoteright" = -42;
 "@MMK_R_quotesingle" = -42;
 "@MMK_R_t" = -3;
@@ -88444,7 +88474,6 @@ fraction = -176;
 "@MMK_R_v" = -5;
 oslash = 6;
 oslashacute = 6;
-"@MMK_R_parenright" = -6;
 };
 "@MMK_L_uhorn" = {
 "@MMK_R_a" = -15;
@@ -88453,6 +88482,7 @@ oslashacute = 6;
 "@MMK_R_hyphen" = -14;
 "@MMK_R_l" = 8;
 "@MMK_R_o" = -18;
+"@MMK_R_parenright" = 22;
 "@MMK_R_period" = 4;
 "@MMK_R_quoteright" = 24;
 "@MMK_R_quotesingle" = 12;
@@ -88465,7 +88495,6 @@ oslashacute = 6;
 hbar = 16;
 lslash = -7;
 oslashacute = -5;
-"@MMK_R_parenright" = 22;
 };
 "@MMK_L_v" = {
 "@MMK_R_a" = -28;
@@ -88475,6 +88504,7 @@ oslashacute = -5;
 "@MMK_R_hyphen" = -22;
 "@MMK_R_l" = -15;
 "@MMK_R_o" = -10;
+"@MMK_R_parenright" = -10;
 "@MMK_R_period" = -76;
 "@MMK_R_quoteright" = 20;
 "@MMK_R_quotesingle" = 28;
@@ -88482,7 +88512,6 @@ oslashacute = -5;
 "@MMK_R_t" = 18;
 lslash = -28;
 tbar = 9;
-"@MMK_R_parenright" = -10;
 };
 "@MMK_L_x" = {
 "@MMK_R_a" = -15;
@@ -88571,15 +88600,15 @@ ymacron = -28;
 ytilde = -28;
 };
 dcroat = {
+"@MMK_R_parenright" = 8;
 "@MMK_R_quoteright" = 0;
 "@MMK_R_quotesingle" = 0;
-"@MMK_R_parenright" = 8;
 };
 eth = {
 "@MMK_R_colon" = -2;
 "@MMK_R_hyphen" = 18;
-"@MMK_R_period" = -24;
 "@MMK_R_parenright" = 8;
+"@MMK_R_period" = -24;
 };
 fraction = {
 "@MMK_R_eight.dnom" = -188;
@@ -88600,39 +88629,39 @@ germandbls = {
 "@MMK_R_quotesingle" = -20;
 };
 ibreve = {
+"@MMK_R_parenright" = 50;
 "@MMK_R_quoteright" = 30;
 "@MMK_R_quotesingle" = 14;
-"@MMK_R_parenright" = 50;
 };
 icircumflex = {
+"@MMK_R_parenright" = 26;
 "@MMK_R_quoteright" = 20;
 "@MMK_R_quotesingle" = 8;
-"@MMK_R_parenright" = 26;
 };
 idblgrave = {
+"@MMK_R_parenright" = 10;
 "@MMK_R_quoteright" = -8;
 "@MMK_R_quotesingle" = -22;
-"@MMK_R_parenright" = 10;
 };
 idieresis = {
+"@MMK_R_parenright" = 50;
 "@MMK_R_quoteright" = 24;
 "@MMK_R_quotesingle" = 36;
-"@MMK_R_parenright" = 50;
 };
 iinvertedbreve = {
+"@MMK_R_parenright" = 48;
 "@MMK_R_quoteright" = 40;
 "@MMK_R_quotesingle" = 18;
-"@MMK_R_parenright" = 48;
 };
 imacron = {
+"@MMK_R_parenright" = 48;
 "@MMK_R_quoteright" = 28;
 "@MMK_R_quotesingle" = 40;
-"@MMK_R_parenright" = 48;
 };
 itilde = {
+"@MMK_R_parenright" = 40;
 "@MMK_R_quoteright" = 26;
 "@MMK_R_quotesingle" = 8;
-"@MMK_R_parenright" = 40;
 };
 j = {
 "@MMK_R_quoteright" = 0;
@@ -88643,6 +88672,7 @@ lslash = {
 "@MMK_R_g" = -10;
 "@MMK_R_hyphen" = 26;
 "@MMK_R_o" = 4;
+"@MMK_R_parenright" = -12;
 "@MMK_R_period" = -34;
 "@MMK_R_quoteright" = -56;
 "@MMK_R_quotesingle" = -62;
@@ -88651,7 +88681,6 @@ lslash = {
 "@MMK_R_x" = -6;
 "@MMK_R_z" = -3;
 tbar = 17;
-"@MMK_R_parenright" = -12;
 };
 oslash = {
 "@MMK_R_colon" = 0;
@@ -88670,8 +88699,8 @@ oslashacute = {
 "@MMK_R_x" = -7;
 };
 q = {
-comma = -2;
 "@MMK_R_parenright" = 18;
+comma = -2;
 };
 semicolon = {
 "@MMK_R_p" = 0;
@@ -88714,36 +88743,6 @@ ymacron = {
 };
 ytilde = {
 "@MMK_R_period" = -74;
-};
-"@MMK_L_parenleft" = {
-"@MMK_R_a" = -20;
-"@MMK_R_b" = 22;
-"@MMK_R_g" = -4;
-"@MMK_R_l" = 6;
-"@MMK_R_o" = -8;
-"@MMK_R_v" = -10;
-hbar = 18;
-ibreve = 48;
-icircumflex = 24;
-idblgrave = 108;
-idieresis = 50;
-iinvertedbreve = 42;
-imacron = 50;
-itilde = 40;
-j = 116;
-jdotless = 116;
-lslash = -6;
-y = 36;
-yacute = 36;
-ycircumflex = 36;
-ydieresis = 36;
-ydotaccent = 36;
-ydotbelow = 36;
-ygrave = 36;
-yhookabove = 36;
-ymacron = 36;
-ytilde = 36;
-p = 4;
 };
 };
 "1E61A082-F045-49A7-AB52-DD1B03FD9B54" = {
@@ -89631,6 +89630,8 @@ idieresis = 50;
 iinvertedbreve = 42;
 imacron = 50;
 itilde = 40;
+j = 116;
+jdotless = 116;
 lslash = -6;
 y = 26;
 yacute = 26;
@@ -89642,8 +89643,6 @@ ygrave = 26;
 yhookabove = 26;
 ymacron = 26;
 ytilde = 26;
-jdotless = 116;
-j = 116;
 };
 "@MMK_L_period" = {
 "@MMK_R_a" = -12;
@@ -89993,9 +89992,9 @@ ymacron = -18;
 ytilde = -18;
 };
 dcroat = {
+"@MMK_R_parenright" = 8;
 "@MMK_R_quoteright" = 0;
 "@MMK_R_quotesingle" = 0;
-"@MMK_R_parenright" = 8;
 };
 eth = {
 "@MMK_R_colon" = -10;
@@ -90021,39 +90020,39 @@ germandbls = {
 "@MMK_R_quotesingle" = -24;
 };
 ibreve = {
+"@MMK_R_parenright" = 50;
 "@MMK_R_quoteright" = 30;
 "@MMK_R_quotesingle" = 14;
-"@MMK_R_parenright" = 50;
 };
 icircumflex = {
+"@MMK_R_parenright" = 26;
 "@MMK_R_quoteright" = 20;
 "@MMK_R_quotesingle" = 8;
-"@MMK_R_parenright" = 26;
 };
 idblgrave = {
+"@MMK_R_parenright" = 10;
 "@MMK_R_quoteright" = -8;
 "@MMK_R_quotesingle" = -22;
-"@MMK_R_parenright" = 10;
 };
 idieresis = {
+"@MMK_R_parenright" = 50;
 "@MMK_R_quoteright" = 24;
 "@MMK_R_quotesingle" = 36;
-"@MMK_R_parenright" = 50;
 };
 iinvertedbreve = {
+"@MMK_R_parenright" = 48;
 "@MMK_R_quoteright" = 40;
 "@MMK_R_quotesingle" = 18;
-"@MMK_R_parenright" = 48;
 };
 imacron = {
+"@MMK_R_parenright" = 48;
 "@MMK_R_quoteright" = 28;
 "@MMK_R_quotesingle" = 40;
-"@MMK_R_parenright" = 48;
 };
 itilde = {
+"@MMK_R_parenright" = 40;
 "@MMK_R_quoteright" = 26;
 "@MMK_R_quotesingle" = 8;
-"@MMK_R_parenright" = 40;
 };
 j = {
 "@MMK_R_quoteright" = 0;
@@ -90093,9 +90092,9 @@ oslashacute = {
 "@MMK_R_x" = -25;
 };
 q = {
+"@MMK_R_parenright" = 18;
 comma = 4;
 semicolon = 4;
-"@MMK_R_parenright" = 18;
 };
 semicolon = {
 "@MMK_R_p" = 0;
@@ -90681,6 +90680,7 @@ tbar = -5;
 "@MMK_R_f" = -11;
 "@MMK_R_hyphen" = 26;
 "@MMK_R_o" = 13;
+"@MMK_R_parenright" = -22;
 "@MMK_R_period" = 8;
 "@MMK_R_quoteright" = 6;
 "@MMK_R_quotesingle" = -56;
@@ -90691,7 +90691,8 @@ tbar = -5;
 "@MMK_R_z" = -4;
 lslash = 22;
 tbar = 1;
-"@MMK_R_parenright" = -22;
+slash = -2;
+backslash = -76;
 };
 "@MMK_L_c" = {
 "@MMK_R_a" = -5;
@@ -90699,6 +90700,7 @@ tbar = 1;
 "@MMK_R_f" = -3;
 "@MMK_R_hyphen" = 0;
 "@MMK_R_l" = -6;
+"@MMK_R_parenright" = -18;
 "@MMK_R_period" = -30;
 "@MMK_R_quoteright" = 10;
 "@MMK_R_quotesingle" = -12;
@@ -90708,7 +90710,8 @@ tbar = 1;
 "@MMK_R_x" = -5;
 "@MMK_R_z" = -6;
 lslash = -4;
-"@MMK_R_parenright" = -18;
+slash = -48;
+backslash = -82;
 };
 "@MMK_L_colon" = {
 "@MMK_R_a" = -4;
@@ -90741,6 +90744,7 @@ fraction = -204;
 "@MMK_R_l" = 72;
 "@MMK_R_n" = -6;
 "@MMK_R_o" = -31;
+"@MMK_R_parenright" = 88;
 "@MMK_R_period" = -34;
 "@MMK_R_quoteright" = 80;
 "@MMK_R_quotesingle" = 42;
@@ -90752,7 +90756,8 @@ j = 15;
 lslash = 12;
 oslash = -22;
 oslashacute = -22;
-"@MMK_R_parenright" = 88;
+slash = -20;
+backslash = 76;
 };
 "@MMK_L_five" = {
 "@MMK_R_eight" = -4;
@@ -90787,6 +90792,7 @@ fraction = -202;
 "@MMK_R_g" = -11;
 "@MMK_R_hyphen" = -14;
 "@MMK_R_o" = -23;
+"@MMK_R_parenright" = 8;
 "@MMK_R_period" = -14;
 "@MMK_R_quoteright" = -2;
 "@MMK_R_quotesingle" = -2;
@@ -90799,7 +90805,8 @@ j = 109.0909;
 jdotless = 109.0909;
 lslash = -8;
 tbar = -19;
-"@MMK_R_parenright" = 8;
+slash = 2;
+backslash = -38;
 };
 "@MMK_L_hyphen" = {
 "@MMK_R_g" = 4;
@@ -90817,6 +90824,7 @@ tbar = 34;
 "@MMK_R_g" = -5;
 "@MMK_R_hyphen" = -22;
 "@MMK_R_o" = -24;
+"@MMK_R_parenright" = -8;
 "@MMK_R_period" = 2;
 "@MMK_R_quoteright" = -4;
 "@MMK_R_quotesingle" = -6;
@@ -90829,13 +90837,14 @@ lslash = -15;
 oslash = -5;
 oslashacute = -5;
 tbar = -8;
-"@MMK_R_parenright" = -8;
+backslash = -68;
 };
 "@MMK_L_l" = {
 "@MMK_R_l" = 5;
 "@MMK_R_n" = 0;
 "@MMK_R_o" = 0;
 "@MMK_R_p" = -7;
+"@MMK_R_parenright" = -4;
 "@MMK_R_quoteright" = -18;
 "@MMK_R_quotesingle" = -24;
 "@MMK_R_t" = -17;
@@ -90845,7 +90854,7 @@ lslash = -5;
 oslash = 5;
 oslashacute = 5;
 tbar = -8;
-"@MMK_R_parenright" = -4;
+backslash = -48;
 };
 "@MMK_L_lcaron" = {
 "@MMK_R_a" = -53;
@@ -90855,6 +90864,7 @@ tbar = -8;
 "@MMK_R_hyphen" = -30;
 "@MMK_R_l" = 40;
 "@MMK_R_o" = -48;
+"@MMK_R_parenright" = 42;
 "@MMK_R_period" = -78;
 "@MMK_R_quoteright" = 36;
 "@MMK_R_quotesingle" = 16;
@@ -90866,7 +90876,8 @@ tbar = -8;
 i = 9;
 j = 9;
 tbar = 1;
-"@MMK_R_parenright" = 42;
+slash = -66;
+backslash = 36;
 };
 "@MMK_L_n" = {
 "@MMK_R_a" = -3;
@@ -90875,6 +90886,7 @@ tbar = 1;
 "@MMK_R_n" = -2;
 "@MMK_R_o" = -4;
 "@MMK_R_p" = -5;
+"@MMK_R_parenright" = -4;
 "@MMK_R_quoteright" = -32;
 "@MMK_R_quotesingle" = -56;
 "@MMK_R_s" = -4;
@@ -90883,11 +90895,12 @@ tbar = 1;
 "@MMK_R_v" = -36;
 "@MMK_R_x" = -4;
 "@MMK_R_z" = -4;
+backslash = -92;
 lslash = -8;
 oslash = 0;
 oslashacute = 0;
+slash = -4;
 tbar = -15;
-"@MMK_R_parenright" = -4;
 };
 "@MMK_L_nine" = {
 "@MMK_R_eight" = -8;
@@ -90910,6 +90923,7 @@ fraction = -228;
 "@MMK_R_hyphen" = 20;
 "@MMK_R_l" = -5;
 "@MMK_R_o" = 7;
+"@MMK_R_parenright" = -26;
 "@MMK_R_period" = -22;
 "@MMK_R_quoteright" = -4;
 "@MMK_R_quotesingle" = -24;
@@ -90921,7 +90935,8 @@ fraction = -228;
 "@MMK_R_z" = -7;
 lslash = 2;
 tbar = 2;
-"@MMK_R_parenright" = -26;
+slash = -28;
+backslash = -72;
 };
 "@MMK_L_ohorn" = {
 "@MMK_R_a" = -32;
@@ -90940,13 +90955,50 @@ tbar = 2;
 "@MMK_R_u" = 0;
 "@MMK_R_v" = 10;
 "@MMK_R_z" = -15;
+backslash = -8;
 lslash = -29;
+slash = -66;
 };
 "@MMK_L_one" = {
 "@MMK_R_seven" = -8;
 };
 "@MMK_L_one.numr" = {
 fraction = -166;
+};
+"@MMK_L_parenleft" = {
+"@MMK_R_a" = -16;
+"@MMK_R_b" = 42;
+"@MMK_R_f" = -2;
+"@MMK_R_g" = -6;
+"@MMK_R_l" = 2;
+"@MMK_R_o" = -26;
+"@MMK_R_s" = -4;
+"@MMK_R_t" = -2;
+"@MMK_R_v" = -18;
+hbar = 6;
+ibreve = 20;
+icircumflex = 12;
+idblgrave = 94;
+idieresis = 42;
+iinvertedbreve = 18;
+imacron = 20;
+itilde = 18;
+j = 148;
+jdotless = 148;
+lslash = -6;
+oslash = -20;
+oslashacute = -20;
+p = 24;
+y = 24;
+yacute = 24;
+ycircumflex = 24;
+ydieresis = 24;
+ydotaccent = 24;
+ydotbelow = 24;
+ygrave = 24;
+yhookabove = 24;
+ymacron = 24;
+ytilde = 24;
 };
 "@MMK_L_period" = {
 "@MMK_R_a" = -6;
@@ -90991,6 +91043,8 @@ ytilde = -76;
 comma = -8;
 j = 145;
 jdotless = 145;
+slash = -26;
+backslash = -58;
 };
 "@MMK_L_quoteright" = {
 "@MMK_R_a" = -28;
@@ -91036,6 +91090,7 @@ tbar = 6;
 "@MMK_R_l" = -13;
 "@MMK_R_o" = -8;
 "@MMK_R_p" = 5;
+"@MMK_R_parenright" = -14;
 "@MMK_R_period" = -96;
 "@MMK_R_quotesingle" = 16;
 "@MMK_R_s" = -3;
@@ -91044,7 +91099,8 @@ tbar = 6;
 "@MMK_R_z" = -13;
 lslash = -36;
 tbar = 4;
-"@MMK_R_parenright" = -14;
+slash = -74;
+backslash = -46;
 };
 "@MMK_L_s" = {
 "@MMK_R_a" = -4;
@@ -91053,6 +91109,7 @@ tbar = 4;
 "@MMK_R_hyphen" = 8;
 "@MMK_R_l" = -4;
 "@MMK_R_o" = -2;
+"@MMK_R_parenright" = -4;
 "@MMK_R_period" = -4;
 "@MMK_R_quoteright" = -6;
 "@MMK_R_quotesingle" = -12;
@@ -91063,7 +91120,8 @@ tbar = 4;
 "@MMK_R_x" = -11;
 "@MMK_R_z" = -5;
 lslash = -4;
-"@MMK_R_parenright" = -4;
+slash = -12;
+backslash = -72;
 };
 "@MMK_L_seven" = {
 "@MMK_R_eight" = -22;
@@ -91108,6 +91166,8 @@ fraction = -206;
 "@MMK_R_x" = -5;
 "@MMK_R_z" = -10;
 lslash = -11;
+slash = -42;
+backslash = -52;
 };
 "@MMK_L_three" = {
 "@MMK_R_eight" = -8;
@@ -91147,6 +91207,7 @@ lslash = -13;
 oslash = 5;
 oslashacute = 5;
 tbar = -3;
+backslash = -76;
 };
 "@MMK_L_uhorn" = {
 "@MMK_R_a" = -22;
@@ -91157,6 +91218,7 @@ tbar = -3;
 "@MMK_R_hyphen" = -26;
 "@MMK_R_l" = 16;
 "@MMK_R_o" = -26;
+"@MMK_R_parenright" = 32;
 "@MMK_R_period" = -22;
 "@MMK_R_quoteright" = 54;
 "@MMK_R_quotesingle" = 28;
@@ -91170,7 +91232,8 @@ hbar = 23;
 lslash = -12;
 oslash = -17;
 oslashacute = -17;
-"@MMK_R_parenright" = 32;
+slash = -62;
+backslash = 0;
 };
 "@MMK_L_v" = {
 "@MMK_R_a" = -36;
@@ -91181,6 +91244,7 @@ oslashacute = -17;
 "@MMK_R_hyphen" = -16;
 "@MMK_R_l" = -12;
 "@MMK_R_o" = -20;
+"@MMK_R_parenright" = -18;
 "@MMK_R_period" = -92;
 "@MMK_R_quoteright" = 12;
 "@MMK_R_quotesingle" = 22;
@@ -91189,7 +91253,8 @@ oslashacute = -17;
 "@MMK_R_z" = -8;
 lslash = -29;
 period = -90;
-"@MMK_R_parenright" = -18;
+slash = -58;
+backslash = -28;
 };
 "@MMK_L_x" = {
 "@MMK_R_a" = -5;
@@ -91203,6 +91268,8 @@ eth = -14;
 lslash = -11;
 oslash = 1;
 oslashacute = 1;
+slash = 4;
+backslash = -42;
 };
 "@MMK_L_z" = {
 "@MMK_R_a" = -2;
@@ -91216,6 +91283,8 @@ oslashacute = 1;
 "@MMK_R_u" = -5;
 "@MMK_R_v" = -8;
 "@MMK_R_z" = -4;
+slash = -2;
+backslash = -38;
 };
 "@MMK_L_zero" = {
 "@MMK_R_five" = -4;
@@ -91288,16 +91357,30 @@ ymacron = 0;
 ytilde = 0;
 };
 dcroat = {
+"@MMK_R_parenright" = 16;
 "@MMK_R_quoteright" = 0;
 "@MMK_R_quotesingle" = 0;
+};
+ecircumflexacute = {
 "@MMK_R_parenright" = 16;
+backslash = 0;
+};
+ecircumflexgrave = {
+"@MMK_R_parenright" = 2;
+backslash = -2;
+};
+ecircumflexhookabove = {
+"@MMK_R_parenright" = 22;
+backslash = -8;
 };
 eth = {
 "@MMK_R_colon" = -4;
 "@MMK_R_hyphen" = 14;
+"@MMK_R_parenright" = -4;
 "@MMK_R_period" = -41;
 "@MMK_R_quoteright" = 16;
-"@MMK_R_parenright" = -4;
+slash = -42;
+backslash = -38;
 };
 fraction = {
 "@MMK_R_eight.dnom" = -202;
@@ -91313,25 +91396,47 @@ fraction = {
 };
 germandbls = {
 "@MMK_R_hyphen" = 20;
+"@MMK_R_parenright" = -4;
 "@MMK_R_period" = 2;
 "@MMK_R_quoteright" = -6;
 "@MMK_R_quotesingle" = -32;
-"@MMK_R_parenright" = -4;
+slash = -10;
+backslash = -62;
+};
+ibreve = {
+"@MMK_R_parenright" = 18;
+backslash = 8;
 };
 icircumflex = {
-"@MMK_R_quoteright" = 6;
 "@MMK_R_parenright" = 16;
+"@MMK_R_quoteright" = 6;
+backslash = 2;
 };
 idieresis = {
+"@MMK_R_parenright" = 42;
 "@MMK_R_quoteright" = 26;
 "@MMK_R_quotesingle" = -2;
-"@MMK_R_parenright" = 42;
+backslash = 32;
+};
+iinvertedbreve = {
+"@MMK_R_parenright" = 20;
+backslash = 10;
+};
+imacron = {
+"@MMK_R_parenright" = 20;
+backslash = 10;
+};
+itilde = {
+"@MMK_R_parenright" = 18;
+backslash = 6;
 };
 j = {
 "@MMK_R_p" = 0;
 "@MMK_R_quoteright" = 0;
 j = 69;
 jdotless = 69;
+slash = -20;
+backslash = -18;
 };
 lslash = {
 "@MMK_R_a" = -10;
@@ -91341,6 +91446,7 @@ lslash = {
 "@MMK_R_hyphen" = 28;
 "@MMK_R_l" = -5;
 "@MMK_R_o" = 15;
+"@MMK_R_parenright" = -8;
 "@MMK_R_period" = -24;
 "@MMK_R_quoteright" = 22;
 "@MMK_R_s" = 10;
@@ -91348,26 +91454,41 @@ lslash = {
 "@MMK_R_v" = -2;
 "@MMK_R_x" = -3;
 "@MMK_R_z" = -5;
+backslash = -44;
+slash = -48;
 tbar = 13;
-"@MMK_R_parenright" = -8;
+};
+ocircumflexacute = {
+"@MMK_R_parenright" = -16;
+backslash = -34;
+};
+ocircumflexgrave = {
+"@MMK_R_parenright" = -4;
+backslash = -30;
+};
+ocircumflexhookabove = {
+"@MMK_R_parenright" = -6;
+backslash = -24;
 };
 oslash = {
 "@MMK_R_f" = 6;
+"@MMK_R_parenright" = -16;
 "@MMK_R_quotesingle" = -6;
 "@MMK_R_v" = -11;
-"@MMK_R_parenright" = -16;
+backslash = -44;
 };
 oslashacute = {
 "@MMK_R_f" = 6;
+"@MMK_R_parenright" = -16;
 "@MMK_R_quotesingle" = -6;
 "@MMK_R_v" = -11;
-"@MMK_R_parenright" = -16;
+backslash = -44;
 };
 q = {
 "@MMK_R_colon" = 0;
+"@MMK_R_parenright" = 42;
 comma = 20;
 semicolon = 20;
-"@MMK_R_parenright" = 42;
 };
 semicolon = {
 "@MMK_R_p" = 0;
@@ -91379,9 +91500,12 @@ tbar = {
 "@MMK_R_hyphen" = 20;
 "@MMK_R_period" = -8;
 lslash = -3;
+slash = -34;
+backslash = -52;
 };
 tcaron = {
 "@MMK_R_b" = -4;
+backslash = -30;
 };
 y = {
 "@MMK_R_period" = -98;
@@ -91399,9 +91523,9 @@ ydotaccent = {
 "@MMK_R_period" = -98;
 };
 ydotbelow = {
+"@MMK_R_parenright" = -6;
 "@MMK_R_period" = -92;
 comma = -20;
-"@MMK_R_parenright" = -6;
 };
 ygrave = {
 "@MMK_R_period" = -98;
@@ -91412,70 +91536,71 @@ yhookabove = {
 ymacron = {
 "@MMK_R_period" = -98;
 };
-"@MMK_L_parenleft" = {
-"@MMK_R_a" = -16;
-"@MMK_R_b" = 42;
+jdotless = {
+slash = -20;
+backslash = -44;
+};
+slash = {
+"@MMK_R_a" = -86;
+"@MMK_R_b" = 6;
+"@MMK_R_f" = -28;
+"@MMK_R_g" = -94;
+"@MMK_R_l" = -4;
+"@MMK_R_n" = -46;
+"@MMK_R_o" = -72;
+"@MMK_R_p" = -38;
+"@MMK_R_s" = -64;
+"@MMK_R_t" = -22;
+"@MMK_R_u" = -38;
+"@MMK_R_v" = -26;
+"@MMK_R_x" = -44;
+"@MMK_R_z" = -48;
+eth = -70;
+germandbls = -54;
+i = -26;
+ibreve = 16;
+icircumflex = -4;
+idblgrave = 106;
+idieresis = 36;
+iinvertedbreve = -2;
+imacron = 10;
+itilde = 6;
+j = -34;
+jdotless = -32;
+lslash = -42;
+tbar = -42;
+hbar = -14;
+};
+acircumflexhookabove = {
+backslash = -68;
+};
+backslash = {
+"@MMK_R_a" = -6;
+"@MMK_R_b" = -12;
 "@MMK_R_f" = -2;
-"@MMK_R_g" = -6;
-"@MMK_R_l" = 2;
-"@MMK_R_o" = -26;
+"@MMK_R_g" = -2;
+"@MMK_R_o" = -28;
+"@MMK_R_p" = -26;
 "@MMK_R_s" = -4;
-"@MMK_R_t" = -2;
-"@MMK_R_v" = -18;
-hbar = 6;
-ibreve = 20;
-icircumflex = 12;
-idblgrave = 94;
-idieresis = 42;
-iinvertedbreve = 18;
-imacron = 20;
-itilde = 18;
-j = 148;
-jdotless = 148;
-lslash = -6;
-oslash = -20;
-oslashacute = -20;
-p = 24;
-y = 24;
-yacute = 24;
-ycircumflex = 24;
-ydieresis = 24;
-ydotaccent = 24;
-ydotbelow = 24;
-ygrave = 24;
-yhookabove = 24;
-ymacron = 24;
-ytilde = 24;
+"@MMK_R_t" = -58;
+"@MMK_R_u" = -36;
+"@MMK_R_v" = -60;
+eth = -24;
+j = -16;
+jdotless = -16;
+lslash = -8;
+oslash = -4;
+oslashacute = -4;
+tbar = -54;
 };
-ecircumflexacute = {
-"@MMK_R_parenright" = 16;
+i = {
+backslash = -40;
 };
-ecircumflexgrave = {
-"@MMK_R_parenright" = 2;
+idblgrave = {
+backslash = -24;
 };
-ecircumflexhookabove = {
-"@MMK_R_parenright" = 22;
-};
-ibreve = {
-"@MMK_R_parenright" = 18;
-};
-iinvertedbreve = {
-"@MMK_R_parenright" = 20;
-};
-imacron = {
-"@MMK_R_parenright" = 20;
-};
-itilde = {
-"@MMK_R_parenright" = 18;
-};
-ocircumflexacute = {
-"@MMK_R_parenright" = -16;
-};
-ocircumflexgrave = {
-"@MMK_R_parenright" = -4;
-};
-ocircumflexhookabove = {
-"@MMK_R_parenright" = -6;
+idotless = {
+backslash = -84;
 };
 };
 "0C29AA02-E021-4BD1-A2C4-87F681D64C35" = {
@@ -92052,9 +92177,11 @@ tbar = -6;
 "@MMK_R_v" = -54;
 "@MMK_R_x" = -3;
 "@MMK_R_z" = -3;
+backslash = -76;
 lslash = 20;
 oslash = 9;
 oslashacute = 9;
+slash = -8;
 };
 "@MMK_L_c" = {
 "@MMK_R_b" = -2;
@@ -92070,7 +92197,9 @@ oslashacute = 9;
 "@MMK_R_v" = -6;
 "@MMK_R_x" = -5;
 "@MMK_R_z" = -3;
+backslash = -86;
 lslash = 5;
+slash = -48;
 };
 "@MMK_L_colon" = {
 "@MMK_R_f" = 24;
@@ -92109,11 +92238,13 @@ fraction = -204;
 "@MMK_R_s" = -5;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = 1;
+backslash = 82;
 i = 9;
 j = 10;
 lslash = 42;
 oslash = -11;
 oslashacute = -11;
+slash = -20;
 };
 "@MMK_L_five" = {
 "@MMK_R_eight" = -2;
@@ -92156,12 +92287,14 @@ fraction = -202;
 "@MMK_R_s" = -2;
 "@MMK_R_t" = 8;
 "@MMK_R_v" = 4;
+backslash = -36;
 comma = -6;
 j = 124;
 jdotless = 124;
 lslash = -5;
 oslash = -12;
 oslashacute = -12;
+slash = 2;
 tbar = -7;
 };
 "@MMK_L_hyphen" = {
@@ -92185,6 +92318,7 @@ tbar = 34;
 "@MMK_R_quotesingle" = -16;
 "@MMK_R_s" = -11;
 "@MMK_R_v" = -21;
+backslash = -68;
 lslash = -16;
 oslash = -9;
 oslashacute = -9;
@@ -92200,6 +92334,7 @@ tbar = -20;
 "@MMK_R_t" = -8;
 "@MMK_R_u" = -4;
 "@MMK_R_v" = -24;
+backslash = -52;
 oslash = 10;
 oslashacute = 10;
 tbar = -18;
@@ -92219,6 +92354,8 @@ tbar = -18;
 "@MMK_R_s" = -24;
 "@MMK_R_t" = 3;
 "@MMK_R_z" = -13;
+backslash = 36;
+slash = -76;
 };
 "@MMK_L_n" = {
 "@MMK_R_f" = -10;
@@ -92230,6 +92367,7 @@ tbar = -18;
 "@MMK_R_t" = -26;
 "@MMK_R_u" = -15;
 "@MMK_R_v" = -32;
+backslash = -92;
 oslash = 9;
 oslashacute = 9;
 tbar = -15;
@@ -92264,7 +92402,9 @@ fraction = -228;
 "@MMK_R_v" = -18;
 "@MMK_R_x" = -24;
 "@MMK_R_z" = -8;
+backslash = -82;
 lslash = 17;
+slash = -38;
 tbar = 10;
 };
 "@MMK_L_ohorn" = {
@@ -92282,8 +92422,10 @@ tbar = 10;
 "@MMK_R_v" = 3;
 "@MMK_R_x" = -15;
 "@MMK_R_z" = -24;
+backslash = -18;
 hbar = -7;
 lslash = -38;
+slash = -106;
 tbar = 3;
 };
 "@MMK_L_one" = {
@@ -92302,6 +92444,7 @@ fraction = -166;
 "@MMK_R_s" = -4;
 "@MMK_R_t" = -2;
 "@MMK_R_v" = -14;
+hbar = 6;
 ibreve = 20;
 icircumflex = 12;
 idblgrave = 94;
@@ -92315,7 +92458,6 @@ lslash = -6;
 oslash = -20;
 oslashacute = -20;
 p = 24;
-hbar = 6;
 y = 44;
 yacute = 44;
 ycircumflex = 44;
@@ -92365,10 +92507,12 @@ ytilde = -76;
 "@MMK_R_quotesingle" = -8;
 "@MMK_R_t" = 4;
 "@MMK_R_v" = -7;
+backslash = -58;
 comma = -6;
 j = 158;
 jdotless = 158;
 semicolon = 0;
+slash = -26;
 };
 "@MMK_L_quoteright" = {
 "@MMK_R_a" = -48;
@@ -92429,7 +92573,9 @@ tbar = 4;
 "@MMK_R_t" = 14;
 "@MMK_R_v" = 2;
 "@MMK_R_z" = -15;
+backslash = -46;
 lslash = -31;
+slash = -74;
 };
 "@MMK_L_s" = {
 "@MMK_R_f" = 1;
@@ -92445,7 +92591,9 @@ lslash = -31;
 "@MMK_R_v" = -9;
 "@MMK_R_x" = -5;
 "@MMK_R_z" = -5;
+backslash = -72;
 lslash = 4;
+slash = -12;
 tbar = -6;
 };
 "@MMK_L_seven" = {
@@ -92485,7 +92633,9 @@ fraction = -206;
 "@MMK_R_quoteright" = -4;
 "@MMK_R_quotesingle" = -2;
 "@MMK_R_x" = -9;
+backslash = -52;
 lslash = 3;
+slash = -42;
 };
 "@MMK_L_three" = {
 "@MMK_R_nine" = -10;
@@ -92511,6 +92661,7 @@ fraction = -196;
 "@MMK_R_t" = -6;
 "@MMK_R_u" = -9;
 "@MMK_R_v" = -21;
+backslash = -76;
 oslash = 14;
 oslashacute = 14;
 };
@@ -92530,10 +92681,12 @@ oslashacute = 14;
 "@MMK_R_v" = -3;
 "@MMK_R_x" = -6;
 "@MMK_R_z" = -20;
+backslash = 0;
 hbar = 15;
 lslash = -25;
 oslash = -39;
 oslashacute = -39;
+slash = -62;
 tbar = -5;
 };
 "@MMK_L_v" = {
@@ -92552,8 +92705,10 @@ tbar = -5;
 "@MMK_R_t" = 27;
 "@MMK_R_v" = 14;
 "@MMK_R_z" = -13;
+backslash = -28;
 lslash = -27;
 period = -98;
+slash = -58;
 tbar = 1;
 };
 "@MMK_L_x" = {
@@ -92567,10 +92722,12 @@ tbar = 1;
 "@MMK_R_s" = -4;
 "@MMK_R_t" = 3;
 "@MMK_R_u" = -10;
+backslash = -42;
 eth = -17;
 lslash = -12;
 oslash = 3;
 oslashacute = 3;
+slash = 4;
 tbar = -8;
 };
 "@MMK_L_z" = {
@@ -92587,8 +92744,10 @@ tbar = -8;
 "@MMK_R_v" = -8;
 "@MMK_R_x" = -4;
 "@MMK_R_z" = -2;
+backslash = -38;
 oslash = 0;
 oslashacute = 0;
+slash = -2;
 };
 "@MMK_L_zero" = {
 "@MMK_R_four" = 16;
@@ -92656,6 +92815,24 @@ Lslash = 20;
 lslash = 19;
 tbar = 28;
 };
+backslash = {
+"@MMK_R_a" = -2;
+"@MMK_R_b" = -12;
+"@MMK_R_f" = -4;
+"@MMK_R_g" = -2;
+"@MMK_R_o" = -38;
+"@MMK_R_p" = -26;
+"@MMK_R_s" = -4;
+"@MMK_R_t" = -58;
+"@MMK_R_u" = -36;
+"@MMK_R_v" = -60;
+eth = -24;
+oslash = -4;
+oslashacute = -4;
+tbar = -54;
+jdotless = -16;
+j = -16;
+};
 comma = {
 j = 102;
 jdotless = 100;
@@ -92673,9 +92850,21 @@ ytilde = 0;
 dcroat = {
 "@MMK_R_b" = 16;
 "@MMK_R_l" = 10;
+"@MMK_R_parenright" = 16;
 "@MMK_R_quoteright" = 12;
 "@MMK_R_quotesingle" = 0;
+};
+ecircumflexacute = {
 "@MMK_R_parenright" = 16;
+backslash = 0;
+};
+ecircumflexgrave = {
+"@MMK_R_parenright" = 2;
+backslash = -2;
+};
+ecircumflexhookabove = {
+"@MMK_R_parenright" = 22;
+backslash = -8;
 };
 eth = {
 "@MMK_R_hyphen" = 14;
@@ -92683,6 +92872,8 @@ eth = {
 "@MMK_R_period" = -54;
 "@MMK_R_quoteright" = -4;
 "@MMK_R_quotesingle" = -16;
+backslash = -38;
+slash = -42;
 };
 fraction = {
 "@MMK_R_eight.dnom" = -202;
@@ -92702,46 +92893,59 @@ germandbls = {
 "@MMK_R_period" = 4;
 "@MMK_R_quoteright" = -10;
 "@MMK_R_quotesingle" = -18;
+backslash = -62;
+slash = -10;
 };
 ibreve = {
-"@MMK_R_quoteright" = -16;
 "@MMK_R_parenright" = 18;
+"@MMK_R_quoteright" = -16;
+backslash = 8;
 };
 icircumflex = {
+"@MMK_R_parenright" = 16;
 "@MMK_R_quoteright" = -4;
 "@MMK_R_quotesingle" = -14;
-"@MMK_R_parenright" = 16;
+backslash = 2;
 };
 idblgrave = {
 "@MMK_R_quoteright" = -20;
+backslash = -24;
 };
 idieresis = {
+"@MMK_R_parenright" = 42;
 "@MMK_R_quoteright" = 18;
 "@MMK_R_quotesingle" = 0;
-"@MMK_R_parenright" = 42;
+backslash = 32;
 };
 iinvertedbreve = {
+"@MMK_R_parenright" = 20;
 "@MMK_R_quoteright" = 0;
 "@MMK_R_quotesingle" = -18;
-"@MMK_R_parenright" = 20;
+backslash = 10;
 };
 imacron = {
+"@MMK_R_parenright" = 20;
 "@MMK_R_quoteright" = 0;
 "@MMK_R_quotesingle" = -22;
-"@MMK_R_parenright" = 20;
+backslash = 10;
 };
 itilde = {
-"@MMK_R_quoteright" = -18;
 "@MMK_R_parenright" = 18;
+"@MMK_R_quoteright" = -18;
+backslash = 6;
 };
 j = {
 "@MMK_R_p" = 0;
 "@MMK_R_quoteright" = -4;
 j = 87;
 jdotless = 87;
+slash = -14;
+backslash = -16;
 };
 jdotless = {
 "@MMK_R_quoteright" = -12;
+slash = -14;
+backslash = -40;
 };
 lslash = {
 "@MMK_R_a" = -15;
@@ -92760,50 +92964,99 @@ lslash = {
 "@MMK_R_v" = -12;
 "@MMK_R_x" = -7;
 "@MMK_R_z" = 1;
+backslash = -50;
+slash = -52;
 tbar = 17;
+};
+ocircumflexacute = {
+"@MMK_R_parenright" = -16;
+backslash = -34;
+};
+ocircumflexgrave = {
+"@MMK_R_parenright" = -4;
+backslash = -30;
+};
+ocircumflexhookabove = {
+"@MMK_R_parenright" = -6;
+backslash = -24;
 };
 oslash = {
 "@MMK_R_f" = 14;
 "@MMK_R_n" = 5;
+"@MMK_R_parenright" = -16;
 "@MMK_R_quoteright" = -2;
 "@MMK_R_quotesingle" = -12;
 "@MMK_R_t" = 18;
 "@MMK_R_u" = 4;
 "@MMK_R_v" = 3;
 "@MMK_R_x" = -8;
-"@MMK_R_parenright" = -16;
+backslash = -50;
 };
 oslashacute = {
 "@MMK_R_f" = 14;
 "@MMK_R_n" = 5;
+"@MMK_R_parenright" = -16;
 "@MMK_R_quoteright" = -2;
 "@MMK_R_quotesingle" = -12;
 "@MMK_R_t" = 18;
 "@MMK_R_u" = 4;
 "@MMK_R_v" = 3;
 "@MMK_R_x" = -8;
-"@MMK_R_parenright" = -16;
+backslash = -50;
 };
 q = {
+"@MMK_R_parenright" = 42;
 comma = 20;
 semicolon = 20;
-"@MMK_R_parenright" = 42;
 };
 semicolon = {
 "@MMK_R_p" = 0;
 j = 100;
 jdotless = 100;
 };
+slash = {
+"@MMK_R_a" = -92;
+"@MMK_R_b" = 16;
+"@MMK_R_f" = -28;
+"@MMK_R_g" = -94;
+"@MMK_R_l" = -4;
+"@MMK_R_n" = -46;
+"@MMK_R_o" = -82;
+"@MMK_R_p" = -38;
+"@MMK_R_s" = -64;
+"@MMK_R_t" = -22;
+"@MMK_R_u" = -38;
+"@MMK_R_v" = -26;
+"@MMK_R_x" = -44;
+"@MMK_R_z" = -48;
+eth = -70;
+i = -26;
+j = -28;
+jdotless = -32;
+lslash = -32;
+tbar = -42;
+itilde = 6;
+ibreve = 16;
+iinvertedbreve = -2;
+icircumflex = -4;
+idblgrave = 106;
+imacron = 10;
+idieresis = 36;
+germandbls = -62;
+};
 tbar = {
 "@MMK_R_colon" = 4;
 "@MMK_R_hyphen" = 20;
 "@MMK_R_period" = -8;
+backslash = -52;
 lslash = 5;
+slash = -34;
 };
 tcaron = {
 "@MMK_R_b" = 8;
 "@MMK_R_l" = -1;
 "@MMK_R_quoteright" = -2;
+backslash = -30;
 };
 y = {
 "@MMK_R_period" = -98;
@@ -92821,9 +93074,9 @@ ydotaccent = {
 "@MMK_R_period" = -98;
 };
 ydotbelow = {
+"@MMK_R_parenright" = 0;
 "@MMK_R_period" = -92;
 comma = -24;
-"@MMK_R_parenright" = 0;
 };
 ygrave = {
 "@MMK_R_period" = -98;
@@ -92834,23 +93087,14 @@ yhookabove = {
 ymacron = {
 "@MMK_R_period" = -98;
 };
-ecircumflexacute = {
-"@MMK_R_parenright" = 16;
+idotless = {
+backslash = -84;
 };
-ocircumflexacute = {
-"@MMK_R_parenright" = -16;
+i = {
+backslash = -40;
 };
-ecircumflexgrave = {
-"@MMK_R_parenright" = 2;
-};
-ocircumflexgrave = {
-"@MMK_R_parenright" = -4;
-};
-ecircumflexhookabove = {
-"@MMK_R_parenright" = 22;
-};
-ocircumflexhookabove = {
-"@MMK_R_parenright" = -6;
+acircumflexhookabove = {
+backslash = -68;
 };
 };
 };

@@ -158,7 +158,7 @@ alignmentZones = (
 );
 ascender = 710;
 capHeight = 682;
-custom = "Thin 16pt";
+custom = "Thin 18pt";
 customParameters = (
 {
 name = typoAscender;
@@ -208,7 +208,7 @@ verticalStems = (
 23,
 22
 );
-widthValue = 16;
+widthValue = 18;
 xHeight = 500;
 },
 {
@@ -280,7 +280,7 @@ alignmentZones = (
 );
 ascender = 718;
 capHeight = 682;
-custom = "16pt";
+custom = "18pt";
 customParameters = (
 {
 name = typoAscender;
@@ -343,7 +343,7 @@ verticalStems = (
 );
 weight = Bold;
 weightValue = 700;
-widthValue = 16;
+widthValue = 18;
 xHeight = 528;
 },
 {
@@ -87426,10 +87426,10 @@ value = 100;
 },
 {
 name = familyName;
-value = "Montagu Slab 16pt";
+value = "Montagu Slab 18pt";
 }
 );
-interpolationWidth = 16;
+interpolationWidth = 18;
 instanceInterpolations = {
 "2B88661E-23DD-4EDA-82FC-C2AEA983F097" = 1;
 };
@@ -87444,11 +87444,11 @@ value = 200;
 },
 {
 name = familyName;
-value = "Montagu Slab 16pt";
+value = "Montagu Slab 18pt";
 }
 );
 interpolationWeight = 180;
-interpolationWidth = 16;
+interpolationWidth = 18;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.13333;
 "2B88661E-23DD-4EDA-82FC-C2AEA983F097" = 0.86667;
@@ -87464,11 +87464,11 @@ value = 300;
 },
 {
 name = familyName;
-value = "Montagu Slab 16pt";
+value = "Montagu Slab 18pt";
 }
 );
 interpolationWeight = 260;
-interpolationWidth = 16;
+interpolationWidth = 18;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.26667;
 "2B88661E-23DD-4EDA-82FC-C2AEA983F097" = 0.73333;
@@ -87484,11 +87484,11 @@ value = 400;
 },
 {
 name = familyName;
-value = "Montagu Slab 16pt";
+value = "Montagu Slab 18pt";
 }
 );
 interpolationWeight = 378;
-interpolationWidth = 16;
+interpolationWidth = 18;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.46333;
 "2B88661E-23DD-4EDA-82FC-C2AEA983F097" = 0.53667;
@@ -87503,11 +87503,11 @@ value = 500;
 },
 {
 name = familyName;
-value = "Montagu Slab 16pt";
+value = "Montagu Slab 18pt";
 }
 );
 interpolationWeight = 492;
-interpolationWidth = 16;
+interpolationWidth = 18;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.65333;
 "2B88661E-23DD-4EDA-82FC-C2AEA983F097" = 0.34667;
@@ -87523,11 +87523,11 @@ value = 600;
 },
 {
 name = familyName;
-value = "Montagu Slab 16pt";
+value = "Montagu Slab 18pt";
 }
 );
 interpolationWeight = 588;
-interpolationWidth = 16;
+interpolationWidth = 18;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 0.81333;
 "2B88661E-23DD-4EDA-82FC-C2AEA983F097" = 0.18667;
@@ -87543,11 +87543,11 @@ value = 700;
 },
 {
 name = familyName;
-value = "Montagu Slab 16pt";
+value = "Montagu Slab 18pt";
 }
 );
 interpolationWeight = 700;
-interpolationWidth = 16;
+interpolationWidth = 18;
 instanceInterpolations = {
 "219068EA-2B9B-40DC-949E-B60449C01B8A" = 1;
 };

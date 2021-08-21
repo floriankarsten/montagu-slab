@@ -11,8 +11,8 @@
       - name: Optical size
         tag: opsz
         values:
-        - name: 18pt
-          value: 18
+        - name: 16pt
+          value: 16
         - name: 144pt
           value: 144
       - name: Weight

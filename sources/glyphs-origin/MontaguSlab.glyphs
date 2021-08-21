@@ -68,6 +68,15 @@ wght = {
 {
 name = "Enforce Compatibility Check";
 value = 1;
+},
+{
+name = "Family Alignment Zones";
+value = (
+"{682, 16}",
+"{510, 16}",
+"{0, -16}",
+"{-190, -16}"
+);
 }
 );
 date = "2021-07-15 21:14:54 +0000";

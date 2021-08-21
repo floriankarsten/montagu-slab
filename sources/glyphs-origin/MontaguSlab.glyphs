@@ -193,8 +193,15 @@ value = 318;
 }
 );
 descender = -190;
+horizontalStems = (
+28
+);
 iconName = Light_Extended;
 id = "2CB6B9DE-5D22-436A-9E24-A28A5D6BB08F";
+verticalStems = (
+36,
+36
+);
 widthValue = 16;
 xHeight = 504;
 },
@@ -243,8 +250,15 @@ value = 318;
 }
 );
 descender = -190;
+horizontalStems = (
+17
+);
 iconName = Light_SemiExtended;
 id = "1E61A082-F045-49A7-AB52-DD1B03FD9B54";
+verticalStems = (
+22,
+22
+);
 widthValue = 144;
 xHeight = 490;
 },
@@ -293,8 +307,15 @@ value = 318;
 }
 );
 descender = -190;
+horizontalStems = (
+102
+);
 iconName = Bold_SemiExtended;
 id = "219068EA-2B9B-40DC-949E-B60449C01B8A";
+verticalStems = (
+190,
+182
+);
 weight = Bold;
 weightValue = 700;
 widthValue = 16;
@@ -344,7 +365,14 @@ value = 318;
 }
 );
 descender = -190;
+horizontalStems = (
+90
+);
 id = "0C29AA02-E021-4BD1-A2C4-87F681D64C35";
+verticalStems = (
+190,
+182
+);
 weight = Bold;
 weightValue = 700;
 widthValue = 144;
@@ -34329,7 +34357,7 @@ unicode = 1E43;
 {
 color = 8;
 glyphname = n;
-lastChange = "2021-08-21 05:51:51 +0000";
+lastChange = "2021-08-21 06:18:29 +0000";
 layers = (
 {
 anchors = (
@@ -34629,8 +34657,8 @@ nodes = (
 "550 466 OFFCURVE",
 "479 512 OFFCURVE",
 "379 512 CURVE SMOOTH",
-"261 512 OFFCURVE",
-"163 435 OFFCURVE",
+"257 512 OFFCURVE",
+"163 441 OFFCURVE",
 "163 250 CURVE",
 "183 250 LINE",
 "183 411 OFFCURVE",
@@ -96405,6 +96433,17 @@ nd = "23";
 oH = "23";
 oV = "28";
 tH = "23";
+};
+"2CB6B9DE-5D22-436A-9E24-A28A5D6BB08F" = {
+HH = "28";
+HV = "36";
+OH = "28";
+OV = "36";
+nV = "35";
+nd = "26";
+oH = "28";
+oV = "36";
+tH = "28";
 };
 "642E5713-E15A-4A7E-A28E-9A6B75A6585C" = {
 HH = "158";

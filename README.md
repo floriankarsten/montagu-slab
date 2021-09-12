@@ -1,6 +1,8 @@
 # Montagu Slab
 
-WIP
+Montagu Slab is a slab-serif display typeface, drawing inspiration from 19th-century classic designs. The typeface is available as a variable font with weight and optical size axes.
+
+The optical size axis, which controls x-height, spacing, contrast and aperture, provides a wide range of variation – from low contrast and higher x-height version suitable for longer text, to a tight and high contrast display variant with prominent upturned tails.
 
 ## Pre-building the Fonts
 

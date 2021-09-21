@@ -4,6 +4,8 @@ Montagu Slab is a slab-serif display typeface designed by Florian Karsten. The t
 
 The optical size axis, which controls x-height, spacing, contrast and aperture, provides a wide range of variation – from low contrast and higher x-height version suitable for longer text, to a tight and high contrast display variant with prominent upturned tails.
 
+![Sample Image](Documentation/image1.png)
+
 ## Pre-building the Fonts
 
 If you want to make a contribution and generate new fonts, before building them, it is necessary to decompose all smart components inside the Glyphs app.
